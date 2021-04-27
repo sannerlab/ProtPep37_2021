@@ -31,4 +31,4 @@ This folder contains PDBQT files of the chains of the biomolecule contacting the
 
 
 ------------------------------------------------
-Contact: Dr Michel Sanner sanner at scripps.edu
+Contact: [mailto](mailto:sanner@scripps.edu) Dr. Michel Sanner 
