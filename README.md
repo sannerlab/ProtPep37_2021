@@ -1,5 +1,5 @@
 # ProtPep37_2021
-dataset of short peptides (2-7 amino acids) bound to proteins annotated for structural similarity and augmented with docking decoys
+dataset of short peptides (3-7 amino acids) bound to proteins annotated for structural similarity and augmented with docking decoys
 
 This folder contains the ProtPep37_2021 set of protein-peptide complexes, a set of 322 peptide with 3 to 7 amino acids bound to protein chain(s). The peptides and the binding site residues comprise only standard amino acids, have no missing atoms or alternate locations. Protein chains are defined as chains of amino acids with 50 or more amino acids.
 
