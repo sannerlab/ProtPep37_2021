@@ -25,3 +25,4 @@ This folder contains PDBQT files of the crystallographic pose of the peptide lig
 <h2>proteins:</h2>
 This folder contains PDBQT files of the chains of the biomolecule contacting the ligand peptide.
 
+Contact: Dr Michel Sanner sanner at scripps.edu
