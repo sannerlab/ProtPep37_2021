@@ -10,7 +10,7 @@ It is freely available under the LGPL 2.1 Open Source license
 **Please cite**
 Michel F. Sanner, Leonard Dieguez, Stefano Forli, Ewa Lis. Improving Docking Power for peptides using Random Forest, JCIM ...
 
-<h2>complexes.list:</h2>
+<h3>complexes.list:</h3>
 Contains the list of protein-peptide complex names. The names have 4 fields separated by underscore characters ('_'). The first field of the PDBID. The second is the chain ID of the peptide. The third is a dash-separated list of chain IDs in the biomolecule. The fourth field in the 0-based biomolecule used to build the biologically active molecule.
 
 <h2>contactingChains.csv:</h2>
