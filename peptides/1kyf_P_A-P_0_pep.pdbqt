@@ -1,0 +1,115 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_5 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    3  A    between atoms: CB_5  and  OG_6 
+REMARK    4  A    between atoms: N_8  and  CA_9 
+REMARK    5  A    between atoms: CA_9  and  CB_12 
+REMARK    6  A    between atoms: CA_9  and  C_10 
+REMARK       I    between atoms: C_10  and  N_17 
+REMARK    7  A    between atoms: CB_12  and  CG_13 
+REMARK    8  A    between atoms: CA_18  and  C_19 
+REMARK       I    between atoms: C_19  and  N_24 
+REMARK    9  A    between atoms: N_24  and  CA_25 
+REMARK   10  A    between atoms: CA_25  and  C_26 
+REMARK   11  A    between atoms: CA_25  and  CB_28 
+REMARK       I    between atoms: C_26  and  N_36 
+REMARK   12  A    between atoms: CB_28  and  CG_29 
+REMARK   13  A    between atoms: N_36  and  CA_37 
+REMARK   14  A    between atoms: CA_37  and  C_38 
+REMARK   15  A    between atoms: CA_37  and  CB_40 
+REMARK   16  A    between atoms: CB_40  and  CG_41 
+REMARK   17  A    between atoms: CG_41  and  CD_42 
+REMARK   18  A    between atoms: CD_42  and  CE_43 
+REMARK   19  A    between atoms: CE_43  and  NZ_44 
+ROOT
+ATOM      1  C   PRO P 630      26.210   9.804 -15.268  1.00 36.04     0.241 C 
+ATOM      2  O   PRO P 630      26.938   8.893 -14.820  1.00 33.55    -0.271 OA
+ATOM      3  N   PHE P 631      24.936   9.629 -15.607  1.00 24.81    -0.346 N 
+ATOM      4  H   PHE P 631      24.439  10.260 -15.914  1.00 24.81     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  PHE P 631      24.259   8.361 -15.493  1.00 30.16     0.180 C 
+BRANCH   5   6
+ATOM      6  C   PHE P 631      24.365   7.628 -16.858  1.00 46.65     0.241 C 
+ATOM      7  N   LYS P 632      25.349   8.023 -17.647  1.00 37.40    -0.345 N 
+ATOM      8  H   LYS P 632      25.888   8.660 -17.441  1.00 37.40     0.163 HD
+ATOM      9  O   PHE P 631      23.481   6.789 -17.078  1.00 54.45    -0.271 OA
+BRANCH   7  10
+ATOM     10  CA  LYS P 632      25.631   7.411 -18.973  1.00 44.88     0.185 C 
+BRANCH  10  11
+ATOM     11  C   LYS P 632      24.886   8.154 -20.075  1.00 45.53     0.196 C 
+ATOM     12  O   LYS P 632      23.666   7.981 -20.267  1.00 61.11    -0.646 OA
+ATOM     13  OXT LYS P 632      25.545   8.956 -20.780  1.00 57.29    -0.646 OA
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  CB  LYS P 632      25.351   5.922 -18.941  1.00 47.81     0.036 C 
+BRANCH  14  15
+ATOM     15  CG  LYS P 632      25.491   5.008 -20.143  1.00 54.84     0.004 C 
+BRANCH  15  16
+ATOM     16  CD  LYS P 632      24.477   3.859 -19.975  1.00 63.82     0.027 C 
+BRANCH  16  17
+ATOM     17  CE  LYS P 632      23.164   4.432 -19.441  1.00 66.19     0.229 C 
+BRANCH  17  18
+ATOM     18  NZ  LYS P 632      22.189   3.376 -19.059  1.00 52.45    -0.079 N 
+ATOM     19  HZ2 LYS P 632      21.998   2.876 -19.770  1.00 52.45     0.274 HD
+ATOM     20  HZ1 LYS P 632      21.444   3.756 -18.755  1.00 52.45     0.274 HD
+ATOM     21  HZ3 LYS P 632      22.541   2.863 -18.422  1.00 52.45     0.274 HD
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+ENDBRANCH  10  14
+ENDBRANCH   7  10
+ENDBRANCH   5   6
+BRANCH   5  22
+ATOM     22  CB  PHE P 631      22.780   8.391 -15.142  1.00 25.51     0.073 C 
+BRANCH  22  23
+ATOM     23  CG  PHE P 631      22.352   9.055 -13.829  1.00 27.58    -0.056 A 
+ATOM     24  CD1 PHE P 631      22.116   8.378 -12.634  1.00 30.72     0.007 A 
+ATOM     25  CE1 PHE P 631      21.723   9.070 -11.498  1.00 26.28     0.001 A 
+ATOM     26  CZ  PHE P 631      21.567  10.440 -11.542  1.00 23.54     0.000 A 
+ATOM     27  CE2 PHE P 631      21.796  11.130 -12.723  1.00 23.94     0.001 A 
+ATOM     28  CD2 PHE P 631      22.164  10.421 -13.825  1.00 24.70     0.007 A 
+ENDBRANCH  22  23
+ENDBRANCH   5  22
+ENDBRANCH   3   5
+BRANCH   1  29
+ATOM     29  CA  PRO P 630      26.831  11.177 -15.426  1.00 22.29     0.179 C 
+ATOM     30  CB  PRO P 630      26.979  11.916 -14.105  1.00 25.21     0.037 C 
+ATOM     31  CG  PRO P 630      25.778  12.809 -14.024  1.00 30.73     0.022 C 
+ATOM     32  CD  PRO P 630      25.387  13.140 -15.443  1.00 29.29     0.127 C 
+ATOM     33  N   PRO P 630      25.980  12.066 -16.230  1.00 28.31    -0.337 N 
+ATOM     34  C   ASP P 629      25.864  11.797 -17.537  1.00 28.38     0.243 C 
+ATOM     35  O   ASP P 629      26.331  10.760 -18.030  1.00 35.14    -0.271 OA
+BRANCH  34  36
+ATOM     36  CA  ASP P 629      25.127  12.798 -18.397  1.00 31.37     0.186 C 
+BRANCH  36  37
+ATOM     37  CB  ASP P 629      24.071  12.139 -19.306  1.00 29.57     0.147 C 
+BRANCH  37  38
+ATOM     38  CG  ASP P 629      22.973  11.507 -18.471  1.00 37.10     0.175 C 
+ATOM     39  OD2 ASP P 629      21.960  11.040 -19.039  1.00 43.68    -0.648 OA
+ATOM     40  OD1 ASP P 629      23.124  11.444 -17.234  1.00 36.00    -0.648 OA
+ENDBRANCH  37  38
+ENDBRANCH  36  37
+BRANCH  36  41
+ATOM     41  N   ASP P 629      26.063  13.491 -19.257  1.00 43.53    -0.345 N 
+ATOM     42  H   ASP P 629      25.910  13.321 -20.086  1.00 43.53     0.163 HD
+ATOM     43  C   SER P 628      27.048  14.293 -18.909  1.00 52.75     0.259 C 
+ATOM     44  O   SER P 628      27.328  14.621 -17.759  1.00 74.95    -0.271 OA
+BRANCH  43  45
+ATOM     45  CA  SER P 628      27.835  14.810 -20.121  1.00 53.54     0.423 C 
+ATOM     46  N   SER P 628      28.488  13.741 -20.874  1.00 68.72     0.617 N 
+BRANCH  45  47
+ATOM     47  CB  SER P 628      26.851  15.567 -21.018  1.00 49.52     0.215 C 
+BRANCH  47  48
+ATOM     48  OG  SER P 628      26.812  16.950 -20.696  1.00 73.20    -0.398 OA
+ATOM     49  HG  SER P 628      26.267  17.341 -21.202  1.00 73.20     0.209 HD
+ENDBRANCH  47  48
+ENDBRANCH  45  47
+ENDBRANCH  43  45
+ENDBRANCH  36  41
+ENDBRANCH  34  36
+ENDBRANCH   1  29
+TORSDOF 19

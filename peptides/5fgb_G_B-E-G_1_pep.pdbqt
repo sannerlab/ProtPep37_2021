@@ -1,0 +1,86 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  CA_6 
+REMARK    3  A    between atoms: CA_6  and  CB_9 
+REMARK    4  A    between atoms: CA_6  and  C_7 
+REMARK       I    between atoms: C_7  and  N_13 
+REMARK    5  A    between atoms: CB_9  and  OG_10 
+REMARK    6  A    between atoms: N_13  and  CA_14 
+REMARK    7  A    between atoms: CA_14  and  CB_17 
+REMARK    8  A    between atoms: CA_14  and  C_15 
+REMARK       I    between atoms: C_15  and  N_29 
+REMARK    9  A    between atoms: CB_17  and  CG_18 
+REMARK   10  A    between atoms: N_29  and  CA_30 
+REMARK   11  A    between atoms: CA_30  and  CB_33 
+REMARK   12  A    between atoms: CA_30  and  C_31 
+REMARK   13  A    between atoms: CB_33  and  CG_34 
+ROOT
+ATOM      1  CA  TRP G 420     -37.563 -28.447  30.065  1.00 30.19     0.181 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   TRP G 420     -37.374 -29.311  31.229  1.00 29.90    -0.346 N 
+ATOM      3  H   TRP G 420     -36.815 -29.952  31.102  1.00 29.90     0.163 HD
+ATOM      4  C   SER G 419     -38.020 -29.112  32.385  1.00 34.18     0.243 C 
+ATOM      5  O   SER G 419     -38.760 -28.151  32.586  1.00 34.33    -0.271 OA
+BRANCH   4   6
+ATOM      6  CA  SER G 419     -37.813 -30.165  33.476  1.00 31.26     0.200 C 
+BRANCH   6   7
+ATOM      7  CB  SER G 419     -38.845 -31.280  33.311  1.00 37.91     0.199 C 
+BRANCH   7   8
+ATOM      8  OG  SER G 419     -38.604 -32.322  34.245  1.00 57.41    -0.398 OA
+ATOM      9  HG  SER G 419     -39.178 -32.927  34.145  1.00 57.41     0.209 HD
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  10
+ATOM     10  N   SER G 419     -37.877 -29.583  34.817  1.00 31.62    -0.344 N 
+ATOM     11  H   SER G 419     -38.593 -29.765  35.256  1.00 31.62     0.163 HD
+ATOM     12  C   GLY G 418     -36.869 -28.827  35.286  1.00 37.47     0.252 C 
+ATOM     13  O   GLY G 418     -35.870 -28.577  34.613  1.00 34.17    -0.271 OA
+BRANCH  12  14
+ATOM     14  CA  GLY G 418     -37.012 -28.234  36.672  1.00 40.24     0.466 C 
+ATOM     15  N   GLY G 418     -37.541 -29.158  37.669  1.00 42.39     0.609 N 
+ENDBRANCH  12  14
+ENDBRANCH   6  10
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  16
+ATOM     16  CB  TRP G 420     -36.278 -28.356  29.247  1.00 27.27     0.075 C 
+BRANCH  16  17
+ATOM     17  CG  TRP G 420     -36.408 -27.612  27.952  1.00 26.68    -0.028 A 
+ATOM     18  CD1 TRP G 420     -36.431 -28.139  26.698  1.00 29.02     0.096 A 
+ATOM     19  NE1 TRP G 420     -36.448 -27.131  25.760  1.00 28.83    -0.365 N 
+ATOM     20  HE1 TRP G 420     -36.425 -27.241  24.907  1.00 28.83     0.165 HD
+ATOM     21  CE2 TRP G 420     -36.507 -25.924  26.407  1.00 29.48     0.042 A 
+ATOM     22  CD2 TRP G 420     -36.472 -26.190  27.794  1.00 26.13    -0.002 A 
+ATOM     23  CZ2 TRP G 420     -36.547 -24.620  25.896  1.00 28.18     0.030 A 
+ATOM     24  CE3 TRP G 420     -36.483 -25.111  28.695  1.00 26.84     0.014 A 
+ATOM     25  CZ3 TRP G 420     -36.541 -23.818  28.184  1.00 27.14     0.001 A 
+ATOM     26  CH2 TRP G 420     -36.567 -23.588  26.806  1.00 27.58     0.002 A 
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+BRANCH   1  27
+ATOM     27  C   TRP G 420     -38.691 -29.008  29.208  1.00 38.21     0.241 C 
+ATOM     28  O   TRP G 420     -39.484 -28.236  28.679  1.00 38.32    -0.271 OA
+ATOM     29  N   HIS G 421     -38.725 -30.339  29.022  1.00 36.18    -0.347 N 
+ATOM     30  H   HIS G 421     -38.155 -30.876  29.377  1.00 36.18     0.163 HD
+BRANCH  29  31
+ATOM     31  CA  HIS G 421     -39.731 -31.013  28.199  1.00 85.07     0.168 C 
+BRANCH  31  32
+ATOM     32  CB  HIS G 421     -39.086 -31.632  26.950  1.00 86.25     0.094 C 
+BRANCH  32  33
+ATOM     33  CG  HIS G 421     -39.622 -31.071  25.669  1.00 90.14     0.055 A 
+ATOM     34  ND1 HIS G 421     -40.615 -31.722  24.955  1.00 92.13    -0.245 NA
+ATOM     35  CE1 HIS G 421     -40.855 -30.958  23.900  1.00 91.61     0.232 A 
+ATOM     36  NE2 HIS G 421     -40.090 -29.863  23.902  1.00 91.87    -0.252 NA
+ATOM     37  CD2 HIS G 421     -39.297 -29.926  25.024  1.00 92.02     0.145 A 
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+BRANCH  31  38
+ATOM     38  C   HIS G 421     -40.494 -32.065  28.987  1.00112.71     0.219 C 
+ATOM     39  O   HIS G 421     -41.711 -32.164  28.850  1.00 75.09    -0.287 OA
+ENDBRANCH  31  38
+ENDBRANCH  29  31
+ENDBRANCH   1  27
+TORSDOF 13

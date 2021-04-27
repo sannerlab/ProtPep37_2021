@@ -1,0 +1,65 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK    2  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_14 
+REMARK    3  A    between atoms: CB_5  and  CG_6 
+REMARK    4  A    between atoms: CZ_11  and  OH_12 
+REMARK    5  A    between atoms: CA_15  and  C_16 
+REMARK       I    between atoms: C_16  and  N_21 
+REMARK    6  A    between atoms: N_21  and  CA_22 
+REMARK    7  A    between atoms: CA_22  and  CB_25 
+REMARK    8  A    between atoms: CA_22  and  C_23 
+REMARK    9  A    between atoms: CB_25  and  CG_26 
+ROOT
+ATOM      1  C   TYR C  64      13.876  -2.744   7.207  1.00 51.57     0.260 C 
+ATOM      2  O   TYR C  64      13.754  -3.478   6.226  1.00 54.62    -0.271 OA
+ATOM      3  N   PRO C  65      15.075  -2.322   7.643  1.00 43.10    -0.337 N 
+ATOM      4  CA  PRO C  65      15.367  -1.358   8.708  1.00 38.90     0.179 C 
+ATOM      5  CB  PRO C  65      16.609  -1.949   9.360  1.00 40.80     0.037 C 
+ATOM      6  CG  PRO C  65      17.323  -2.601   8.227  1.00 42.19     0.022 C 
+ATOM      7  CD  PRO C  65      16.275  -3.089   7.265  1.00 44.37     0.127 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CA  TYR C  64      12.639  -2.285   7.976  1.00 49.73     0.404 C 
+ATOM      9  N   TYR C  64      11.494  -2.257   7.069  1.00 50.52     0.615 N 
+BRANCH   8  10
+ATOM     10  CB  TYR C  64      12.384  -3.248   9.142  1.00 50.46     0.089 C 
+BRANCH  10  11
+ATOM     11  CG  TYR C  64      11.007  -3.168   9.764  1.00 47.68    -0.055 A 
+ATOM     12  CD2 TYR C  64      10.378  -4.315  10.235  1.00 48.34     0.010 A 
+ATOM     13  CE2 TYR C  64       9.120  -4.260  10.805  1.00 49.15     0.037 A 
+ATOM     14  CZ  TYR C  64       8.474  -3.045  10.911  1.00 50.59     0.065 A 
+ATOM     15  CE1 TYR C  64       9.075  -1.889  10.453  1.00 46.73     0.037 A 
+ATOM     16  CD1 TYR C  64      10.336  -1.955   9.884  1.00 46.22     0.010 A 
+BRANCH  14  17
+ATOM     17  OH  TYR C  64       7.221  -2.983  11.477  1.00 53.82    -0.361 OA
+ATOM     18  HH  TYR C  64       6.979  -3.754  11.708  1.00 53.82     0.217 HD
+ENDBRANCH  14  17
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   4  19
+ATOM     19  C   PRO C  65      15.688   0.026   8.153  1.00 37.07     0.241 C 
+ATOM     20  N   HIS C  66      14.961   0.412   7.106  1.00 40.38    -0.347 N 
+ATOM     21  H   HIS C  66      14.371  -0.086   6.728  1.00 40.38     0.163 HD
+ATOM     22  O   PRO C  65      16.588   0.713   8.668  1.00 29.28    -0.271 OA
+BRANCH  20  23
+ATOM     23  CA  HIS C  66      15.101   1.728   6.500  1.00 40.25     0.168 C 
+BRANCH  23  24
+ATOM     24  CB  HIS C  66      14.413   1.765   5.128  1.00 42.68     0.094 C 
+BRANCH  24  25
+ATOM     25  CG  HIS C  66      15.088   0.926   4.086  1.00 48.80     0.055 A 
+ATOM     26  ND1 HIS C  66      14.829  -0.419   3.926  1.00 53.13    -0.245 NA
+ATOM     27  CE1 HIS C  66      15.564  -0.892   2.935  1.00 55.16     0.232 A 
+ATOM     28  NE2 HIS C  66      16.291   0.097   2.446  1.00 53.86    -0.252 NA
+ATOM     29  CD2 HIS C  66      16.012   1.245   3.150  1.00 53.41     0.145 A 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+BRANCH  23  30
+ATOM     30  C   HIS C  66      14.520   2.817   7.402  1.00 41.89     0.219 C 
+ATOM     31  O   HIS C  66      13.596   2.564   8.179  1.00 44.58    -0.287 OA
+ENDBRANCH  23  30
+ENDBRANCH  20  23
+ENDBRANCH   4  19
+TORSDOF 9

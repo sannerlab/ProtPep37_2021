@@ -1,0 +1,174 @@
+REMARK  29 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C_1  and  N_4 
+REMARK    1  A    between atoms: N_4  and  CA_5 
+REMARK    2  A    between atoms: CA_5  and  C_6 
+REMARK    3  A    between atoms: CA_5  and  CB_8 
+REMARK       I    between atoms: C_6  and  N_15 
+REMARK    4  A    between atoms: CB_8  and  CG_9 
+REMARK    5  A    between atoms: N_15  and  CA_16 
+REMARK    6  A    between atoms: CA_16  and  CB_19 
+REMARK    7  A    between atoms: CA_16  and  C_17 
+REMARK       I    between atoms: C_17  and  N_23 
+REMARK    8  A    between atoms: CB_19  and  OG_20 
+REMARK    9  A    between atoms: N_23  and  CA_24 
+REMARK   10  A    between atoms: CA_24  and  CB_27 
+REMARK   11  A    between atoms: CA_24  and  C_25 
+REMARK       I    between atoms: C_25  and  N_34 
+REMARK   12  A    between atoms: CB_27  and  CG_28 
+REMARK       I    between atoms: CG_28  and  ND2_30 
+REMARK   13  A    between atoms: N_34  and  CA_35 
+REMARK   14  A    between atoms: CA_35  and  C_36 
+REMARK       I    between atoms: C_36  and  N_40 
+REMARK   15  A    between atoms: N_40  and  CA_41 
+REMARK   16  A    between atoms: CA_41  and  C_42 
+REMARK   17  A    between atoms: CA_41  and  CB_44 
+REMARK       I    between atoms: C_42  and  N_49 
+REMARK   18  A    between atoms: CB_44  and  CG1_45 
+REMARK   19  A    between atoms: N_49  and  CA_50 
+REMARK   20  A    between atoms: CA_50  and  C_51 
+REMARK   21  A    between atoms: CA_50  and  CB_53 
+REMARK       I    between atoms: C_51  and  N_62 
+REMARK   22  A    between atoms: CB_53  and  CG_54 
+REMARK   23  A    between atoms: CG_54  and  CD_55 
+REMARK   24  A    between atoms: CD_55  and  CE_56 
+REMARK   25  A    between atoms: CE_56  and  NZ_57 
+REMARK   26  A    between atoms: N_62  and  CA_63 
+REMARK   27  A    between atoms: CA_63  and  CB_66 
+REMARK   28  A    between atoms: CA_63  and  C_64 
+REMARK   29  A    between atoms: CB_66  and  CG_67 
+REMARK       I    between atoms: CG_67  and  ND2_69 
+ROOT
+ATOM      1  CA  ALA Z  41     -14.912  11.765  -5.888  1.00 21.22     0.172 C 
+ATOM      2  CB  ALA Z  41     -14.503  12.439  -4.580  1.00 23.94     0.042 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  C   ALA Z  41     -15.645  10.455  -5.603  1.00 23.72     0.240 C 
+ATOM      4  O   ALA Z  41     -16.857  10.446  -5.387  1.00 25.98    -0.271 OA
+ATOM      5  N   ILE Z  42     -14.907   9.350  -5.599  1.00 25.83    -0.346 N 
+ATOM      6  H   ILE Z  42     -14.061   9.330  -5.752  1.00 25.83     0.163 HD
+BRANCH   5   7
+ATOM      7  CA  ILE Z  42     -15.511   8.051  -5.324  1.00 30.93     0.180 C 
+BRANCH   7   8
+ATOM      8  C   ILE Z  42     -15.914   7.898  -3.856  1.00 34.23     0.241 C 
+ATOM      9  O   ILE Z  42     -16.949   7.305  -3.550  1.00 38.88    -0.271 OA
+ATOM     10  N   LYS Z  43     -15.104   8.439  -2.950  1.00 34.26    -0.346 N 
+ATOM     11  H   LYS Z  43     -14.416   8.920  -3.137  1.00 34.26     0.163 HD
+BRANCH  10  12
+ATOM     12  CA  LYS Z  43     -15.345   8.240  -1.522  1.00 43.39     0.176 C 
+BRANCH  12  13
+ATOM     13  C   LYS Z  43     -16.442   9.134  -0.942  1.00 55.57     0.241 C 
+ATOM     14  N   ASN Z  44     -16.379  10.429  -1.241  1.00 60.92    -0.345 N 
+ATOM     15  H   ASN Z  44     -15.778  10.769  -1.753  1.00 60.92     0.163 HD
+ATOM     16  O   LYS Z  43     -17.328   8.647  -0.236  1.00 61.19    -0.271 OA
+BRANCH  14  17
+ATOM     17  CA  ASN Z  44     -17.340  11.405  -0.718  1.00 70.44     0.189 C 
+BRANCH  17  18
+ATOM     18  CB  ASN Z  44     -18.780  10.881  -0.816  1.00 74.13     0.137 C 
+BRANCH  18  19
+ATOM     19  CG  ASN Z  44     -19.221  10.640  -2.249  1.00 76.38     0.217 C 
+ATOM     20  ND2 ASN Z  44     -19.820   9.479  -2.498  1.00 76.67    -0.370 N 
+ATOM     21 1HD2 ASN Z  44     -20.088   9.295  -3.294  1.00 76.67     0.159 HD
+ATOM     22 2HD2 ASN Z  44     -19.940   8.912  -1.863  1.00 76.67     0.159 HD
+ATOM     23  OD1 ASN Z  44     -19.025  11.487  -3.122  1.00 76.30    -0.274 OA
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+BRANCH  17  24
+ATOM     24  C   ASN Z  44     -17.032  11.833   0.719  1.00 74.17     0.284 C 
+ATOM     25  O   ASN Z  44     -17.136  11.035   1.653  1.00 72.97    -0.267 OA
+HETATM   26  N   NH2 Z  45     -16.656  13.097   0.887  1.00 76.38    -0.106 N 
+ENDBRANCH  17  24
+ENDBRANCH  14  17
+ENDBRANCH  12  13
+BRANCH  12  27
+ATOM     27  CB  LYS Z  43     -14.046   8.377  -0.720  1.00 40.99     0.035 C 
+BRANCH  27  28
+ATOM     28  CG  LYS Z  43     -13.063   7.236  -0.960  1.00 39.01     0.004 C 
+BRANCH  28  29
+ATOM     29  CD  LYS Z  43     -11.878   7.289  -0.004  1.00 38.38     0.027 C 
+BRANCH  29  30
+ATOM     30  CE  LYS Z  43     -10.936   6.112  -0.240  1.00 38.40     0.229 C 
+BRANCH  30  31
+ATOM     31  NZ  LYS Z  43      -9.748   6.124   0.668  1.00 35.26    -0.079 N 
+ATOM     32  HZ3 LYS Z  43      -9.969   5.762   1.451  1.00 35.26     0.274 HD
+ATOM     33  HZ2 LYS Z  43      -9.479   6.963   0.795  1.00 35.26     0.274 HD
+ATOM     34  HZ1 LYS Z  43      -9.088   5.654   0.300  1.00 35.26     0.274 HD
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  12  27
+ENDBRANCH  10  12
+ENDBRANCH   7   8
+BRANCH   7  35
+ATOM     35  CB  ILE Z  42     -14.583   6.887  -5.718  1.00 30.84     0.013 C 
+ATOM     36  CG2 ILE Z  42     -15.058   5.587  -5.078  1.00 35.03     0.012 C 
+BRANCH  35  37
+ATOM     37  CG1 ILE Z  42     -14.559   6.711  -7.234  1.00 30.67     0.002 C 
+ATOM     38  CD1 ILE Z  42     -13.826   5.462  -7.686  1.00 26.38     0.005 C 
+ENDBRANCH  35  37
+ENDBRANCH   7  35
+ENDBRANCH   5   7
+ENDBRANCH   1   3
+BRANCH   1  39
+ATOM     39  N   ALA Z  41     -15.731  12.664  -6.698  1.00 17.22    -0.346 N 
+ATOM     40  C   ASN Z  40     -15.903  12.463  -8.003  1.00 21.77     0.241 C 
+ATOM     41  O   ASN Z  40     -15.394  11.519  -8.610  1.00 19.61    -0.271 OA
+ATOM     42  H   ALA Z  41     -16.081  13.317  -6.262  1.00 17.22     0.163 HD
+BRANCH  40  43
+ATOM     43  CA  ASN Z  40     -16.780  13.467  -8.742  1.00 23.64     0.185 C 
+BRANCH  43  44
+ATOM     44  N   ASN Z  40     -17.279  14.552  -7.902  1.00 28.07    -0.345 N 
+ATOM     45  H   ASN Z  40     -16.718  15.189  -7.762  1.00 28.07     0.163 HD
+ATOM     46  C   SER Z  39     -18.513  14.516  -7.413  1.00 29.35     0.243 C 
+ATOM     47  O   SER Z  39     -19.264  13.550  -7.562  1.00 27.34    -0.271 OA
+BRANCH  46  48
+ATOM     48  CA  SER Z  39     -18.976  15.738  -6.635  1.00 36.10     0.200 C 
+BRANCH  48  49
+ATOM     49  N   SER Z  39     -20.369  15.990  -6.980  1.00 45.98    -0.344 N 
+ATOM     50  C   ASN Z  38     -20.725  17.029  -7.729  1.00 57.47     0.241 C 
+ATOM     51  O   ASN Z  38     -19.967  17.972  -7.967  1.00 60.64    -0.271 OA
+ATOM     52  H   SER Z  39     -20.924  15.416  -6.660  1.00 45.98     0.163 HD
+BRANCH  50  53
+ATOM     53  CA  ASN Z  38     -22.155  16.997  -8.289  1.00 65.29     0.184 C 
+BRANCH  53  54
+ATOM     54  N   ASN Z  38     -22.987  18.180  -8.050  1.00 70.64    -0.348 N 
+ATOM     55  H   ASN Z  38     -23.554  18.335  -8.678  1.00 70.64     0.163 HD
+HETATM   56  C   ACE Z  37     -22.876  18.942  -6.965  1.00 74.22     0.214 C 
+HETATM   57  CH3 ACE Z  37     -23.849  20.115  -6.868  1.00 75.88     0.117 C 
+HETATM   58  O   ACE Z  37     -22.044  18.740  -6.082  1.00 75.32    -0.274 OA
+ENDBRANCH  53  54
+BRANCH  53  59
+ATOM     59  CB  ASN Z  38     -22.098  16.692  -9.793  1.00 65.91     0.121 C 
+BRANCH  59  60
+ATOM     60  CG  ASN Z  38     -23.294  15.889 -10.280  1.00 66.48     0.151 C 
+ATOM     61  OD1 ASN Z  38     -23.297  15.567 -11.568  1.00 67.09    -0.178 OA
+ATOM     62  ND2 ASN Z  38     -24.203  15.566  -9.513  1.00 65.12    -0.381 N 
+ATOM     63 2HD2 ASN Z  38     -24.167  15.792  -8.684  1.00 65.12     0.158 HD
+ATOM     64 1HD2 ASN Z  38     -24.873  15.114  -9.807  1.00 65.12     0.158 HD
+ENDBRANCH  59  60
+ENDBRANCH  53  59
+ENDBRANCH  50  53
+ENDBRANCH  48  49
+BRANCH  48  65
+ATOM     65  CB  SER Z  39     -18.807  15.491  -5.139  1.00 33.12     0.199 C 
+BRANCH  65  66
+ATOM     66  OG  SER Z  39     -17.482  15.065  -4.847  1.00 30.52    -0.398 OA
+ATOM     67  HG  SER Z  39     -16.950  15.705  -4.960  1.00 30.52     0.209 HD
+ENDBRANCH  65  66
+ENDBRANCH  48  65
+ENDBRANCH  46  48
+ENDBRANCH  43  44
+BRANCH  43  68
+ATOM     68  CB  ASN Z  40     -16.026  14.012  -9.957  1.00 19.94     0.137 C 
+BRANCH  68  69
+ATOM     69  CG  ASN Z  40     -15.940  13.002 -11.085  1.00 19.97     0.217 C 
+ATOM     70  OD1 ASN Z  40     -16.914  12.307 -11.384  1.00 23.42    -0.274 OA
+ATOM     71  ND2 ASN Z  40     -14.771  12.905 -11.710  1.00 19.32    -0.370 N 
+ATOM     72 1HD2 ASN Z  40     -14.672  12.340 -12.351  1.00 19.32     0.159 HD
+ATOM     73 2HD2 ASN Z  40     -14.114  13.407 -11.473  1.00 19.32     0.159 HD
+ENDBRANCH  68  69
+ENDBRANCH  43  68
+ENDBRANCH  40  43
+ENDBRANCH   1  39
+TORSDOF 29

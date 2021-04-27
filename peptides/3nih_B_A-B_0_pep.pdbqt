@@ -1,0 +1,79 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_5 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_20 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CG_6  and  CD_7 
+REMARK    6  A    between atoms: CD_7  and  NE_8 
+REMARK       I    between atoms: NE_8  and  CZ_9 
+REMARK       I    between atoms: CZ_9  and  NH1_10 
+REMARK    7  A    between atoms: N_20  and  CA_21 
+REMARK    8  A    between atoms: CA_21  and  CB_24 
+REMARK    9  A    between atoms: CA_21  and  C_22 
+REMARK       I    between atoms: C_22  and  N_29 
+REMARK   10  A    between atoms: CB_24  and  CG1_25 
+REMARK   11  A    between atoms: N_29  and  CA_30 
+REMARK   12  A    between atoms: CA_30  and  C_31 
+ROOT
+ATOM      1  CA  ARG B   1      27.091  10.816  -8.530  1.00 59.17     0.274 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   ARG B   1      26.562  12.104  -9.055  1.00 58.83    -0.067 N 
+ATOM      3  H3  ARG B   1      27.239  12.654  -9.231  1.00 58.83     0.275 HD
+ATOM      4  H2  ARG B   1      26.029  12.476  -8.447  1.00 58.83     0.275 HD
+ATOM      5  H1  ARG B   1      26.101  11.954  -9.801  1.00 58.83     0.275 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  CB  ARG B   1      28.284  10.323  -9.360  1.00 59.00     0.044 C 
+BRANCH   6   7
+ATOM      7  CG  ARG B   1      28.082  10.335 -10.877  1.00 58.73     0.023 C 
+BRANCH   7   8
+ATOM      8  CD  ARG B   1      26.952   9.414 -11.342  1.00 57.79     0.138 C 
+BRANCH   8   9
+ATOM      9  NE  ARG B   1      26.999   9.196 -12.790  1.00 57.71    -0.227 N 
+ATOM     10  CZ  ARG B   1      26.537  10.048 -13.704  1.00 57.43     0.665 C 
+ATOM     11  NH1 ARG B   1      25.977  11.196 -13.345  1.00 56.57    -0.235 N 
+ATOM     12  NH2 ARG B   1      26.640   9.751 -14.994  1.00 57.93    -0.235 N 
+ATOM     13 HH12 ARG B   1      25.683  11.737 -13.945  1.00 56.57     0.174 HD
+ATOM     14 HH11 ARG B   1      25.908  11.399 -12.512  1.00 56.57     0.174 HD
+ATOM     15 HH22 ARG B   1      26.343  10.299 -15.586  1.00 57.93     0.174 HD
+ATOM     16 HH21 ARG B   1      27.004   9.011 -15.237  1.00 57.93     0.174 HD
+ATOM     17  HE  ARG B   1      27.351   8.463 -13.071  1.00 57.71     0.177 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  18
+ATOM     18  C   ARG B   1      27.508  10.967  -7.080  1.00 59.69     0.249 C 
+ATOM     19  O   ARG B   1      27.738  12.079  -6.612  1.00 59.48    -0.271 OA
+ATOM     20  N   ILE B   2      27.593   9.846  -6.372  1.00 60.56    -0.346 N 
+ATOM     21  H   ILE B   2      27.367   9.070  -6.667  1.00 60.56     0.163 HD
+BRANCH  20  22
+ATOM     22  CA  ILE B   2      28.091   9.852  -5.002  1.00 61.73     0.180 C 
+BRANCH  22  23
+ATOM     23  CB  ILE B   2      27.177   9.033  -4.037  1.00 61.78     0.013 C 
+ATOM     24  CG2 ILE B   2      27.483   7.528  -4.086  1.00 61.94     0.012 C 
+BRANCH  23  25
+ATOM     25  CG1 ILE B   2      27.258   9.587  -2.611  1.00 62.37     0.002 C 
+ATOM     26  CD1 ILE B   2      26.372  10.803  -2.370  1.00 63.06     0.005 C 
+ENDBRANCH  23  25
+ENDBRANCH  22  23
+BRANCH  22  27
+ATOM     27  C   ILE B   2      29.542   9.374  -4.989  1.00 62.33     0.241 C 
+ATOM     28  O   ILE B   2      29.896   8.422  -5.695  1.00 62.62    -0.271 OA
+ATOM     29  N   ALA B   3      30.379  10.058  -4.210  1.00 63.04    -0.348 N 
+ATOM     30  H   ALA B   3      30.133  10.693  -3.685  1.00 63.04     0.163 HD
+BRANCH  29  31
+ATOM     31  CA  ALA B   3      31.819   9.777  -4.185  1.00 63.50     0.158 C 
+ATOM     32  CB  ALA B   3      32.620  11.081  -4.130  1.00 63.68     0.041 C 
+BRANCH  31  33
+ATOM     33  C   ALA B   3      32.219   8.849  -3.041  1.00 63.68     0.219 C 
+ATOM     34  O   ALA B   3      31.826   9.051  -1.891  1.00 63.94    -0.287 OA
+ENDBRANCH  31  33
+ENDBRANCH  29  31
+ENDBRANCH  22  27
+ENDBRANCH  20  22
+ENDBRANCH   1  18
+TORSDOF 12

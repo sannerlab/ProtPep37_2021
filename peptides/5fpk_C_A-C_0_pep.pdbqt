@@ -1,0 +1,82 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C_1  and  N_4 
+REMARK    1  A    between atoms: N_4  and  CA_5 
+REMARK    2  A    between atoms: CA_5  and  CB_8 
+REMARK    3  A    between atoms: CA_5  and  C_6 
+REMARK       I    between atoms: C_6  and  N_16 
+REMARK    4  A    between atoms: CB_8  and  CG_9 
+REMARK    5  A    between atoms: N_16  and  CA_17 
+REMARK    6  A    between atoms: CA_17  and  C_18 
+REMARK       I    between atoms: C_18  and  N_22 
+REMARK    7  A    between atoms: N_22  and  CA_23 
+REMARK    8  A    between atoms: CA_23  and  C_24 
+REMARK    9  A    between atoms: CA_23  and  CB_26 
+REMARK       I    between atoms: C_24  and  N_31 
+REMARK   10  A    between atoms: CB_26  and  OG1_27 
+REMARK   11  A    between atoms: N_31  and  CA_32 
+REMARK   12  A    between atoms: CA_32  and  C_33 
+ROOT
+ATOM      1  CA  ALA C   2      25.960   2.282  44.022  1.00 19.98     0.172 C 
+ATOM      2  CB  ALA C   2      26.642   3.649  44.108  1.00 20.88     0.042 C 
+ENDROOT
+BRANCH   1   3
+ATOM      3  N   ALA C   2      25.865   1.836  42.642  1.00 19.64    -0.346 N 
+ATOM      4  H   ALA C   2      25.242   2.203  42.177  1.00 19.64     0.163 HD
+ATOM      5  C   PHE C   1      26.710   0.924  42.193  1.00 22.16     0.241 C 
+ATOM      6  O   PHE C   1      27.636   0.506  42.888  1.00 23.85    -0.271 OA
+BRANCH   5   7
+ATOM      7  CA  PHE C   1      26.540   0.455  40.758  1.00 22.77     0.180 C 
+BRANCH   7   8
+ATOM      8  N   PHE C   1      27.737  -0.257  40.397  1.00 26.70    -0.348 N 
+ATOM      9  H   PHE C   1      27.800  -1.041  40.744  1.00 26.70     0.163 HD
+HETATM   10  C   ACE C   0      28.642   0.265  39.604  1.00 28.63     0.214 C 
+HETATM   11  CH3 ACE C   0      29.797  -0.677  39.345  1.00 28.20     0.117 C 
+HETATM   12  O   ACE C   0      28.494   1.409  39.164  1.00 29.97    -0.274 OA
+ENDBRANCH   7   8
+BRANCH   7  13
+ATOM     13  CB  PHE C   1      25.386  -0.510  40.575  1.00 20.34     0.073 C 
+BRANCH  13  14
+ATOM     14  CG  PHE C   1      25.054  -0.763  39.127  1.00 17.40    -0.056 A 
+ATOM     15  CD1 PHE C   1      25.820  -1.608  38.318  1.00 16.88     0.007 A 
+ATOM     16  CE1 PHE C   1      25.480  -1.795  36.960  1.00 14.02     0.001 A 
+ATOM     17  CZ  PHE C   1      24.417  -1.152  36.443  1.00 15.72     0.000 A 
+ATOM     18  CE2 PHE C   1      23.659  -0.318  37.242  1.00 14.79     0.001 A 
+ATOM     19  CD2 PHE C   1      23.975  -0.139  38.564  1.00 15.53     0.007 A 
+ENDBRANCH  13  14
+ENDBRANCH   7  13
+ENDBRANCH   5   7
+ENDBRANCH   1   3
+BRANCH   1  20
+ATOM     20  C   ALA C   2      24.575   2.383  44.627  1.00 17.39     0.240 C 
+ATOM     21  N   THR C   3      24.463   1.919  45.875  1.00 15.98    -0.344 N 
+ATOM     22  H   THR C   3      25.102   1.549  46.316  1.00 15.98     0.163 HD
+ATOM     23  O   ALA C   2      23.649   2.900  43.994  1.00 16.73    -0.271 OA
+BRANCH  21  24
+ATOM     24  CA  THR C   3      23.202   2.016  46.589  1.00 15.15     0.205 C 
+BRANCH  24  25
+ATOM     25  C   THR C   3      22.733   3.459  46.655  1.00 14.93     0.243 C 
+ATOM     26  N   ALA C   4      21.431   3.636  46.504  1.00 13.95    -0.346 N 
+ATOM     27  H   ALA C   4      20.882   2.997  46.330  1.00 13.95     0.163 HD
+ATOM     28  O   THR C   3      23.520   4.384  46.879  1.00 16.43    -0.271 OA
+BRANCH  26  29
+ATOM     29  CA  ALA C   4      20.805   4.931  46.618  1.00 14.93     0.176 C 
+ATOM     30  CB  ALA C   4      19.511   4.921  45.812  1.00 15.34     0.042 C 
+BRANCH  29  31
+ATOM     31  C   ALA C   4      20.556   5.285  48.088  1.00 16.13     0.284 C 
+ATOM     32  O   ALA C   4      20.160   6.405  48.401  1.00 17.37    -0.267 OA
+HETATM   33  N   NH2 C   5      20.794   4.333  48.988  1.00 15.73    -0.106 N 
+ENDBRANCH  29  31
+ENDBRANCH  26  29
+ENDBRANCH  24  25
+BRANCH  24  34
+ATOM     34  CB  THR C   3      23.309   1.429  48.003  1.00 16.10     0.146 C 
+ATOM     35  CG2 THR C   3      24.323   2.177  48.862  1.00 16.48     0.042 C 
+BRANCH  34  36
+ATOM     36  OG1 THR C   3      22.022   1.512  48.629  1.00 16.89    -0.393 OA
+ATOM     37  HG1 THR C   3      21.623   0.777  48.548  1.00 16.89     0.210 HD
+ENDBRANCH  34  36
+ENDBRANCH  24  34
+ENDBRANCH  21  24
+ENDBRANCH   1  20
+TORSDOF 12

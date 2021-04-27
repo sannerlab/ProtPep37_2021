@@ -1,0 +1,99 @@
+REMARK  16 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_5 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    3  A    between atoms: CB_5  and  CG_6 
+REMARK    4  A    between atoms: N_9  and  CA_10 
+REMARK    5  A    between atoms: CA_10  and  CB_13 
+REMARK    6  A    between atoms: CA_10  and  C_11 
+REMARK       I    between atoms: C_11  and  N_19 
+REMARK    7  A    between atoms: CB_13  and  CG_14 
+REMARK    8  A    between atoms: CG_14  and  CD_15 
+REMARK    9  A    between atoms: N_19  and  CA_20 
+REMARK   10  A    between atoms: CA_20  and  C_21 
+REMARK   11  A    between atoms: CA_20  and  CB_23 
+REMARK       I    between atoms: C_21  and  N_35 
+REMARK   12  A    between atoms: CB_23  and  CG_24 
+REMARK   13  A    between atoms: N_35  and  CA_36 
+REMARK   14  A    between atoms: CA_36  and  CB_39 
+REMARK   15  A    between atoms: CA_36  and  C_37 
+REMARK   16  A    between atoms: CB_39  and  CG_40 
+ROOT
+ATOM      1  CA  TRP G 500     -10.336 -42.938  19.904  1.00 57.70     0.181 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   TRP G 500     -11.086 -44.158  20.430  1.00 58.91     0.241 C 
+ATOM      3  O   TRP G 500     -12.246 -44.369  20.076  1.00 59.13    -0.271 OA
+ATOM      4  N   ASP G 501     -10.433 -44.962  21.264  1.00 60.05    -0.347 N 
+ATOM      5  H   ASP G 501      -9.625 -44.834  21.530  1.00 60.05     0.163 HD
+BRANCH   4   6
+ATOM      6  CA  ASP G 501     -11.074 -46.159  21.801  1.00 61.20     0.172 C 
+BRANCH   6   7
+ATOM      7  CB  ASP G 501     -10.047 -47.053  22.499  1.00 62.64     0.146 C 
+BRANCH   7   8
+ATOM      8  CG  ASP G 501     -10.569 -48.460  22.742  1.00 64.46     0.174 C 
+ATOM      9  OD2 ASP G 501      -9.745 -49.395  22.850  1.00 65.00    -0.648 OA
+ATOM     10  OD1 ASP G 501     -11.805 -48.630  22.837  1.00 64.87    -0.648 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  11
+ATOM     11  C   ASP G 501     -12.178 -45.789  22.791  1.00 61.58     0.220 C 
+ATOM     12  O   ASP G 501     -13.360 -45.846  22.384  1.00 60.92    -0.287 OA
+ENDBRANCH   6  11
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  13
+ATOM     13  CB  TRP G 500      -8.925 -43.341  19.467  1.00 52.85     0.075 C 
+BRANCH  13  14
+ATOM     14  CG  TRP G 500      -8.396 -42.496  18.347  1.00 47.47    -0.028 A 
+ATOM     15  CD2 TRP G 500      -7.901 -42.960  17.085  1.00 44.29    -0.002 A 
+ATOM     16  CE3 TRP G 500      -7.738 -44.229  16.510  1.00 42.43     0.014 A 
+ATOM     17  CE2 TRP G 500      -7.521 -41.818  16.339  1.00 43.87     0.042 A 
+ATOM     18  CZ3 TRP G 500      -7.207 -44.319  15.221  1.00 40.94     0.001 A 
+ATOM     19  CH2 TRP G 500      -6.838 -43.163  14.505  1.00 40.39     0.002 A 
+ATOM     20  CZ2 TRP G 500      -6.987 -41.909  15.043  1.00 41.47     0.030 A 
+ATOM     21  NE1 TRP G 500      -7.778 -40.717  17.114  1.00 44.24    -0.365 N 
+ATOM     22  CD1 TRP G 500      -8.301 -41.132  18.318  1.00 45.90     0.096 A 
+ATOM     23  HE1 TRP G 500      -7.636 -39.900  16.885  1.00 44.24     0.165 HD
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+BRANCH   1  24
+ATOM     24  N   TRP G 500     -10.269 -41.822  20.836  1.00 59.87    -0.346 N 
+ATOM     25  C   GLU G 499     -11.340 -41.089  21.125  1.00 62.14     0.241 C 
+ATOM     26  O   GLU G 499     -12.455 -41.306  20.642  1.00 62.68    -0.271 OA
+ATOM     27  H   TRP G 500      -9.489 -41.687  21.173  1.00 59.87     0.163 HD
+BRANCH  25  28
+ATOM     28  CA  GLU G 499     -11.122 -39.943  22.109  1.00 62.75     0.177 C 
+BRANCH  28  29
+ATOM     29  N   GLU G 499      -9.876 -40.132  22.844  1.00 64.36    -0.346 N 
+ATOM     30  H   GLU G 499      -9.243 -40.491  22.386  1.00 64.36     0.163 HD
+ATOM     31  C   ASP G 498      -9.761 -39.768  24.118  1.00 65.69     0.258 C 
+ATOM     32  O   ASP G 498     -10.685 -39.255  24.753  1.00 66.78    -0.271 OA
+BRANCH  31  33
+ATOM     33  CA  ASP G 498      -8.406 -40.014  24.779  1.00 65.54     0.409 C 
+ATOM     34  N   ASP G 498      -8.391 -39.379  26.128  1.00 65.34     0.615 N 
+BRANCH  33  35
+ATOM     35  CB  ASP G 498      -8.158 -41.521  24.906  1.00 65.84     0.164 C 
+BRANCH  35  36
+ATOM     36  CG  ASP G 498      -7.396 -42.091  23.723  1.00 65.00     0.175 C 
+ATOM     37  OD2 ASP G 498      -6.267 -42.584  23.934  1.00 65.16    -0.648 OA
+ATOM     38  OD1 ASP G 498      -7.918 -42.045  22.588  1.00 63.97    -0.648 OA
+ENDBRANCH  35  36
+ENDBRANCH  33  35
+ENDBRANCH  31  33
+ENDBRANCH  28  29
+BRANCH  28  39
+ATOM     39  CB  GLU G 499     -11.086 -38.616  21.346  1.00 61.39     0.045 C 
+BRANCH  39  40
+ATOM     40  CG  GLU G 499     -10.491 -37.461  22.135  1.00 60.98     0.116 C 
+BRANCH  40  41
+ATOM     41  CD  GLU G 499     -10.636 -36.130  21.422  1.00 61.07     0.172 C 
+ATOM     42  OE2 GLU G 499     -11.434 -36.053  20.465  1.00 60.51    -0.648 OA
+ATOM     43  OE1 GLU G 499      -9.960 -35.158  21.822  1.00 60.30    -0.648 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  28  39
+ENDBRANCH  25  28
+ENDBRANCH   1  24
+TORSDOF 16

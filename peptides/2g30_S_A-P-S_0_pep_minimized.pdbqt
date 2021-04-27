@@ -1,0 +1,54 @@
+USER: ADFR SOLUTION from run 0
+USER: SCORE 6.971013 LL:  -1.211 LR:  -5.924 RR:   0.000 FEB:  -3.836
+USER: RMSD 0.769949
+USER: STATUS Locally minimized using BFGS
+USER: GENES 9
+USER: genes 0 Translation |==|  0.55692 0.51778 0.43387
+USER: genes 1 Rotation |==|  0.48189 0.45444 0.50839 0.99752
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.62313
+USER: genes 3 Torsion [N]-CA--C-[O] |==|  0.44333
+USER: genes 4 Torsion [N]-CA--CB-[CG] |==|  0.82612
+USER: genes 5 Torsion [CA]-CB--CG-[CD2] |==|  0.78036
+USER: genes 6 Torsion [N]-C--CA-[N] |==|  0.95000
+USER: genes 7 Torsion [C]-CA--N-[C] |==|  0.73460
+USER: genes 8 Torsion [N]-C--CA-[N] |==|  0.22625
+ROOT
+ATOM      1  C   ALA S   7       2.016 -12.481   6.154  1.00 26.16 LIG 0.24  C 
+ATOM      2 O    ALA S   7       2.911 -12.016   5.450  1.00 23.62 LIG-0.27  OA
+ATOM      3  N   PHE S   8       2.237 -13.280   7.192  1.00 26.19 LIG-0.35  N 
+ATOM      4 H    PHE S   8       1.610 -13.612   7.678  1.00 26.19 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  PHE S   8       3.578 -13.670   7.606  1.00 26.02 LIG 0.17  C 
+BRANCH 5 6
+ATOM      6  C   PHE S   8       3.632 -15.154   7.917  1.00 27.74 LIG 0.22  C 
+ATOM      7 O    PHE S   8       4.729 -15.746   7.914  1.00 30.84 LIG-0.29  OA
+ENDBRANCH 5 6
+BRANCH 5 8
+ATOM      8  CB  PHE S   8       4.000 -12.923   8.861  1.00 24.81 LIG 0.07  C 
+BRANCH 8 9
+ATOM      9  CG  PHE S   8       4.087 -11.429   8.685  1.00 22.51 LIG-0.06  A 
+ATOM     10  CD2 PHE S   8       5.182 -10.869   8.073  1.00 18.27 LIG 0.01  A 
+ATOM     11  CE2 PHE S   8       5.295  -9.457   7.926  1.00 17.55 LIG 0.00  A 
+ATOM     12  CZ  PHE S   8       4.286  -8.636   8.416  1.00 18.56 LIG 0.00  A 
+ATOM     13  CE1 PHE S   8       3.190  -9.201   9.037  1.00 16.51 LIG 0.00  A 
+ATOM     14  CD1 PHE S   8       3.087 -10.595   9.176  1.00 19.44 LIG 0.01  A 
+ENDBRANCH 8 9
+ENDBRANCH 5 8
+ENDBRANCH 3 5
+BRANCH 1 15
+ATOM     15  CA  ALA S   7       0.567 -12.091   5.882  1.00 27.73 LIG 0.17  C 
+ATOM     16  CB  ALA S   7       0.373 -10.621   6.358  1.00 27.93 LIG 0.04  C 
+BRANCH 15 17
+ATOM     17  N   ALA S   7      -0.448 -12.942   6.515  1.00 29.72 LIG-0.35  N 
+ATOM     18  C   ALA S   6      -1.064 -13.977   5.917  1.00 32.34 LIG 0.26  C 
+ATOM     19 O    ALA S   6      -0.499 -14.723   5.111  1.00 32.82 LIG-0.27  OA
+ATOM     20 H    ALA S   7      -0.617 -12.712   7.326  1.00 29.72 LIG 0.16  HD
+BRANCH 18 21
+ATOM     21  CA  ALA S   6      -2.510 -14.281   6.390  1.00 33.16 LIG 0.40  C 
+ATOM     22  CB  ALA S   6      -2.866 -15.749   6.139  1.00 32.96 LIG 0.06  C 
+ATOM     23  N   ALA S   6      -3.571 -13.404   5.759  1.00 33.36 LIG 0.61  N 
+ENDBRANCH 18 21
+ENDBRANCH 15 17
+ENDBRANCH 1 15
+TORSDOF 7

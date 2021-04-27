@@ -1,0 +1,42 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    3  A    between atoms: N_8  and  CA_9 
+REMARK    4  A    between atoms: CA_9  and  C_10 
+REMARK       I    between atoms: C_10  and  N_13 
+REMARK    5  A    between atoms: N_13  and  CA_14 
+REMARK    6  A    between atoms: CA_14  and  C_15 
+ROOT
+ATOM      1  C   GLY G   1      24.254 -16.463  16.223  1.00 43.90     0.243 C 
+ATOM      2  O   GLY G   1      24.949 -16.092  15.274  1.00 43.93    -0.272 OA
+ATOM      3  N   GLY G   2      24.744 -16.839  17.406  1.00 44.62    -0.351 N 
+ATOM      4  H   GLY G   2      24.277 -17.231  18.013  1.00 44.62     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  GLY G   2      26.130 -16.615  17.776  1.00 45.53     0.225 C 
+BRANCH   5   6
+ATOM      6  C   GLY G   2      26.822 -17.840  18.311  1.00 46.02     0.235 C 
+ATOM      7  O   GLY G   2      26.268 -18.936  18.255  1.00 47.02    -0.272 OA
+ATOM      8  N   GLY G   3      28.047 -17.651  18.801  1.00 46.62    -0.352 N 
+ATOM      9  H   GLY G   3      28.452 -16.892  18.787  1.00 46.62     0.162 HD
+BRANCH   8  10
+ATOM     10  CA  GLY G   3      28.822 -18.725  19.413  1.00 46.72     0.209 C 
+BRANCH  10  11
+ATOM     11  C   GLY G   3      30.202 -18.313  19.897  1.00 46.79     0.213 C 
+ATOM     12  O   GLY G   3      30.383 -17.968  21.061  1.00 46.39    -0.287 OA
+ENDBRANCH  10  11
+ENDBRANCH   8  10
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+BRANCH   1  13
+ATOM     13  CA  GLY G   1      22.752 -16.501  16.099  1.00 43.33     0.332 C 
+BRANCH  13  14
+ATOM     14  N   GLY G   1      22.172 -15.418  16.925  1.00 42.49    -0.071 N 
+ATOM     15  H2  GLY G   1      22.189 -15.657  17.782  1.00 42.49     0.274 HD
+ATOM     16  H3  GLY G   1      22.647 -14.674  16.815  1.00 42.49     0.274 HD
+ATOM     17  H1  GLY G   1      21.330 -15.272  16.675  1.00 42.49     0.274 HD
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6

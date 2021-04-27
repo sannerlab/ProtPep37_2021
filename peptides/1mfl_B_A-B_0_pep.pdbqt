@@ -1,0 +1,92 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_5 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    3  A    between atoms: CB_5  and  CG_6 
+REMARK    4  A    between atoms: N_9  and  CA_10 
+REMARK    5  A    between atoms: CA_10  and  C_11 
+REMARK    6  A    between atoms: CA_10  and  CB_13 
+REMARK       I    between atoms: C_11  and  N_18 
+REMARK    7  A    between atoms: CB_13  and  CG_14 
+REMARK    8  A    between atoms: N_18  and  CA_19 
+REMARK    9  A    between atoms: CA_19  and  CB_22 
+REMARK   10  A    between atoms: CA_19  and  C_20 
+REMARK       I    between atoms: C_20  and  N_26 
+REMARK   11  A    between atoms: CA_27  and  C_28 
+REMARK       I    between atoms: C_28  and  N_33 
+REMARK   12  A    between atoms: N_33  and  CA_34 
+REMARK   13  A    between atoms: CA_34  and  C_35 
+REMARK   14  A    between atoms: CA_34  and  CB_37 
+ROOT
+ATOM      1  CA  VAL B1253      11.224   0.201   1.425  1.00 16.87     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  VAL B1253      10.094  -0.776   1.709  1.00 16.98     0.009 C 
+ATOM      3  CG2 VAL B1253      10.297  -2.096   0.935  1.00 17.49     0.012 C 
+ATOM      4  CG1 VAL B1253       8.761  -0.119   1.371  1.00 17.27     0.012 C 
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   VAL B1253      10.986   1.424   2.291  1.00 15.50     0.243 C 
+ATOM      6  O   VAL B1253      10.851   1.308   3.511  1.00 14.12    -0.271 OA
+ATOM      7  N   PRO B1254      10.919   2.593   1.683  1.00 15.47    -0.337 N 
+ATOM      8  CD  PRO B1254      11.255   2.877   0.281  1.00 15.59     0.127 C 
+ATOM      9  CA  PRO B1254      10.535   3.814   2.430  1.00 15.20     0.179 C 
+ATOM     10  CG  PRO B1254      11.380   4.370   0.214  1.00 16.22     0.022 C 
+ATOM     11  CB  PRO B1254      10.784   4.968   1.434  1.00 15.83     0.037 C 
+BRANCH   9  12
+ATOM     12  C   PRO B1254       9.066   3.798   2.914  1.00 15.00     0.241 C 
+ATOM     13  O   PRO B1254       8.101   3.453   2.196  1.00 15.08    -0.271 OA
+ATOM     14  N   VAL B1255       8.909   4.128   4.192  1.00 14.75    -0.344 N 
+ATOM     15  H   VAL B1255       9.565   4.276   4.729  1.00 14.75     0.163 HD
+BRANCH  14  16
+ATOM     16  CA  VAL B1255       7.596   4.270   4.806  1.00 15.14     0.189 C 
+BRANCH  16  17
+ATOM     17  C   VAL B1255       7.472   5.614   5.536  1.00 15.86     0.197 C 
+ATOM     18  O   VAL B1255       6.378   6.020   5.929  1.00 17.42    -0.646 OA
+ATOM     19  OXT VAL B1255       8.456   6.319   5.749  1.00 14.43    -0.646 OA
+ENDBRANCH  16  17
+BRANCH  16  20
+ATOM     20  CB  VAL B1255       7.289   3.093   5.790  1.00 15.34     0.010 C 
+ATOM     21  CG1 VAL B1255       7.201   1.784   5.035  1.00 14.42     0.012 C 
+ATOM     22  CG2 VAL B1255       8.326   2.998   6.908  1.00 13.28     0.012 C 
+ENDBRANCH  16  20
+ENDBRANCH  14  16
+ENDBRANCH   9  12
+ENDBRANCH   1   5
+BRANCH   1  23
+ATOM     23  N   VAL B1253      12.520  -0.366   1.712  1.00 17.12    -0.346 N 
+ATOM     24  C   ASP B1252      13.410  -0.576   0.751  1.00 19.01     0.241 C 
+ATOM     25  O   ASP B1252      13.241  -0.242  -0.403  1.00 18.72    -0.271 OA
+ATOM     26  H   VAL B1253      12.654  -0.549   2.542  1.00 17.12     0.163 HD
+BRANCH  24  27
+ATOM     27  CA  ASP B1252      14.679  -1.260   1.156  1.00 20.50     0.186 C 
+BRANCH  27  28
+ATOM     28  N   ASP B1252      15.423  -1.741  -0.008  1.00 21.10    -0.345 N 
+ATOM     29  C   LEU B1251      14.982  -2.748  -0.754  1.00 22.51     0.257 C 
+ATOM     30  O   LEU B1251      13.987  -3.402  -0.457  1.00 22.36    -0.271 OA
+ATOM     31  H   ASP B1252      16.157  -1.318  -0.159  1.00 21.10     0.163 HD
+BRANCH  29  32
+ATOM     32  CA  LEU B1251      15.744  -3.038  -2.050  1.00 23.47     0.400 C 
+ATOM     33  N   LEU B1251      16.275  -4.419  -2.058  1.00 25.02     0.615 N 
+BRANCH  32  34
+ATOM     34  CB  LEU B1251      14.820  -2.867  -3.255  1.00 24.34     0.055 C 
+BRANCH  34  35
+ATOM     35  CG  LEU B1251      14.562  -1.482  -3.814  1.00 26.35    -0.020 C 
+ATOM     36  CD2 LEU B1251      13.634  -1.596  -4.987  1.00 28.22     0.009 C 
+ATOM     37  CD1 LEU B1251      15.802  -0.683  -4.206  1.00 26.24     0.009 C 
+ENDBRANCH  34  35
+ENDBRANCH  32  34
+ENDBRANCH  29  32
+ENDBRANCH  27  28
+BRANCH  27  38
+ATOM     38  CB  ASP B1252      15.511  -0.359   2.076  1.00 20.08     0.147 C 
+BRANCH  38  39
+ATOM     39  CG  ASP B1252      15.997   0.962   1.437  1.00 25.61     0.175 C 
+ATOM     40  OD1 ASP B1252      15.872   1.185   0.214  1.00 33.05    -0.648 OA
+ATOM     41  OD2 ASP B1252      16.577   1.863   2.133  1.00 30.53    -0.648 OA
+ENDBRANCH  38  39
+ENDBRANCH  27  38
+ENDBRANCH  24  27
+ENDBRANCH   1  23
+TORSDOF 14

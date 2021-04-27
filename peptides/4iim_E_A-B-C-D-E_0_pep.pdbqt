@@ -1,0 +1,96 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_5 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    3  A    between atoms: N_8  and  CA_9 
+REMARK    4  A    between atoms: CA_9  and  C_10 
+REMARK    5  A    between atoms: CA_9  and  CB_12 
+REMARK       I    between atoms: C_10  and  N_17 
+REMARK    6  A    between atoms: CB_12  and  CG_13 
+REMARK    7  A    between atoms: CG_13  and  SD_14 
+REMARK    8  A    between atoms: N_17  and  CA_18 
+REMARK    9  A    between atoms: CA_18  and  C_19 
+REMARK       I    between atoms: C_19  and  N_22 
+REMARK   10  A    between atoms: CA_23  and  C_24 
+REMARK       I    between atoms: C_24  and  N_29 
+REMARK   11  A    between atoms: N_29  and  CA_30 
+REMARK   12  A    between atoms: CA_30  and  C_31 
+REMARK   13  A    between atoms: CA_30  and  CB_33 
+REMARK   14  A    between atoms: CB_33  and  CG_34 
+ROOT
+ATOM      1  C   GLY E2013       0.618 -16.766 -28.981  1.00 21.81     0.238 C 
+ATOM      2  O   GLY E2013       1.059 -17.593 -28.167  1.00 22.84    -0.272 OA
+ATOM      3  N   PRO E2014       1.306 -15.683 -29.351  1.00 21.64    -0.337 N 
+ATOM      4  CA  PRO E2014       2.676 -15.394 -28.916  1.00 21.53     0.179 C 
+ATOM      5  CB  PRO E2014       3.158 -14.394 -29.972  1.00 21.78     0.037 C 
+ATOM      6  CG  PRO E2014       1.918 -13.702 -30.460  1.00 22.21     0.022 C 
+ATOM      7  CD  PRO E2014       0.788 -14.690 -30.310  1.00 21.52     0.127 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CA  GLY E2013      -0.749 -16.963 -29.625  1.00 23.09     0.225 C 
+BRANCH   8   9
+ATOM      9  N   GLY E2013      -1.344 -18.184 -29.085  1.00 25.21    -0.351 N 
+ATOM     10  C   MET E2012      -0.848 -19.391 -29.353  1.00 26.98     0.240 C 
+ATOM     11  O   MET E2012       0.026 -19.596 -30.208  1.00 24.85    -0.271 OA
+ATOM     12  H   GLY E2013      -2.032 -18.050 -28.587  1.00 25.21     0.163 HD
+BRANCH  10  13
+ATOM     13  CA  MET E2012      -1.394 -20.531 -28.502  1.00 29.83     0.177 C 
+BRANCH  13  14
+ATOM     14  N   MET E2012      -1.224 -21.831 -29.154  1.00 30.84    -0.346 N 
+ATOM     15  C   VAL E2011      -1.989 -22.231 -30.161  1.00 36.49     0.257 C 
+ATOM     16  O   VAL E2011      -2.953 -21.573 -30.578  1.00 38.00    -0.271 OA
+ATOM     17  H   MET E2012      -0.587 -22.306 -28.825  1.00 30.84     0.163 HD
+BRANCH  15  18
+ATOM     18  CA  VAL E2011      -1.614 -23.592 -30.782  1.00 39.95     0.403 C 
+ATOM     19  N   VAL E2011      -2.767 -24.548 -30.722  1.00 39.42     0.615 N 
+BRANCH  18  20
+ATOM     20  CB  VAL E2011      -1.062 -23.445 -32.233  1.00 43.12     0.026 C 
+ATOM     21  CG2 VAL E2011      -0.432 -24.756 -32.696  1.00 41.73     0.012 C 
+ATOM     22  CG1 VAL E2011      -0.069 -22.288 -32.364  1.00 40.75     0.012 C 
+ENDBRANCH  18  20
+ENDBRANCH  15  18
+ENDBRANCH  13  14
+BRANCH  13  23
+ATOM     23  CB  MET E2012      -0.642 -20.503 -27.156  1.00 32.11     0.045 C 
+BRANCH  23  24
+ATOM     24  CG  MET E2012      -0.906 -21.659 -26.184  1.00 37.34     0.076 C 
+BRANCH  24  25
+ATOM     25  SD  MET E2012      -2.588 -21.741 -25.537  1.00 39.45    -0.173 SA
+ATOM     26  CE  MET E2012      -3.187 -23.203 -26.400  1.00 39.28     0.089 C 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  13  23
+ENDBRANCH  10  13
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   4  27
+ATOM     27  C   PRO E2014       2.764 -14.768 -27.508  1.00 21.57     0.241 C 
+ATOM     28  O   PRO E2014       3.858 -14.743 -26.871  1.00 21.05    -0.271 OA
+ATOM     29  N   TRP E2015       1.630 -14.249 -27.028  1.00 20.29    -0.344 N 
+ATOM     30  H   TRP E2015       0.860 -14.329 -27.403  1.00 20.29     0.163 HD
+BRANCH  29  31
+ATOM     31  CA  TRP E2015       1.633 -13.480 -25.779  1.00 20.70     0.190 C 
+BRANCH  31  32
+ATOM     32  C   TRP E2015       0.834 -14.136 -24.660  1.00 20.18     0.197 C 
+ATOM     33  O   TRP E2015       0.247 -15.205 -24.801  1.00 21.31    -0.646 OA
+ATOM     34  OXT TRP E2015       0.736 -13.564 -23.579  1.00 19.23    -0.646 OA
+ENDBRANCH  31  32
+BRANCH  31  35
+ATOM     35  CB  TRP E2015       1.060 -12.074 -26.012  1.00 21.64     0.077 C 
+BRANCH  35  36
+ATOM     36  CG  TRP E2015       1.850 -11.169 -26.955  1.00 22.27    -0.028 A 
+ATOM     37  CD2 TRP E2015       1.474  -9.842 -27.331  1.00 22.85    -0.002 A 
+ATOM     38  CE2 TRP E2015       2.480  -9.339 -28.192  1.00 23.44     0.042 A 
+ATOM     39  CE3 TRP E2015       0.380  -9.016 -27.007  1.00 23.10     0.014 A 
+ATOM     40  CZ2 TRP E2015       2.413  -8.048 -28.750  1.00 22.82     0.030 A 
+ATOM     41  NE1 TRP E2015       3.430 -10.320 -28.341  1.00 23.03    -0.365 N 
+ATOM     42  CH2 TRP E2015       1.327  -7.270 -28.436  1.00 23.08     0.002 A 
+ATOM     43  CZ3 TRP E2015       0.316  -7.729 -27.574  1.00 24.27     0.001 A 
+ATOM     44  HE1 TRP E2015       4.136 -10.263 -28.829  1.00 23.03     0.165 HD
+ATOM     45  CD1 TRP E2015       3.063 -11.420 -27.573  1.00 22.46     0.096 A 
+ENDBRANCH  35  36
+ENDBRANCH  31  35
+ENDBRANCH  29  31
+ENDBRANCH   4  27
+TORSDOF 14
