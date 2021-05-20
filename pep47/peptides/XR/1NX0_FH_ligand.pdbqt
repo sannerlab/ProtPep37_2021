@@ -1,0 +1,102 @@
+REMARK  17 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    3  A    between atoms: N_9  and  CA_10 
+REMARK    4  A    between atoms: CA_10  and  C_11 
+REMARK    5  A    between atoms: CA_10  and  CB_13 
+REMARK       I    between atoms: C_11  and  N_22 
+REMARK    6  A    between atoms: CB_13  and  CG_14 
+REMARK    7  A    between atoms: CG_14  and  CD_15 
+REMARK    8  A    between atoms: CD_15  and  CE_16 
+REMARK    9  A    between atoms: CE_16  and  NZ_17 
+REMARK   10  A    between atoms: N_22  and  CA_23 
+REMARK   11  A    between atoms: CA_23  and  C_24 
+REMARK       I    between atoms: C_24  and  N_28 
+REMARK   12  A    between atoms: N_28  and  CA_29 
+REMARK   13  A    between atoms: CA_29  and  CB_32 
+REMARK   14  A    between atoms: CA_29  and  C_30 
+REMARK       I    between atoms: C_30  and  N_37 
+REMARK   15  A    between atoms: CB_32  and  CG1_33 
+REMARK   16  A    between atoms: N_37  and  CA_38 
+REMARK   17  A    between atoms: CA_38  and  C_39 
+ROOT
+ATOM      1  C   LYS E 802     -12.181  23.024  34.747  1.00 51.37     0.241 C 
+ATOM      2  O   LYS E 802     -12.665  23.609  33.783  1.00 54.76    -0.271 OA
+ATOM      3  N   ALA E 803     -12.593  21.824  35.151  1.00 53.01    -0.346 N 
+ATOM      4  H   ALA E 803     -12.207  21.387  35.783  1.00 53.01     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  LYS E 802     -11.052  23.663  35.564  1.00 50.80     0.176 C 
+BRANCH   5   6
+ATOM      6  CB  LYS E 802     -11.687  24.747  36.437  1.00 49.65     0.035 C 
+BRANCH   6   7
+ATOM      7  CG  LYS E 802     -11.967  24.340  37.853  1.00 48.72     0.004 C 
+BRANCH   7   8
+ATOM      8  CD  LYS E 802     -12.559  25.503  38.616  1.00 52.85     0.027 C 
+BRANCH   8   9
+ATOM      9  CE  LYS E 802     -12.931  25.094  40.021  1.00 52.25     0.229 C 
+BRANCH   9  10
+ATOM     10  NZ  LYS E 802     -11.733  24.700  40.802  1.00 53.26    -0.079 N 
+ATOM     11  HZ1 LYS E 802     -11.637  23.816  40.773  1.00 53.26     0.274 HD
+ATOM     12  HZ2 LYS E 802     -11.011  25.087  40.454  1.00 53.26     0.274 HD
+ATOM     13  HZ3 LYS E 802     -11.831  24.960  41.647  1.00 53.26     0.274 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+BRANCH   5  14
+ATOM     14  N   LYS E 802      -9.888  24.243  34.893  1.00 51.06    -0.346 N 
+ATOM     15  H   LYS E 802      -9.904  24.217  34.034  1.00 51.06     0.163 HD
+ATOM     16  C   ALA E 801      -8.900  24.762  35.632  1.00 50.59     0.248 C 
+ATOM     17  O   ALA E 801      -8.900  24.719  36.863  1.00 51.18    -0.271 OA
+BRANCH  16  18
+ATOM     18  CA  ALA E 801      -7.720  25.397  34.907  1.00 50.00     0.270 C 
+ATOM     19  CB  ALA E 801      -6.763  26.035  35.928  1.00 45.45     0.050 C 
+BRANCH  18  20
+ATOM     20  N   ALA E 801      -8.186  26.424  33.943  1.00 50.21    -0.067 N 
+ATOM     21  H3  ALA E 801      -8.268  27.206  34.359  1.00 50.21     0.275 HD
+ATOM     22  H2  ALA E 801      -8.975  26.182  33.609  1.00 50.21     0.275 HD
+ATOM     23  H1  ALA E 801      -7.595  26.501  33.282  1.00 50.21     0.275 HD
+ENDBRANCH  18  20
+ENDBRANCH  16  18
+ENDBRANCH   5  14
+ENDBRANCH   1   5
+BRANCH   3  24
+ATOM     24  CA  ALA E 803     -13.743  21.115  34.569  1.00 57.29     0.172 C 
+ATOM     25  CB  ALA E 803     -14.968  22.031  34.643  1.00 55.60     0.042 C 
+BRANCH  24  26
+ATOM     26  C   ALA E 803     -13.765  20.410  33.213  1.00 59.81     0.240 C 
+ATOM     27  O   ALA E 803     -13.225  20.880  32.214  1.00 62.26    -0.271 OA
+ATOM     28  N   ILE E 804     -14.468  19.279  33.225  1.00 62.20    -0.346 N 
+ATOM     29  H   ILE E 804     -14.833  18.986  33.946  1.00 62.20     0.163 HD
+BRANCH  28  30
+ATOM     30  CA  ILE E 804     -14.722  18.398  32.084  1.00 63.57     0.180 C 
+BRANCH  30  31
+ATOM     31  CB  ILE E 804     -13.528  17.470  31.762  1.00 63.71     0.013 C 
+ATOM     32  CG2 ILE E 804     -13.951  16.407  30.758  1.00 63.48     0.012 C 
+BRANCH  31  33
+ATOM     33  CG1 ILE E 804     -12.362  18.276  31.195  1.00 63.94     0.002 C 
+ATOM     34  CD1 ILE E 804     -12.647  18.886  29.860  1.00 63.94     0.005 C 
+ENDBRANCH  31  33
+ENDBRANCH  30  31
+BRANCH  30  35
+ATOM     35  C   ILE E 804     -15.881  17.523  32.567  1.00 65.71     0.241 C 
+ATOM     36  N   ALA E 805     -16.860  17.279  31.700  1.00 67.46    -0.348 N 
+ATOM     37  H   ALA E 805     -16.877  17.579  30.894  1.00 67.46     0.163 HD
+ATOM     38  O   ILE E 804     -15.890  17.085  33.723  1.00 65.35    -0.271 OA
+BRANCH  36  39
+ATOM     39  CA  ALA E 805     -18.012  16.458  32.068  1.00 69.21     0.158 C 
+ATOM     40  CB  ALA E 805     -18.729  17.071  33.274  1.00 68.65     0.041 C 
+BRANCH  39  41
+ATOM     41  C   ALA E 805     -18.987  16.305  30.902  1.00 70.07     0.219 C 
+ATOM     42  O   ALA E 805     -20.109  15.807  31.149  1.00 70.08    -0.287 OA
+ENDBRANCH  39  41
+ENDBRANCH  36  39
+ENDBRANCH  30  35
+ENDBRANCH  28  30
+ENDBRANCH  24  26
+ENDBRANCH   3  24
+TORSDOF 17

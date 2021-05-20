@@ -1,0 +1,31 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    3  A    between atoms: CA_10  and  C_11 
+ROOT
+HETATM    1  C   ALA A 201      18.704  11.350   4.418  1.00 26.07     0.250 C 
+HETATM    2  O   ALA A 201      17.659  11.172   5.077  1.00 22.86    -0.271 OA
+HETATM    3  N   PRO A 202      19.307  12.552   4.361  1.00 25.00    -0.336 N 
+HETATM    4  CA  PRO A 202      20.548  12.827   3.631  1.00 23.99     0.188 C 
+HETATM    5  CB  PRO A 202      20.487  14.323   3.465  1.00 24.00     0.038 C 
+HETATM    6  CG  PRO A 202      19.852  14.782   4.747  1.00 23.51     0.022 C 
+HETATM    7  CD  PRO A 202      18.765  13.754   4.968  1.00 22.64     0.127 C 
+ENDROOT
+BRANCH   1   8
+HETATM    8  CA  ALA A 201      19.254  10.174   3.615  1.00 25.54     0.271 C 
+HETATM    9  CB  ALA A 201      18.543  10.140   2.282  1.00 24.99     0.050 C 
+BRANCH   8  10
+HETATM   10  N   ALA A 201      18.910   9.025   4.410  1.00 26.99    -0.067 N 
+HETATM   11  H1  ALA A 201      19.237   8.291   4.028  1.00 26.99     0.275 HD
+HETATM   12  H2  ALA A 201      19.255   9.114   5.226  1.00 26.99     0.275 HD
+HETATM   13  H3  ALA A 201      18.024   8.959   4.469  1.00 26.99     0.275 HD
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   4  14
+HETATM   14  C   PRO A 202      21.843  12.304   4.261  1.00 25.43     0.196 C 
+HETATM   15  O   PRO A 202      21.791  11.592   5.258  1.00 26.00    -0.646 OA
+HETATM   16  OXT PRO A 202      22.913  12.525   3.712  1.00 26.17    -0.646 OA
+ENDBRANCH   4  14
+TORSDOF 3

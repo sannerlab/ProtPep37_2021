@@ -1,0 +1,111 @@
+USER: ADFR SOLUTION from run 0
+USER: SCORE 12.953114 LL:  -4.172 LR:  -9.556 RR:   0.000 FEB:  -4.186
+USER: RMSD 0.574448
+USER: STATUS Locally minimized using BFGS
+USER: GENES 20
+USER: genes 0 Translation |==|  0.56610 0.47447 0.50803
+USER: genes 1 Rotation |==|  0.50841 0.49354 0.50331 0.99988
+USER: genes 2 Torsion [C]-CA--N-[C] |==|  0.16734
+USER: genes 3 Torsion [N]-C--CA-[N] |==|  0.47778
+USER: genes 4 Torsion [C]-CA--CB-[CG] |==|  0.79914
+USER: genes 5 Torsion [CA]-CB--CG-[CD] |==|  0.57148
+USER: genes 6 Torsion [CB]-CG--CD-[OE1] |==|  0.18202
+USER: genes 7 Torsion [C]-CA--N-[C] |==|  0.77678
+USER: genes 8 Torsion [N]-C--CA-[N] |==|  0.34738
+USER: genes 9 Torsion [C]-CA--N-[H3] |==|  0.05826
+USER: genes 10 Torsion [C]-CA--CB-[CG2] |==|  0.82389
+USER: genes 11 Torsion [CA]-CB--OG1-[HG1] |==|  0.76000
+USER: genes 12 Torsion [N]-CA--CB-[CG] |==|  0.86525
+USER: genes 13 Torsion [CA]-CB--CG-[CD2] |==|  0.85624
+USER: genes 14 Torsion [N]-CA--C-[N] |==|  0.17534
+USER: genes 15 Torsion [C]-N--CA-[C] |==|  0.68736
+USER: genes 16 Torsion [N]-CA--CB-[SG] |==|  0.91003
+USER: genes 17 Torsion [N]-CA--C-[N] |==|  0.45699
+USER: genes 18 Torsion [C]-N--CA-[CB] |==|  0.26364
+USER: genes 19 Torsion [N]-CA--C-[O] |==|  0.99519
+ROOT
+ATOM      1  CA  PHE D   5      -7.587  -5.126   3.751  1.00 26.58 LIG 0.18  C 
+ENDROOT
+BRANCH 1 2
+ATOM      2  N   PHE D   5      -8.969  -5.446   4.082  1.00 35.71 LIG-0.35  N 
+ATOM      3  C   GLU D   4      -9.950  -5.278   3.207  1.00 38.23 LIG 0.24  C 
+ATOM      4 O    GLU D   4      -9.766  -4.817   2.089  1.00 38.91 LIG-0.27  OA
+ATOM      5 H    PHE D   5      -9.084  -5.746   4.880  1.00 35.71 LIG 0.16  HD
+BRANCH 3 6
+ATOM      6  CA  GLU D   4     -11.349  -5.655   3.677  1.00 41.03 LIG 0.18  C 
+BRANCH 6 7
+ATOM      7  CB  GLU D   4     -11.442  -7.162   3.945  1.00 45.60 LIG 0.04  C 
+BRANCH 7 8
+ATOM      8  CG  GLU D   4     -11.444  -8.040   2.702  1.00 48.48 LIG 0.12  C 
+BRANCH 8 9
+ATOM      9  CD  GLU D   4     -12.138  -9.377   2.929  1.00 50.69 LIG 0.17  C 
+ATOM     10 OE1  GLU D   4     -13.365  -9.377   3.166  1.00 53.00 LIG-0.65  OA
+ATOM     11 OE2  GLU D   4     -11.463 -10.427   2.871  1.00 50.91 LIG-0.65  OA
+ENDBRANCH 8 9
+ENDBRANCH 7 8
+ENDBRANCH 6 7
+BRANCH 6 12
+ATOM     12  N   GLU D   4     -12.368  -5.259   2.714  1.00 42.32 LIG-0.35  N 
+ATOM     13  C   THR D   3     -12.809  -4.008   2.657  1.00 42.71 LIG 0.25  C 
+ATOM     14 O    THR D   3     -12.389  -3.120   3.401  1.00 42.89 LIG-0.27  OA
+ATOM     15 H    GLU D   4     -12.645  -5.894   2.204  1.00 42.32 LIG 0.16  HD
+BRANCH 13 16
+ATOM     16  CA  THR D   3     -13.894  -3.723   1.617  1.00 43.40 LIG 0.30  C 
+BRANCH 16 17
+ATOM     17  N   THR D   3     -15.091  -3.105   2.260  1.00 40.96 LIG-0.06  N 
+ATOM     18 H3   THR D   3     -14.857  -2.743   3.039  1.00 40.96 LIG 0.28  HD
+ATOM     19 H2   THR D   3     -15.710  -3.730   2.399  1.00 40.96 LIG 0.28  HD
+ATOM     20 H1   THR D   3     -15.423  -2.474   1.728  1.00 40.96 LIG 0.28  HD
+ENDBRANCH 16 17
+BRANCH 16 21
+ATOM     21  CB  THR D   3     -13.338  -2.796   0.514  1.00 43.84 LIG 0.15  C 
+ATOM     22  CG2 THR D   3     -12.955  -1.450   1.100  1.00 45.56 LIG 0.04  C 
+BRANCH 21 23
+ATOM     23 OG1  THR D   3     -12.195  -3.401  -0.105  1.00 47.34 LIG-0.39  OA
+ATOM     24 HG1  THR D   3     -11.505  -3.211   0.335  1.00 47.34 LIG 0.21  HD
+ENDBRANCH 21 23
+ENDBRANCH 16 21
+ENDBRANCH 13 16
+ENDBRANCH 6 12
+ENDBRANCH 3 6
+ENDBRANCH 1 2
+BRANCH 1 25
+ATOM     25  CB  PHE D   5      -7.105  -6.026   2.615  1.00 27.60 LIG 0.07  C 
+BRANCH 25 26
+ATOM     26  CG  PHE D   5      -7.407  -7.479   2.836  1.00 27.05 LIG-0.06  A 
+ATOM     27  CD1 PHE D   5      -8.072  -8.220   1.864  1.00 25.07 LIG 0.01  A 
+ATOM     28  CE1 PHE D   5      -8.370  -9.562   2.073  1.00 26.61 LIG 0.00  A 
+ATOM     29  CZ  PHE D   5      -8.000 -10.177   3.263  1.00 27.22 LIG 0.00  A 
+ATOM     30  CE2 PHE D   5      -7.334  -9.448   4.242  1.00 29.34 LIG 0.00  A 
+ATOM     31  CD2 PHE D   5      -7.041  -8.102   4.023  1.00 26.26 LIG 0.01  A 
+ENDBRANCH 25 26
+ENDBRANCH 1 25
+BRANCH 1 32
+ATOM     32  C   PHE D   5      -7.362  -3.663   3.379  1.00 23.70 LIG 0.24  C 
+ATOM     33  N   CYS D   6      -7.609  -2.774   4.332  1.00 21.13 LIG-0.34  N 
+ATOM     34 H    CYS D   6      -7.907  -2.972   5.114  1.00 21.13 LIG 0.16  HD
+ATOM     35 O    PHE D   5      -6.980  -3.345   2.253  1.00 21.21 LIG-0.27  OA
+BRANCH 33 36
+ATOM     36  CA  CYS D   6      -7.382  -1.352   4.111  1.00 20.21 LIG 0.19  C 
+BRANCH 36 37
+ATOM     37  CB  CYS D   6      -8.603  -0.514   4.494  1.00 23.91 LIG 0.12  C 
+ATOM     38 SG   CYS D   6     -10.274  -1.221   4.277  1.00 28.50 LIG-0.10  SA
+ENDBRANCH 36 37
+BRANCH 36 39
+ATOM     39  C   CYS D   6      -6.224  -0.967   5.022  1.00 23.47 LIG 0.24  C 
+ATOM     40  N   ALA D   7      -5.630   0.192   4.771  1.00 20.97 LIG-0.34  N 
+ATOM     41 H    ALA D   7      -5.859   0.722   4.133  1.00 20.97 LIG 0.16  HD
+ATOM     42 O    CYS D   6      -5.878  -1.714   5.939  1.00 21.16 LIG-0.27  OA
+BRANCH 40 43
+ATOM     43  CA  ALA D   7      -4.513   0.668   5.581  1.00 22.00 LIG 0.18  C 
+ATOM     44  CB  ALA D   7      -3.195   0.284   4.932  1.00 24.79 LIG 0.04  C 
+BRANCH 43 45
+ATOM     45  C   ALA D   7      -4.591   2.180   5.752  1.00 23.22 LIG 0.20  C 
+ATOM     46 O    ALA D   7      -5.523   2.787   5.183  1.00 20.96 LIG-0.65  OA
+ATOM     47 OXT  ALA D   7      -3.721   2.733   6.456  1.00 20.40 LIG-0.65  OA
+ENDBRANCH 43 45
+ENDBRANCH 40 43
+ENDBRANCH 36 39
+ENDBRANCH 33 36
+ENDBRANCH 1 32
+TORSDOF 18

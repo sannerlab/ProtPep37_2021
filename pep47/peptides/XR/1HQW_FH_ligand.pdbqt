@@ -1,0 +1,78 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_5 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_17 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: CZ_11  and  OH_12 
+REMARK    6  A    between atoms: CA_18  and  C_19 
+REMARK       I    between atoms: C_19  and  N_24 
+REMARK    7  A    between atoms: N_24  and  CA_25 
+REMARK    8  A    between atoms: CA_25  and  C_26 
+REMARK    9  A    between atoms: CA_25  and  CB_28 
+REMARK   10  A    between atoms: CB_28  and  CG_29 
+REMARK   11  A    between atoms: CZ_34  and  OH_35 
+ROOT
+ATOM      1  C   TYR B3001      15.539  34.112  27.463  0.70 44.28     0.251 C 
+ATOM      2  O   TYR B3001      14.470  33.956  26.871  0.70 44.11    -0.271 OA
+ATOM      3  N   PRO B3002      15.843  33.449  28.601  0.70 46.07    -0.337 N 
+ATOM      4  CA  PRO B3002      15.057  32.429  29.310  0.70 46.91     0.179 C 
+ATOM      5  CB  PRO B3002      15.878  32.181  30.576  0.70 46.92     0.037 C 
+ATOM      6  CG  PRO B3002      16.479  33.505  30.834  0.70 47.16     0.022 C 
+ATOM      7  CD  PRO B3002      16.963  33.888  29.454  0.70 47.04     0.127 C 
+ENDROOT
+BRANCH   4   8
+ATOM      8  C   PRO B3002      13.599  32.688  29.657  0.70 47.26     0.241 C 
+ATOM      9  N   TYR B3003      12.721  32.187  28.787  0.70 47.47    -0.344 N 
+ATOM     10  H   TYR B3003      12.962  31.779  28.069  0.70 47.47     0.163 HD
+ATOM     11  O   PRO B3002      13.294  33.266  30.712  0.70 46.37    -0.271 OA
+BRANCH   9  12
+ATOM     12  CA  TYR B3003      11.271  32.267  28.942  0.70 47.51     0.189 C 
+BRANCH  12  13
+ATOM     13  C   TYR B3003      10.726  33.681  29.071  0.70 47.80     0.197 C 
+ATOM     14  OXT TYR B3003       9.495  33.841  28.947  0.70 46.55    -0.646 OA
+ATOM     15  O   TYR B3003      11.531  34.619  29.260  0.70 50.35    -0.646 OA
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  CB  TYR B3003      10.828  31.407  30.131  0.70 48.13     0.074 C 
+BRANCH  16  17
+ATOM     17  CG  TYR B3003       9.337  31.177  30.224  0.70 49.00    -0.056 A 
+ATOM     18  CD2 TYR B3003       8.563  30.979  29.074  0.70 49.34     0.010 A 
+ATOM     19  CE2 TYR B3003       7.186  30.774  29.163  0.70 49.34     0.037 A 
+ATOM     20  CZ  TYR B3003       6.575  30.761  30.413  0.70 49.55     0.065 A 
+ATOM     21  CE1 TYR B3003       7.321  30.955  31.562  0.70 48.63     0.037 A 
+ATOM     22  CD1 TYR B3003       8.694  31.161  31.463  0.70 49.33     0.010 A 
+BRANCH  20  23
+ATOM     23  OH  TYR B3003       5.218  30.531  30.518  0.70 50.92    -0.361 OA
+ATOM     24  HH  TYR B3003       4.890  30.432  29.751  0.70 50.92     0.217 HD
+ENDBRANCH  20  23
+ENDBRANCH  16  17
+ENDBRANCH  12  16
+ENDBRANCH   9  12
+ENDBRANCH   4   8
+BRANCH   1  25
+ATOM     25  CA  TYR B3001      16.579  35.111  26.954  0.70 43.08     0.279 C 
+BRANCH  25  26
+ATOM     26  CB  TYR B3001      16.075  35.855  25.700  0.70 40.59     0.081 C 
+BRANCH  26  27
+ATOM     27  CG  TYR B3001      17.164  36.132  24.673  0.70 39.24    -0.056 A 
+ATOM     28  CD1 TYR B3001      16.940  35.913  23.311  0.70 40.30     0.010 A 
+ATOM     29  CE1 TYR B3001      17.971  36.094  22.360  0.70 38.36     0.037 A 
+ATOM     30  CZ  TYR B3001      19.234  36.502  22.779  0.70 37.05     0.065 A 
+ATOM     31  CE2 TYR B3001      19.473  36.735  24.129  0.70 37.49     0.037 A 
+ATOM     32  CD2 TYR B3001      18.439  36.550  25.066  0.70 38.19     0.010 A 
+BRANCH  30  33
+ATOM     33  OH  TYR B3001      20.258  36.654  21.866  0.70 32.30    -0.361 OA
+ATOM     34  HH  TYR B3001      20.954  36.904  22.264  0.70 32.30     0.217 HD
+ENDBRANCH  30  33
+ENDBRANCH  26  27
+ENDBRANCH  25  26
+BRANCH  25  35
+ATOM     35  N   TYR B3001      17.758  34.265  26.602  0.70 42.81    -0.066 N 
+ATOM     36  H3  TYR B3001      17.542  33.717  25.935  0.70 42.81     0.275 HD
+ATOM     37  H2  TYR B3001      18.003  33.787  27.311  0.70 42.81     0.275 HD
+ATOM     38  H1  TYR B3001      18.433  34.787  26.349  0.70 42.81     0.275 HD
+ENDBRANCH  25  35
+ENDBRANCH   1  25
+TORSDOF 11

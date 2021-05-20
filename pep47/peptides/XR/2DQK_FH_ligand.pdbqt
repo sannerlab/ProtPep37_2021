@@ -1,0 +1,93 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK    3  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_11 
+REMARK    4  A    between atoms: N_11  and  CA_12 
+REMARK    5  A    between atoms: CA_12  and  C_13 
+REMARK    6  A    between atoms: CA_12  and  CB_15 
+REMARK       I    between atoms: C_13  and  N_20 
+REMARK    7  A    between atoms: CB_15  and  CG_16 
+REMARK    8  A    between atoms: N_20  and  CA_21 
+REMARK    9  A    between atoms: CA_21  and  CB_24 
+REMARK   10  A    between atoms: CA_21  and  C_22 
+REMARK       I    between atoms: C_22  and  N_29 
+REMARK   11  A    between atoms: CB_24  and  CG_25 
+REMARK   12  A    between atoms: N_29  and  CA_30 
+REMARK   13  A    between atoms: CA_30  and  CB_33 
+REMARK   14  A    between atoms: CA_30  and  C_31 
+REMARK   15  A    between atoms: CB_33  and  CG_34 
+ROOT
+ATOM      1  C   LEU P   2     -20.991  21.901 -16.651  0.50 57.15     0.241 C 
+ATOM      2  O   LEU P   2     -20.811  21.893 -17.874  0.50 57.16    -0.271 OA
+ATOM      3  N   LEU P   3     -20.846  20.902 -15.798  0.50 57.16    -0.346 N 
+ATOM      4  H   LEU P   3     -21.214  20.940 -15.021  0.50 57.16     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  LEU P   3     -20.129  19.681 -15.962  0.50 57.19     0.177 C 
+BRANCH   5   6
+ATOM      6  CB  LEU P   3     -19.997  19.214 -17.397  0.50 57.26     0.038 C 
+BRANCH   6   7
+ATOM      7  CG  LEU P   3     -19.573  17.748 -17.244  0.50 57.44    -0.020 C 
+ATOM      8  CD1 LEU P   3     -20.528  16.804 -17.952  0.50 57.60     0.009 C 
+ATOM      9  CD2 LEU P   3     -18.125  17.521 -17.668  0.50 57.51     0.009 C 
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+BRANCH   5  10
+ATOM     10  C   LEU P   3     -18.801  20.129 -15.367  0.50 57.14     0.241 C 
+ATOM     11  N   HIS P   4     -18.813  20.346 -14.052  0.50 57.08    -0.347 N 
+ATOM     12  H   HIS P   4     -19.512  20.234 -13.564  0.50 57.08     0.163 HD
+ATOM     13  O   LEU P   3     -17.821  20.336 -16.079  0.50 57.14    -0.271 OA
+BRANCH  11  14
+ATOM     14  CA  HIS P   4     -17.642  20.797 -13.301  0.50 57.02     0.168 C 
+BRANCH  14  15
+ATOM     15  CB  HIS P   4     -17.904  22.187 -12.689  0.50 56.94     0.094 C 
+BRANCH  15  16
+ATOM     16  CG  HIS P   4     -16.893  22.620 -11.666  0.50 56.80     0.053 A 
+ATOM     17  ND1 HIS P   4     -16.115  21.733 -10.953  0.50 56.77    -0.247 NA
+ATOM     18  CE1 HIS P   4     -15.332  22.401 -10.125  0.50 56.50     0.207 A 
+ATOM     19  NE2 HIS P   4     -15.577  23.690 -10.269  0.50 56.43    -0.359 N 
+ATOM     20  HE2 HIS P   4     -15.189  24.324  -9.836  0.50 56.43     0.166 HD
+ATOM     21  CD2 HIS P   4     -16.552  23.854 -11.223  0.50 56.57     0.116 A 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+BRANCH  14  22
+ATOM     22  C   HIS P   4     -17.292  19.777 -12.221  0.50 57.04     0.219 C 
+ATOM     23  O   HIS P   4     -18.030  19.605 -11.251  0.50 57.12    -0.287 OA
+ENDBRANCH  14  22
+ENDBRANCH  11  14
+ENDBRANCH   5  10
+ENDBRANCH   3   5
+BRANCH   1  24
+ATOM     24  CA  LEU P   2     -21.432  23.070 -15.840  0.50 57.16     0.177 C 
+BRANCH  24  25
+ATOM     25  N   LEU P   2     -22.673  23.759 -16.088  0.50 57.19    -0.346 N 
+ATOM     26  C   VAL P   1     -22.628  24.989 -16.574  0.50 57.27     0.249 C 
+ATOM     27  O   VAL P   1     -21.602  25.479 -17.057  0.50 57.24    -0.271 OA
+ATOM     28  H   LEU P   2     -23.389  23.321 -15.902  0.50 57.19     0.163 HD
+BRANCH  26  29
+ATOM     29  CA  VAL P   1     -23.940  25.745 -16.543  0.50 57.27     0.278 C 
+BRANCH  29  30
+ATOM     30  CB  VAL P   1     -23.715  27.217 -16.933  0.50 57.30     0.017 C 
+ATOM     31  CG2 VAL P   1     -23.465  27.347 -18.428  0.50 57.34     0.012 C 
+ATOM     32  CG1 VAL P   1     -22.570  27.819 -16.129  0.50 57.33     0.012 C 
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  N   VAL P   1     -24.479  25.638 -15.158  0.50 57.23    -0.066 N 
+ATOM     34  H3  VAL P   1     -23.958  26.095 -14.600  0.50 57.23     0.275 HD
+ATOM     35  H2  VAL P   1     -24.498  24.783 -14.912  0.50 57.23     0.275 HD
+ATOM     36  H1  VAL P   1     -25.304  25.972 -15.134  0.50 57.23     0.275 HD
+ENDBRANCH  29  33
+ENDBRANCH  26  29
+ENDBRANCH  24  25
+BRANCH  24  37
+ATOM     37  CB  LEU P   2     -21.429  22.470 -14.429  0.50 57.14     0.038 C 
+BRANCH  37  38
+ATOM     38  CG  LEU P   2     -22.051  23.066 -13.185  0.50 56.96    -0.020 C 
+ATOM     39  CD1 LEU P   2     -21.429  22.373 -11.976  0.50 57.03     0.009 C 
+ATOM     40  CD2 LEU P   2     -21.811  24.552 -13.161  0.50 56.70     0.009 C 
+ENDBRANCH  37  38
+ENDBRANCH  24  37
+ENDBRANCH   1  24
+TORSDOF 15

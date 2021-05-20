@@ -1,0 +1,115 @@
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  CB_5 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_12 
+REMARK    4  A    between atoms: CB_5  and  CG_6 
+REMARK    5  A    between atoms: N_12  and  CA_13 
+REMARK    6  A    between atoms: CA_13  and  CB_16 
+REMARK    7  A    between atoms: CA_13  and  C_14 
+REMARK       I    between atoms: C_14  and  N_21 
+REMARK    8  A    between atoms: CB_16  and  CG_17 
+REMARK    9  A    between atoms: N_21  and  CA_22 
+REMARK   10  A    between atoms: CA_22  and  C_23 
+REMARK   11  A    between atoms: CA_22  and  CB_25 
+REMARK       I    between atoms: C_23  and  N_30 
+REMARK   12  A    between atoms: CB_25  and  CG_26 
+REMARK   13  A    between atoms: N_30  and  CA_31 
+REMARK   14  A    between atoms: CA_31  and  CB_34 
+REMARK   15  A    between atoms: CA_31  and  C_32 
+REMARK       I    between atoms: C_32  and  N_44 
+REMARK   16  A    between atoms: CB_34  and  CG_35 
+REMARK   17  A    between atoms: CZ_40  and  OH_41 
+REMARK   18  A    between atoms: N_44  and  CA_45 
+REMARK   19  A    between atoms: CA_45  and  C_46 
+ROOT
+ATOM      1  CA  LEU B 804      49.222  52.881  20.722  1.00 31.72     0.177 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU B 804      50.317  52.349  21.543  1.00 32.47    -0.346 N 
+ATOM      3  H   LEU B 804      50.152  51.573  21.874  1.00 32.47     0.163 HD
+ATOM      4  C   ASP B 803      51.458  53.000  21.758  1.00 36.20     0.241 C 
+ATOM      5  O   ASP B 803      51.699  54.152  21.353  1.00 34.88    -0.271 OA
+BRANCH   4   6
+ATOM      6  CA  ASP B 803      52.502  52.209  22.561  1.00 38.58     0.186 C 
+BRANCH   6   7
+ATOM      7  CB  ASP B 803      52.540  52.679  24.008  1.00 39.00     0.147 C 
+BRANCH   7   8
+ATOM      8  CG  ASP B 803      51.170  52.548  24.681  1.00 41.67     0.175 C 
+ATOM      9  OD1 ASP B 803      50.627  51.404  24.704  1.00 44.54    -0.648 OA
+ATOM     10  OD2 ASP B 803      50.627  53.587  25.139  1.00 44.60    -0.648 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  11
+ATOM     11  N   ASP B 803      53.798  52.256  21.902  1.00 40.89    -0.345 N 
+ATOM     12  H   ASP B 803      54.350  52.841  22.208  1.00 40.89     0.163 HD
+ATOM     13  C   ASP B 802      54.046  51.417  20.895  1.00 43.36     0.249 C 
+ATOM     14  O   ASP B 802      53.201  50.605  20.487  1.00 44.71    -0.271 OA
+BRANCH  13  15
+ATOM     15  CA  ASP B 802      55.439  51.459  20.263  1.00 44.06     0.284 C 
+BRANCH  15  16
+ATOM     16  CB  ASP B 802      55.346  51.377  18.736  1.00 45.52     0.155 C 
+BRANCH  16  17
+ATOM     17  CG  ASP B 802      54.805  52.657  18.106  1.00 48.04     0.175 C 
+ATOM     18  OD1 ASP B 802      54.233  53.526  18.820  1.00 55.65    -0.648 OA
+ATOM     19  OD2 ASP B 802      54.962  52.792  16.875  1.00 54.24    -0.648 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+BRANCH  15  20
+ATOM     20  N   ASP B 802      56.247  50.324  20.774  1.00 45.51    -0.066 N 
+ATOM     21  H3  ASP B 802      55.848  49.557  20.563  1.00 45.51     0.275 HD
+ATOM     22  H1  ASP B 802      57.058  50.347  20.407  1.00 45.51     0.275 HD
+ATOM     23  H2  ASP B 802      56.320  50.386  21.659  1.00 45.51     0.275 HD
+ENDBRANCH  15  20
+ENDBRANCH  13  15
+ENDBRANCH   6  11
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  24
+ATOM     24  C   LEU B 804      48.071  53.500  21.529  1.00 30.12     0.241 C 
+ATOM     25  N   TYR B 805      48.141  53.422  22.855  1.00 29.37    -0.346 N 
+ATOM     26  H   TYR B 805      48.853  53.203  23.284  1.00 29.37     0.163 HD
+ATOM     27  O   LEU B 804      47.158  54.054  20.956  1.00 28.94    -0.271 OA
+BRANCH  25  28
+ATOM     28  CA  TYR B 805      46.986  53.709  23.711  1.00 29.00     0.180 C 
+BRANCH  28  29
+ATOM     29  CB  TYR B 805      46.645  52.465  24.550  1.00 27.91     0.073 C 
+BRANCH  29  30
+ATOM     30  CG  TYR B 805      46.026  51.434  23.633  1.00 26.10    -0.056 A 
+ATOM     31  CD1 TYR B 805      46.785  50.416  23.084  1.00 25.09     0.010 A 
+ATOM     32  CE1 TYR B 805      46.250  49.516  22.182  1.00 24.79     0.037 A 
+ATOM     33  CZ  TYR B 805      44.960  49.667  21.768  1.00 22.85     0.065 A 
+ATOM     34  CE2 TYR B 805      44.172  50.676  22.300  1.00 24.72     0.037 A 
+ATOM     35  CD2 TYR B 805      44.720  51.565  23.217  1.00 24.65     0.010 A 
+BRANCH  33  36
+ATOM     36  OH  TYR B 805      44.402  48.744  20.913  1.00 25.16    -0.361 OA
+ATOM     37  HH  TYR B 805      43.608  48.962  20.745  1.00 25.16     0.217 HD
+ENDBRANCH  33  36
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+BRANCH  28  38
+ATOM     38  C   TYR B 805      47.136  54.944  24.600  1.00 29.85     0.241 C 
+ATOM     39  O   TYR B 805      46.250  55.844  24.606  1.00 30.08    -0.271 OA
+ATOM     40  N   GLY B 806      48.240  54.977  25.329  1.00 28.51    -0.349 N 
+ATOM     41  H   GLY B 806      48.905  54.444  25.215  1.00 28.51     0.163 HD
+BRANCH  40  42
+ATOM     42  CA  GLY B 806      48.418  55.931  26.396  1.00 29.14     0.235 C 
+BRANCH  42  43
+ATOM     43  C   GLY B 806      48.970  57.236  25.912  1.00 28.84     0.191 C 
+ATOM     44  OXT GLY B 806      49.137  58.107  26.751  1.00 29.15    -0.647 OA
+ATOM     45  O   GLY B 806      49.276  57.432  24.726  1.00 28.96    -0.647 OA
+ENDBRANCH  42  43
+ENDBRANCH  40  42
+ENDBRANCH  28  38
+ENDBRANCH  25  28
+ENDBRANCH   1  24
+BRANCH   1  46
+ATOM     46  CB  LEU B 804      48.667  51.749  19.847  1.00 30.53     0.038 C 
+BRANCH  46  47
+ATOM     47  CG  LEU B 804      49.722  51.008  19.007  1.00 30.66    -0.020 C 
+ATOM     48  CD1 LEU B 804      49.048  50.010  18.078  1.00 31.81     0.009 C 
+ATOM     49  CD2 LEU B 804      50.574  51.981  18.220  1.00 30.59     0.009 C 
+ENDBRANCH  46  47
+ENDBRANCH   1  46
+TORSDOF 19
