@@ -24,10 +24,10 @@ This comma separated file provides for each entry the complex name, the list of 
 This folder contains a comma separated file for each of the 377 protein chain in the ProtPep37_2021 data set. the csv file provide a tm1 and tm2 column which hols the 2 TMscores reported by TM_align along with a min and max column for these 2 values.
 
 <h3>peptides/</h3>
-This the following 4 folders:
+This folder contains the following 4 subfolders containing PDBQT files for the peptides:
      <ul>
-     <li>XR: PDBQT files for the crystallographic ligand</li>
-     <li>XM: PDBQT files for the crystallographic minimized ligand</li>
+     <li>XR: crystallographic peptide</li>
+     <li>XM: minimized crystallographic peptide</li>
      <li>DO: poses resulting fom docking (multimodel pdb file)</li>
      <li>NS: poses resulting fom neighborhood search docking (multimodel pdb file)</li>
      </ul>
