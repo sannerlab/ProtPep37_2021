@@ -9,6 +9,8 @@ The dataset also provides docking decoys and is annotated for structural similar
 
 It is freely available under the LGPL 2.1 Open Source license
 
+For convienence we also provide the set of 47 complexes use in the benchmark by Rentzsch et al. (10.1093/bib/bbv008) along with decoys (pep47folder) .
+
 **Please cite**
 Michel F. Sanner, Leonard Dieguez, Stefano Forli, Ewa Lis. Improving Docking Power for peptides using Random Forest, JCIM ...
 
@@ -36,6 +38,8 @@ This folder contains the following 4 subfolders containing PDBQT files for the p
 <h3>proteins/</h3>
 This folder contains PDBQT files of the chains of the biomolecule contacting the ligand peptide.
 
+<h3>pep47</h3>
+This folder containg the set of 47 complexes used as testing set, including the original PDBQT files and the CPPs we calculated.
 
 ------------------------------------------------
 Contact: [mailto](mailto:sanner@scripps.edu) Dr. Michel Sanner 
