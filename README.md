@@ -1,4 +1,4 @@
-![graphicalAbstract3_256](https://user-images.githubusercontent.com/47902071/116296987-b1ab9880-a74f-11eb-81a6-894a7ff51327.png)
+![stripSet](https://user-images.githubusercontent.com/47902071/119055938-b3e3ca00-b97e-11eb-84c4-2ca058dd473d.png)
 
 # ProtPep37_2021
 dataset of short peptides (3-7 amino acids) bound to proteins annotated for structural similarity and augmented with docking decoys
