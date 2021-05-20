@@ -43,3 +43,5 @@ This folder containg the set of 47 complexes used as testing set, including the 
 
 ------------------------------------------------
 Contact: [mailto](mailto:sanner@scripps.edu) Dr. Michel Sanner 
+
+![stripCPP](https://user-images.githubusercontent.com/47902071/119056253-3a98a700-b97f-11eb-98b1-a0466d304f8d.png)
