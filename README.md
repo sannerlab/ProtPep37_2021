@@ -25,12 +25,13 @@ This folder contains a comma separated file for each of the 377 protein chain in
 
 <h3>peptides/</h3>
 This the following 4 folders:
-     XR: PDBQT files for the crystallographic ligand
-     XM: PDBQT files for the crystallographic minimized ligand
-     DO: poses resulting fom docking (multimodel pdb file)
-     NS: poses resulting fom neighborhood search docking (multimodel pdb file)
-
-     NOTES: 2h2f_B_A-B_0 and 4k75_B_A-B_0 have no docked poses (only NS poses)
+     <ul>
+     <li>XR: PDBQT files for the crystallographic ligand</li>
+     <li>XM: PDBQT files for the crystallographic minimized ligand</li>
+     <li>DO: poses resulting fom docking (multimodel pdb file)</li>
+     <li>NS: poses resulting fom neighborhood search docking (multimodel pdb file)</li>
+     </ul>
+     NOTE: 2h2f_B_A-B_0 and 4k75_B_A-B_0 have no docked poses (only NS poses)
     
 <h3>proteins/</h3>
 This folder contains PDBQT files of the chains of the biomolecule contacting the ligand peptide.
