@@ -1,0 +1,85 @@
+USER: ADFR SOLUTION from run 0
+USER: SCORE 8.785919 LL:  -1.335 LR:  -8.585 RR:   0.000 FEB:  -4.707
+USER: RMSD 0.381338
+USER: STATUS Locally minimized using BFGS
+USER: GENES 15
+USER: genes 0 Translation |==|  0.48019 0.51259 0.51553
+USER: genes 1 Rotation |==|  0.52249 0.50548 0.50942 0.99937
+USER: genes 2 Torsion [C]-CA--CB-[CG] |==|  0.50203
+USER: genes 3 Torsion [CA]-CB--CG-[CD] |==|  0.81650
+USER: genes 4 Torsion [CB]-CG--CD-[NE] |==|  0.78149
+USER: genes 5 Torsion [CG]-CD--NE-[HE] |==|  0.01866
+USER: genes 6 Torsion [N]-CA--C-[N] |==|  0.37036
+USER: genes 7 Torsion [C]-N--CA-[C] |==|  0.77834
+USER: genes 8 Torsion [N]-CA--C-[N] |==|  0.46610
+USER: genes 9 Torsion [C]-N--CA-[C] |==|  0.22069
+USER: genes 10 Torsion [N]-CA--C-[O] |==|  0.54383
+USER: genes 11 Torsion [CB]-CA--N-[C] |==|  0.47605
+USER: genes 12 Torsion [N]-C--CA-[N] |==|  0.01948
+USER: genes 13 Torsion [C]-CA--CB-[CG] |==|  0.83933
+USER: genes 14 Torsion [CA]-CB--CG-[CD2] |==|  0.45724
+ROOT
+ATOM      1  CA  ARG H  74      -7.586   5.257   0.720  1.00 20.60 LIG 0.18  C 
+ENDROOT
+BRANCH 1 2
+ATOM      2  CB  ARG H  74      -8.042   6.695   1.017  1.00 19.81 LIG 0.04  C 
+BRANCH 2 3
+ATOM      3  CG  ARG H  74      -7.586   7.272   2.383  1.00 18.47 LIG 0.02  C 
+BRANCH 3 4
+ATOM      4  CD  ARG H  74      -8.225   6.533   3.551  1.00 18.94 LIG 0.14  C 
+BRANCH 4 5
+ATOM      5  NE  ARG H  74      -9.608   6.958   3.787  1.00 19.12 LIG-0.23  N 
+ATOM      6 HE   ARG H  74      -9.965   7.497   3.220  1.00 19.12 LIG 0.18  HD
+ATOM      7  CZ  ARG H  74     -10.347   6.564   4.822  1.00 19.95 LIG 0.67  C 
+ATOM      8  NH1 ARG H  74      -9.853   5.702   5.708  1.00 19.07 LIG-0.23  N 
+ATOM      9  NH2 ARG H  74     -11.592   7.024   4.962  1.00 20.02 LIG-0.23  N 
+ATOM     10 2HH1 ARG H  74     -10.332   5.449   6.375  1.00 19.07 LIG 0.17  HD
+ATOM     11 1HH1 ARG H  74      -9.054   5.399   5.612  1.00 19.07 LIG 0.17  HD
+ATOM     12 1HH2 ARG H  74     -11.914   7.573   4.384  1.00 20.02 LIG 0.17  HD
+ATOM     13 2HH2 ARG H  74     -12.071   6.771   5.629  1.00 20.02 LIG 0.17  HD
+ENDBRANCH 4 5
+ENDBRANCH 3 4
+ENDBRANCH 2 3
+ENDBRANCH 1 2
+BRANCH 1 14
+ATOM     14  C   ARG H  74      -8.087   4.820  -0.661  1.00 20.00 LIG 0.24  C 
+ATOM     15  N   GLY H  75      -9.096   3.957  -0.714  1.00 19.10 LIG-0.35  N 
+ATOM     16 H    GLY H  75      -9.485   3.620  -0.026  1.00 19.10 LIG 0.16  HD
+ATOM     17 O    ARG H  74      -7.539   5.237  -1.672  1.00 20.55 LIG-0.27  OA
+BRANCH 15 18
+ATOM     18  CA  GLY H  75      -9.630   3.508  -2.010  1.00 17.93 LIG 0.23  C 
+BRANCH 18 19
+ATOM     19  C   GLY H  75     -10.574   4.524  -2.637  1.00 17.33 LIG 0.23  C 
+ATOM     20  N   GLY H  76     -10.904   4.318  -3.912  1.00 16.80 LIG-0.35  N 
+ATOM     21 H    GLY H  76     -10.583   3.689  -4.402  1.00 16.80 LIG 0.16  HD
+ATOM     22 O    GLY H  75     -10.997   5.491  -1.983  1.00 16.80 LIG-0.27  OA
+BRANCH 20 23
+ATOM     23  CA  GLY H  76     -11.866   5.181  -4.575  1.00 16.50 LIG 0.23  C 
+BRANCH 23 24
+ATOM     24  C   GLY H  76     -11.321   6.514  -5.050  1.00 16.76 LIG 0.19  C 
+ATOM     25 O    GLY H  76     -12.104   7.410  -5.350  1.00 16.89 LIG-0.65  OA
+ATOM     26 OXT  GLY H  76     -10.102   6.707  -5.139  1.00 15.95 LIG-0.65  OA
+ENDBRANCH 23 24
+ENDBRANCH 20 23
+ENDBRANCH 18 19
+ENDBRANCH 15 18
+ENDBRANCH 1 14
+BRANCH 1 27
+ATOM     27  N   ARG H  74      -6.119   5.167   0.697  1.00 22.12 LIG-0.35  N 
+ATOM     28 H    ARG H  74      -5.711   5.923   0.732  1.00 22.12 LIG 0.16  HD
+ATOM     29  C   LEU H  73      -5.506   3.987   0.626  1.00 24.75 LIG 0.26  C 
+ATOM     30 O    LEU H  73      -6.074   2.942   0.941  1.00 25.51 LIG-0.27  OA
+BRANCH 29 31
+ATOM     31  CA  LEU H  73      -4.039   3.962   0.144  1.00 25.64 LIG 0.40  C 
+ATOM     32  N   LEU H  73      -3.395   5.295  -0.044  1.00 27.50 LIG 0.61  N 
+BRANCH 31 33
+ATOM     33  CB  LEU H  73      -3.166   3.060   1.035  1.00 26.32 LIG 0.06  C 
+BRANCH 33 34
+ATOM     34  CG  LEU H  73      -2.959   3.202   2.547  1.00 25.96 LIG-0.02  C 
+ATOM     35  CD2 LEU H  73      -2.353   1.896   3.049  1.00 27.32 LIG 0.01  C 
+ATOM     36  CD1 LEU H  73      -4.236   3.470   3.268  1.00 27.59 LIG 0.01  C 
+ENDBRANCH 33 34
+ENDBRANCH 31 33
+ENDBRANCH 29 31
+ENDBRANCH 1 27
+TORSDOF 13

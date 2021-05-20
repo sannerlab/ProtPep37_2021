@@ -1,0 +1,88 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_5 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    3  A    between atoms: CB_5  and  CG_6 
+REMARK    4  A    between atoms: N_9  and  CA_10 
+REMARK    5  A    between atoms: CA_10  and  CB_13 
+REMARK    6  A    between atoms: CA_10  and  C_11 
+REMARK       I    between atoms: C_11  and  N_17 
+REMARK    7  A    between atoms: CB_13  and  OG_14 
+REMARK    8  A    between atoms: N_17  and  CA_18 
+REMARK    9  A    between atoms: CA_18  and  CB_21 
+REMARK   10  A    between atoms: CA_18  and  C_19 
+REMARK       I    between atoms: C_19  and  N_26 
+REMARK   11  A    between atoms: CB_21  and  CG1_22 
+REMARK   12  A    between atoms: N_26  and  CA_27 
+REMARK   13  A    between atoms: CA_27  and  CB_30 
+REMARK   14  A    between atoms: CA_27  and  C_28 
+REMARK   15  A    between atoms: CB_30  and  CG1_31 
+ROOT
+ATOM      1  C   SER C   8       0.024  23.514  46.152  1.00 23.80     0.243 C 
+ATOM      2  O   SER C   8       0.539  24.419  45.497  1.00 21.47    -0.271 OA
+ATOM      3  N   ILE C   9       0.347  23.257  47.418  1.00 23.49    -0.346 N 
+ATOM      4  H   ILE C   9      -0.035  22.653  47.897  1.00 23.49     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ILE C   9       1.399  23.997  48.109  1.00 20.80     0.180 C 
+BRANCH   5   6
+ATOM      6  CB  ILE C   9       1.144  24.068  49.624  1.00 28.93     0.013 C 
+ATOM      7  CG2 ILE C   9       2.126  25.045  50.292  1.00 27.59     0.012 C 
+BRANCH   6   8
+ATOM      8  CG1 ILE C   9      -0.321  24.399  49.929  1.00 40.08     0.002 C 
+ATOM      9  CD1 ILE C   9      -0.863  25.605  49.202  1.00 35.68     0.005 C 
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+BRANCH   5  10
+ATOM     10  C   ILE C   9       2.728  23.290  47.907  1.00 29.58     0.241 C 
+ATOM     11  N   ILE C  10       3.751  24.044  47.518  1.00 24.64    -0.344 N 
+ATOM     12  H   ILE C  10       3.695  24.889  47.369  1.00 24.64     0.163 HD
+ATOM     13  O   ILE C   9       2.826  22.079  48.104  1.00 37.49    -0.271 OA
+BRANCH  11  14
+ATOM     14  CA  ILE C  10       5.079  23.483  47.309  1.00 23.95     0.189 C 
+BRANCH  14  15
+ATOM     15  CB  ILE C  10       5.430  23.344  45.805  1.00 22.27     0.014 C 
+ATOM     16  CG2 ILE C  10       6.685  22.492  45.627  1.00 24.85     0.012 C 
+BRANCH  15  17
+ATOM     17  CG1 ILE C  10       4.255  22.756  45.020  1.00 32.35     0.002 C 
+ATOM     18  CD1 ILE C  10       4.472  22.770  43.507  1.00 31.42     0.005 C 
+ENDBRANCH  15  17
+ENDBRANCH  14  15
+BRANCH  14  19
+ATOM     19  C   ILE C  10       6.133  24.366  47.959  1.00 24.88     0.197 C 
+ATOM     20  OXT ILE C  10       7.225  23.898  48.279  1.00 25.96    -0.646 OA
+ATOM     21  O   ILE C  10       5.916  25.560  48.155  1.00 20.25    -0.646 OA
+ENDBRANCH  14  19
+ENDBRANCH  11  14
+ENDBRANCH   5  10
+ENDBRANCH   3   5
+BRANCH   1  22
+ATOM     22  CA  SER C   8      -1.028  22.604  45.529  1.00 22.40     0.200 C 
+BRANCH  22  23
+ATOM     23  N   SER C   8      -1.991  23.339  44.718  1.00 32.61    -0.344 N 
+ATOM     24  H   SER C   8      -1.795  23.452  43.888  1.00 32.61     0.163 HD
+ATOM     25  C   ASP C   7      -3.083  23.765  45.340  1.00 44.43     0.258 C 
+ATOM     26  O   ASP C   7      -3.384  23.400  46.461  1.00 41.29    -0.271 OA
+BRANCH  25  27
+ATOM     27  CA  ASP C   7      -3.983  24.743  44.670  1.00 57.36     0.409 C 
+ATOM     28  N   ASP C   7      -5.311  24.477  45.157  1.00 63.06     0.615 N 
+BRANCH  27  29
+ATOM     29  CB  ASP C   7      -3.608  26.144  45.087  1.00 56.13     0.164 C 
+BRANCH  29  30
+ATOM     30  CG  ASP C   7      -4.538  27.134  44.538  1.00 57.80     0.175 C 
+ATOM     31  OD2 ASP C   7      -4.327  28.302  44.656  1.00 66.43    -0.648 OA
+ATOM     32  OD1 ASP C   7      -5.506  26.699  43.951  1.00 48.55    -0.648 OA
+ENDBRANCH  29  30
+ENDBRANCH  27  29
+ENDBRANCH  25  27
+ENDBRANCH  22  23
+BRANCH  22  33
+ATOM     33  CB  SER C   8      -0.338  21.552  44.671  1.00 17.52     0.199 C 
+BRANCH  33  34
+ATOM     34  OG  SER C   8      -1.292  20.757  43.999  1.00 22.08    -0.398 OA
+ATOM     35  HG  SER C   8      -1.635  21.200  43.373  1.00 22.08     0.209 HD
+ENDBRANCH  33  34
+ENDBRANCH  22  33
+ENDBRANCH   1  22
+TORSDOF 15

@@ -1,0 +1,101 @@
+REMARK  15 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_5 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_11 
+REMARK    3  A    between atoms: CB_5  and  CG_6 
+REMARK       I    between atoms: CG_6  and  ND2_8 
+REMARK    4  A    between atoms: N_11  and  CA_12 
+REMARK    5  A    between atoms: CA_12  and  C_13 
+REMARK       I    between atoms: C_13  and  N_17 
+REMARK    6  A    between atoms: N_17  and  CA_18 
+REMARK    7  A    between atoms: CA_18  and  C_19 
+REMARK    8  A    between atoms: CA_18  and  CB_21 
+REMARK       I    between atoms: C_19  and  N_25 
+REMARK    9  A    between atoms: CB_21  and  OG_22 
+REMARK   10  A    between atoms: N_25  and  CA_26 
+REMARK   11  A    between atoms: CA_26  and  C_27 
+REMARK       I    between atoms: C_27  and  N_31 
+REMARK   12  A    between atoms: CA_32  and  C_33 
+REMARK       I    between atoms: C_33  and  N_38 
+REMARK   13  A    between atoms: N_38  and  CA_39 
+REMARK   14  A    between atoms: CA_39  and  C_40 
+REMARK   15  A    between atoms: CA_39  and  CB_42 
+ROOT
+ATOM      1  C   SER E1029      80.791  -5.399 162.244  1.00 13.48     0.243 C 
+ATOM      2  O   SER E1029      79.977  -5.979 161.546  1.00 12.15    -0.271 OA
+ATOM      3  N   ALA E1030      80.433  -4.557 163.230  1.00 12.52    -0.346 N 
+ATOM      4  H   ALA E1030      80.988  -4.086 163.688  1.00 12.52     0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  CA  SER E1029      82.274  -5.577 162.017  1.00 13.36     0.200 C 
+BRANCH   5   6
+ATOM      6  CB  SER E1029      82.751  -6.843 162.718  1.00 14.53     0.199 C 
+BRANCH   6   7
+ATOM      7  OG  SER E1029      82.367  -6.795 164.098  1.00 16.05    -0.398 OA
+ATOM      8  HG  SER E1029      81.857  -7.440 164.270  1.00 16.05     0.209 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  N   SER E1029      83.020  -4.437 162.548  1.00 13.57    -0.344 N 
+ATOM     10  H   SER E1029      83.453  -4.599 163.273  1.00 13.57     0.163 HD
+ATOM     11  C   ALA E1028      83.008  -3.254 161.932  1.00 13.26     0.240 C 
+ATOM     12  O   ALA E1028      82.270  -2.995 161.005  1.00 11.29    -0.271 OA
+BRANCH  11  13
+ATOM     13  CA  ALA E1028      83.996  -2.204 162.449  1.00 14.25     0.172 C 
+ATOM     14  CB  ALA E1028      83.304  -1.296 163.464  1.00 14.71     0.042 C 
+BRANCH  13  15
+ATOM     15  N   ALA E1028      84.550  -1.429 161.336  1.00 14.53    -0.346 N 
+ATOM     16  H   ALA E1028      84.314  -0.602 161.326  1.00 14.53     0.163 HD
+ATOM     17  C   ASN E1027      85.344  -1.981 160.436  1.00 16.30     0.258 C 
+ATOM     18  O   ASN E1027      85.621  -3.211 160.455  1.00 15.77    -0.271 OA
+BRANCH  17  19
+ATOM     19  CA  ASN E1027      85.881  -1.030 159.351  1.00 16.82     0.408 C 
+ATOM     20  N   ASN E1027      86.633   0.136 159.908  1.00 18.81     0.615 N 
+BRANCH  19  21
+ATOM     21  CB  ASN E1027      86.845  -1.747 158.358  1.00 15.29     0.153 C 
+BRANCH  21  22
+ATOM     22  CG  ASN E1027      86.208  -2.955 157.672  1.00 13.40     0.218 C 
+ATOM     23  OD1 ASN E1027      85.018  -2.960 157.336  1.00 12.35    -0.274 OA
+ATOM     24  ND2 ASN E1027      87.035  -3.957 157.395  1.00 11.10    -0.370 N 
+ATOM     25 2HD2 ASN E1027      87.857  -3.918 157.645  1.00 11.10     0.159 HD
+ATOM     26 1HD2 ASN E1027      86.749  -4.645 156.965  1.00 11.10     0.159 HD
+ENDBRANCH  21  22
+ENDBRANCH  19  21
+ENDBRANCH  17  19
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+ENDBRANCH   5   9
+ENDBRANCH   1   5
+BRANCH   3  27
+ATOM     27  CA  ALA E1030      79.039  -4.381 163.600  1.00 12.56     0.172 C 
+ATOM     28  CB  ALA E1030      78.613  -5.592 164.443  1.00 12.51     0.042 C 
+BRANCH  27  29
+ATOM     29  C   ALA E1030      78.871  -3.059 164.431  1.00 13.31     0.243 C 
+ATOM     30  N   PRO E1031      77.750  -2.386 164.328  1.00 14.65    -0.337 N 
+ATOM     31  CD  PRO E1031      76.635  -2.680 163.412  1.00 15.56     0.127 C 
+ATOM     32  CA  PRO E1031      77.456  -1.204 165.198  1.00 16.02     0.179 C 
+ATOM     33  CG  PRO E1031      75.649  -1.607 163.718  1.00 15.81     0.022 C 
+ATOM     34  CB  PRO E1031      76.406  -0.490 164.406  1.00 15.56     0.037 C 
+ATOM     35  O   ALA E1030      79.724  -2.765 165.231  1.00 13.62    -0.271 OA
+BRANCH  32  36
+ATOM     36  C   PRO E1031      76.928  -1.623 166.613  1.00 15.62     0.241 C 
+ATOM     37  N   VAL E1032      77.854  -2.066 167.439  1.00 15.06    -0.347 N 
+ATOM     38  H   VAL E1032      78.700  -2.034 167.285  1.00 15.06     0.163 HD
+ATOM     39  O   PRO E1031      75.730  -1.561 166.905  1.00 15.42    -0.271 OA
+BRANCH  37  40
+ATOM     40  CA  VAL E1032      77.492  -2.650 168.692  1.00 17.90     0.166 C 
+BRANCH  40  41
+ATOM     41  C   VAL E1032      77.097  -1.515 169.692  1.00 17.55     0.219 C 
+ATOM     42  O   VAL E1032      76.101  -1.726 170.411  1.00 19.34    -0.287 OA
+ENDBRANCH  40  41
+BRANCH  40  43
+ATOM     43  CB  VAL E1032      78.619  -3.556 169.213  1.00 18.34     0.008 C 
+ATOM     44  CG2 VAL E1032      78.836  -4.741 168.277  1.00 18.91     0.012 C 
+ATOM     45  CG1 VAL E1032      78.307  -4.095 170.586  1.00 20.19     0.012 C 
+ENDBRANCH  40  43
+ENDBRANCH  37  40
+ENDBRANCH  32  36
+ENDBRANCH  27  29
+ENDBRANCH   3  27
+TORSDOF 15

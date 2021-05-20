@@ -1,0 +1,81 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_5 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    3  A    between atoms: CB_5  and  CG_6 
+REMARK    4  A    between atoms: N_9  and  CA_10 
+REMARK    5  A    between atoms: CA_10  and  CB_13 
+REMARK    6  A    between atoms: CA_10  and  C_11 
+REMARK       I    between atoms: C_11  and  N_18 
+REMARK    7  A    between atoms: CB_13  and  CG1_14 
+REMARK    8  A    between atoms: CA_19  and  C_20 
+REMARK       I    between atoms: C_20  and  N_25 
+REMARK    9  A    between atoms: N_25  and  CA_26 
+REMARK   10  A    between atoms: CA_26  and  CB_29 
+REMARK   11  A    between atoms: CA_26  and  C_27 
+REMARK   12  A    between atoms: CB_29  and  CG_30 
+ROOT
+ATOM      1  C   ILE C 175     -71.822  -8.749  22.819  1.00 65.51     0.243 C 
+ATOM      2  O   ILE C 175     -73.016  -8.451  22.923  1.00 66.37    -0.271 OA
+ATOM      3  N   PRO C 176     -70.907  -7.927  22.258  1.00 64.39    -0.337 N 
+ATOM      4  CA  PRO C 176     -71.228  -6.564  21.819  1.00 64.23     0.179 C 
+ATOM      5  CB  PRO C 176     -69.871  -5.838  21.897  1.00 63.87     0.037 C 
+ATOM      6  CG  PRO C 176     -68.841  -6.893  22.268  1.00 63.56     0.022 C 
+ATOM      7  CD  PRO C 176     -69.479  -8.225  22.065  1.00 63.45     0.127 C 
+ENDROOT
+BRANCH   4   8
+ATOM      8  C   PRO C 176     -71.816  -6.464  20.402  1.00 63.07     0.241 C 
+ATOM      9  N   PHE C 177     -72.435  -7.543  19.926  1.00 62.32    -0.344 N 
+ATOM     10  H   PHE C 177     -72.468  -8.296  20.341  1.00 62.32     0.163 HD
+ATOM     11  O   PRO C 176     -71.709  -5.413  19.762  1.00 62.88    -0.271 OA
+BRANCH   9  12
+ATOM     12  CA  PHE C 177     -73.126  -7.541  18.632  1.00 61.42     0.189 C 
+BRANCH  12  13
+ATOM     13  CB  PHE C 177     -72.157  -7.820  17.466  1.00 59.64     0.074 C 
+BRANCH  13  14
+ATOM     14  CG  PHE C 177     -71.287  -9.034  17.663  1.00 58.09    -0.056 A 
+ATOM     15  CD1 PHE C 177     -71.745 -10.304  17.315  1.00 57.17     0.007 A 
+ATOM     16  CE1 PHE C 177     -70.939 -11.430  17.493  1.00 55.93     0.001 A 
+ATOM     17  CZ  PHE C 177     -69.657 -11.289  18.017  1.00 55.64     0.000 A 
+ATOM     18  CE2 PHE C 177     -69.185 -10.023  18.362  1.00 56.04     0.001 A 
+ATOM     19  CD2 PHE C 177     -70.000  -8.905  18.181  1.00 56.91     0.007 A 
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  20
+ATOM     20  C   PHE C 177     -74.307  -8.511  18.609  1.00 62.04     0.197 C 
+ATOM     21  O   PHE C 177     -74.451  -9.367  19.483  1.00 62.52    -0.646 OA
+ATOM     22  OXT PHE C 177     -75.151  -8.460  17.713  1.00 62.11    -0.646 OA
+ENDBRANCH  12  20
+ENDBRANCH   9  12
+ENDBRANCH   4   8
+BRANCH   1  23
+ATOM     23  CA  ILE C 175     -71.321 -10.101  23.339  1.00 65.77     0.180 C 
+BRANCH  23  24
+ATOM     24  CB  ILE C 175     -71.979 -11.271  22.560  1.00 65.27     0.013 C 
+ATOM     25  CG2 ILE C 175     -71.743 -11.121  21.060  1.00 63.89     0.012 C 
+BRANCH  24  26
+ATOM     26  CG1 ILE C 175     -71.439 -12.617  23.063  1.00 65.41     0.002 C 
+ATOM     27  CD1 ILE C 175     -72.335 -13.807  22.765  1.00 65.60     0.005 C 
+ENDBRANCH  24  26
+ENDBRANCH  23  24
+BRANCH  23  28
+ATOM     28  N   ILE C 175     -71.567 -10.215  24.778  1.00 67.68    -0.345 N 
+ATOM     29  H   ILE C 175     -72.279 -10.655  24.976  1.00 67.68     0.163 HD
+ATOM     30  C   ASP C 174     -70.757  -9.683  25.692  1.00 68.58     0.258 C 
+ATOM     31  O   ASP C 174     -69.756  -9.016  25.410  1.00 68.06    -0.271 OA
+BRANCH  30  32
+ATOM     32  CA  ASP C 174     -71.133  -9.948  27.146  1.00 70.51     0.409 C 
+ATOM     33  N   ASP C 174     -69.986 -10.551  27.890  1.00 70.88     0.615 N 
+BRANCH  32  34
+ATOM     34  CB  ASP C 174     -71.597  -8.650  27.821  1.00 71.81     0.164 C 
+BRANCH  34  35
+ATOM     35  CG  ASP C 174     -71.974  -8.848  29.281  1.00 74.09     0.175 C 
+ATOM     36  OD1 ASP C 174     -71.437  -9.777  29.925  1.00 74.88    -0.648 OA
+ATOM     37  OD2 ASP C 174     -72.808  -8.068  29.789  1.00 75.75    -0.648 OA
+ENDBRANCH  34  35
+ENDBRANCH  32  34
+ENDBRANCH  30  32
+ENDBRANCH  23  28
+ENDBRANCH   1  23
+TORSDOF 12

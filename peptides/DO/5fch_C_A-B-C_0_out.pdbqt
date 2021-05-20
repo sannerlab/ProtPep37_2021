@@ -1,0 +1,1150 @@
+MODEL 1
+USER: ADFR SOLUTION from run 176
+USER: SCORE 8.063128 LL:  -1.629 LR:  -7.081 RR:   0.000 FEB:  -5.589
+USER: RMSD 3.896842
+USER: SEED 175
+USER: STATUS no improvement in best in 14 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.75370 0.68638 0.54860
+USER: genes 1 Rotation |==|  0.80648 0.79649 0.66455 0.70270
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.67244
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.86912
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.52357
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.44699
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.49328
+ROOT
+ATOM      1  C   GLY C   1      34.409 -28.407  -0.552  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      34.755 -28.105   0.622  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      34.050 -29.629  -0.960  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      33.808 -30.242  -0.407  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      34.017 -30.089  -2.368  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      32.631 -30.436  -2.682  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      32.177 -31.173  -1.706  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      32.663 -31.725  -1.261  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      30.900 -31.128  -1.311  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      32.118 -30.326  -3.832  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      30.598 -31.395   0.051  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      29.392 -31.529   0.476  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      31.592 -31.019   0.631  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      34.376 -27.343  -1.583  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      34.344 -26.144  -0.732  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      35.054 -26.142  -0.195  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      34.357 -25.416  -1.244  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      33.602 -26.148  -0.242  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 2
+USER: ADFR SOLUTION from run 132
+USER: SCORE 7.700516 LL:  -1.309 LR:  -6.976 RR:   0.000 FEB:  -5.485
+USER: RMSD 5.281244
+USER: SEED 131
+USER: STATUS no improvement in best in 10 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.82105 0.80189 0.44767
+USER: genes 1 Rotation |==|  0.43474 0.19377 0.72942 0.81517
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.13357
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.18285
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.06223
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.62246
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.82217
+ROOT
+ATOM      1  C   GLY C   1      35.420 -27.021  -1.990  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      35.104 -26.083  -2.770  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      35.866 -28.224  -2.368  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      36.187 -28.364  -3.154  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      35.873 -29.442  -1.525  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      34.547 -29.562  -0.920  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      33.693 -29.784  -1.880  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      33.770 -29.456  -2.671  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      32.610 -30.552  -1.711  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      34.267 -29.178   0.251  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      32.104 -31.271  -2.826  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      32.831 -31.564  -3.845  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      30.909 -31.099  -2.744  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      35.310 -26.802  -0.527  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      33.997 -26.143  -0.452  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      33.782 -26.007   0.401  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      34.032 -25.363  -0.878  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      33.383 -26.662  -0.833  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 3
+USER: ADFR SOLUTION from run 194
+USER: SCORE 7.850912 LL:  -1.609 LR:  -6.956 RR:   0.000 FEB:  -5.465
+USER: RMSD 6.080659
+USER: SEED 193
+USER: STATUS no improvement in best in 10 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.10621 0.57293 0.50571
+USER: genes 1 Rotation |==|  0.37041 0.28106 0.86408 0.72960
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.66121
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.84485
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.45142
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.41082
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.52461
+ROOT
+ATOM      1  C   GLY C   1      24.697 -29.769  -1.163  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      24.260 -29.687  -2.342  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      25.487 -30.742  -0.697  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      25.937 -31.254  -1.222  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      25.693 -31.071   0.733  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      27.125 -30.954   1.006  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      27.753 -31.733   0.169  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      27.435 -32.479  -0.116  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      28.960 -31.431  -0.322  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      27.604 -30.463   2.068  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      29.303 -31.894  -1.619  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      30.277 -31.394  -2.294  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      28.286 -32.429  -1.998  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      24.335 -28.708  -0.192  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      24.231 -27.547  -1.089  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      23.522 -27.644  -1.619  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      24.140 -26.805  -0.605  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      24.966 -27.488  -1.585  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 4
+USER: ADFR SOLUTION from run 27
+USER: SCORE 7.732255 LL:  -1.457 LR:  -6.694 RR:   0.000 FEB:  -5.203
+USER: RMSD 6.753647
+USER: SEED 26
+USER: STATUS no improvement in best in 13 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.04148 0.66597 0.60673
+USER: genes 1 Rotation |==|  0.68490 0.86583 0.58838 0.77234
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.14484
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.16593
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.02758
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.61983
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.41946
+ROOT
+ATOM      1  C   GLY C   1      23.726 -28.652   0.277  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      23.875 -27.637   1.008  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      23.688 -29.917   0.709  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      23.532 -30.113   1.532  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      23.901 -31.119  -0.130  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      25.162 -30.933  -0.847  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      26.106 -30.795   0.041  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      25.991 -30.412   0.802  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      27.350 -31.244  -0.161  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      25.240 -30.623  -2.071  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      28.116 -31.659   0.960  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      27.604 -31.798   2.131  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      29.250 -31.394   0.631  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      23.565 -28.462  -1.185  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      24.604 -27.454  -1.441  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      25.275 -27.566  -0.868  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      24.907 -27.544  -2.273  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      24.260 -26.640  -1.338  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 5
+USER: ADFR SOLUTION from run 70
+USER: SCORE 7.255337 LL:  -1.486 LR:  -6.271 RR:   0.000 FEB:  -4.779
+USER: RMSD 6.690561
+USER: SEED 69
+USER: STATUS no improvement in best in 11 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.07245 0.59229 0.50878
+USER: genes 1 Rotation |==|  0.26340 0.30558 0.74013 0.81394
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.62334
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.10503
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.69795
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.52536
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.14280
+ROOT
+ATOM      1  C   GLY C   1      24.191 -29.536  -1.119  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      24.208 -29.253  -2.347  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      24.040 -30.764  -0.612  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      24.174 -31.472  -1.082  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      23.635 -31.076   0.779  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      24.509 -32.145   1.260  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      25.704 -31.924   0.785  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      25.851 -31.568   0.016  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      26.813 -32.236   1.463  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      24.092 -33.236   1.744  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      27.979 -31.451   1.262  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      29.008 -31.894   0.631  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      27.899 -30.612   2.131  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      24.363 -28.444  -0.131  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      24.265 -27.269  -1.010  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      24.979 -27.235  -1.541  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      23.529 -27.329  -1.506  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      24.229 -26.530  -0.516  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 6
+USER: ADFR SOLUTION from run 178
+USER: SCORE 7.307737 LL:  -1.517 LR:  -6.243 RR:   0.000 FEB:  -4.752
+USER: RMSD 5.664986
+USER: SEED 177
+USER: STATUS no improvement in best in 8 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.80473 0.69967 0.54822
+USER: genes 1 Rotation |==|  0.67296 0.85213 0.76562 0.65979
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.63982
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.10000
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.70252
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.52789
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.42739
+ROOT
+ATOM      1  C   GLY C   1      35.175 -28.248  -0.557  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      35.009 -27.951   0.657  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      35.763 -29.361  -1.006  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      35.863 -30.056  -0.509  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      36.309 -29.555  -2.370  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      35.765 -30.810  -2.885  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      34.542 -30.922  -2.445  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      34.285 -30.630  -1.678  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      33.575 -31.507  -3.159  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      36.471 -31.743  -3.364  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      32.237 -31.064  -2.988  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      31.354 -31.761  -2.365  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      32.104 -30.244  -3.869  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      34.677 -27.314  -1.596  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      34.346 -26.144  -0.769  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      34.920 -26.086  -0.091  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      34.396 -25.406  -1.264  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      33.520 -26.230  -0.450  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 7
+USER: ADFR SOLUTION from run 185
+USER: SCORE 7.013892 LL:  -1.395 LR:  -6.112 RR:   0.000 FEB:  -4.620
+USER: RMSD 3.957271
+USER: SEED 184
+USER: STATUS no improvement in best in 11 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.80226 0.69861 0.53167
+USER: genes 1 Rotation |==|  0.15865 0.14580 0.49220 0.41078
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.57507
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.38342
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.49869
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.35828
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.75024
+ROOT
+ATOM      1  C   GLY C   1      35.138 -28.261  -0.793  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      36.229 -27.890  -0.283  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      34.597 -29.476  -0.661  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      34.836 -30.016  -0.036  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      33.549 -30.050  -1.537  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      32.801 -31.024  -0.744  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      31.536 -30.872  -1.022  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      31.178 -30.113  -1.210  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      30.677 -31.898  -1.036  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      33.275 -31.635   0.256  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      29.564 -31.842  -1.915  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      28.700 -32.791  -1.994  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      29.908 -31.030  -2.744  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      34.360 -27.289  -1.599  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      34.322 -26.144  -0.678  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      34.286 -25.387  -1.145  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      33.604 -26.205  -0.156  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      35.055 -26.145  -0.173  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 8
+USER: ADFR SOLUTION from run 87
+USER: SCORE 6.740309 LL:  -1.258 LR:  -5.956 RR:   0.000 FEB:  -4.464
+USER: RMSD 1.743886
+USER: SEED 86
+USER: STATUS no improvement in best in 12 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.60001 0.60723 0.40866
+USER: genes 1 Rotation |==|  0.41270 0.50463 0.54950 0.98980
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.50183
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.59990
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.16468
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.55779
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.96922
+ROOT
+ATOM      1  C   GLY C   1      32.104 -29.357  -2.546  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      32.103 -28.289  -3.214  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      31.029 -30.110  -2.291  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      30.307 -30.045  -2.753  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      30.926 -31.126  -1.217  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      29.593 -31.720  -1.304  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      29.190 -31.968  -0.088  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      29.718 -32.200   0.549  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      27.905 -31.879   0.272  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      29.103 -32.206  -2.363  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      27.595 -31.519   1.609  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      27.979 -30.408   2.131  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      27.356 -32.584   2.133  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      33.388 -29.853  -1.994  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      34.178 -28.613  -1.993  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      34.970 -28.764  -2.369  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      33.746 -27.985  -2.453  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      34.296 -28.337  -1.155  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 9
+USER: ADFR SOLUTION from run 27
+USER: SCORE 6.903214 LL:  -1.360 LR:  -5.870 RR:   0.000 FEB:  -4.378
+USER: RMSD 5.786212
+USER: SEED 26
+USER: STATUS no improvement in best in 13 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.29922 0.40655 0.65526
+USER: genes 1 Rotation |==|  0.65437 0.77938 0.87148 0.60058
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.27900
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.36337
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.64742
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.65878
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.87422
+ROOT
+ATOM      1  C   GLY C   1      27.592 -31.765   0.968  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      27.297 -32.152   2.131  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      28.447 -32.380   0.144  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      28.679 -33.200   0.256  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      29.095 -31.763  -1.037  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      30.455 -31.395  -0.647  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      31.266 -31.850  -1.561  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      31.132 -32.581  -1.994  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      32.390 -31.211  -1.905  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      30.780 -31.019   0.516  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      32.867 -31.339  -3.236  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      34.069 -31.706  -3.505  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      32.104 -30.644  -3.869  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      26.947 -30.540   0.438  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      27.349 -29.561   1.459  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      26.854 -28.826   1.377  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      27.229 -29.910   2.269  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      28.207 -29.354   1.350  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 10
+USER: ADFR SOLUTION from run 176
+USER: SCORE 6.889536 LL:  -1.628 LR:  -5.854 RR:   0.000 FEB:  -4.362
+USER: RMSD 4.350821
+USER: SEED 175
+USER: STATUS no improvement in best in 14 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.72594 0.70634 0.47780
+USER: genes 1 Rotation |==|  0.53156 0.35880 0.82190 0.85418
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.34206
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.86111
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.30813
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.46110
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.10685
+ROOT
+ATOM      1  C   GLY C   1      33.993 -28.168  -1.560  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      32.932 -27.644  -1.994  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      34.517 -29.321  -1.989  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      34.296 -29.669  -2.744  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      35.515 -30.136  -1.258  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      34.947 -31.473  -1.088  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      33.746 -31.333  -0.598  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      33.525 -30.705  -0.054  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      32.746 -32.166  -0.905  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      35.629 -32.537  -1.092  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      31.418 -31.665  -0.912  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      30.738 -31.527  -1.994  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      31.347 -31.062   0.136  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      34.752 -27.467  -0.497  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      34.112 -26.144  -0.536  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      34.463 -25.663  -1.197  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      33.237 -26.241  -0.672  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      34.245 -25.726   0.238  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 11
+USER: ADFR SOLUTION from run 126
+USER: SCORE 7.194119 LL:  -1.536 LR:  -5.751 RR:   0.000 FEB:  -4.259
+USER: RMSD 5.634566
+USER: SEED 125
+USER: STATUS no improvement in best in 11 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.93070 0.72637 0.57311
+USER: genes 1 Rotation |==|  0.84374 0.80032 0.50573 0.70401
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.76511
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.47939
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.37994
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.26010
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.68531
+ROOT
+ATOM      1  C   GLY C   1      37.065 -27.928  -0.202  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      37.987 -27.521   0.554  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      36.264 -28.969   0.048  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      36.169 -29.291   0.840  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      35.456 -29.693  -0.961  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      34.203 -28.957  -1.128  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      33.558 -29.496  -2.125  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      33.944 -29.837  -2.813  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      32.222 -29.562  -2.161  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      33.979 -27.819  -0.624  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      31.611 -30.644  -2.847  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      30.604 -31.284  -2.369  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      32.479 -31.012  -3.607  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      36.813 -27.207  -1.474  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      35.911 -26.144  -1.006  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      36.229 -25.352  -1.258  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      35.102 -26.264  -1.358  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      35.854 -26.171  -0.119  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 12
+USER: ADFR SOLUTION from run 24
+USER: SCORE 6.654679 LL:  -1.329 LR:  -5.610 RR:   0.000 FEB:  -4.118
+USER: RMSD 5.398345
+USER: SEED 23
+USER: STATUS no improvement in best in 12 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.81179 0.70791 0.58199
+USER: genes 1 Rotation |==|  0.87437 0.77254 0.54399 0.68339
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.48072
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.53873
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.45096
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.25939
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.81384
+ROOT
+ATOM      1  C   GLY C   1      35.281 -28.149  -0.076  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      36.145 -27.987   0.827  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      34.381 -29.137  -0.115  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      34.177 -29.596   0.583  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      33.633 -29.571  -1.319  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      32.888 -30.777  -0.960  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      32.474 -31.330  -2.066  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      32.248 -30.884  -2.765  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      32.365 -32.656  -2.206  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      32.452 -31.019   0.202  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      32.551 -33.223  -3.494  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      32.793 -34.473  -3.669  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      32.854 -32.268  -4.173  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      35.223 -27.174  -1.192  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      34.354 -26.144  -0.604  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      34.320 -25.439  -1.147  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      33.535 -26.474  -0.494  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      34.681 -25.894   0.184  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 13
+USER: ADFR SOLUTION from run 23
+USER: SCORE 6.900561 LL:  -1.498 LR:  -5.531 RR:   0.000 FEB:  -4.040
+USER: RMSD 6.629351
+USER: SEED 22
+USER: STATUS no improvement in best in 15 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.08624 0.38434 0.71143
+USER: genes 1 Rotation |==|  0.57216 0.86434 0.79501 0.65817
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.25556
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.44206
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.49911
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.74031
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.40842
+ROOT
+ATOM      1  C   GLY C   1      24.398 -32.032   1.769  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      23.856 -31.776   2.878  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      25.407 -32.889   1.582  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      25.605 -33.494   2.161  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      26.298 -32.922   0.399  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      27.456 -32.081   0.701  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      28.424 -32.441  -0.096  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      28.545 -33.249  -0.364  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      29.323 -31.570  -0.569  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      27.577 -31.396   1.756  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      29.902 -31.811  -1.842  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      30.767 -31.019  -2.368  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      29.106 -32.557  -2.369  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      23.889 -31.354   0.552  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      24.684 -30.117   0.581  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      25.452 -30.267   1.006  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      24.853 -29.853  -0.252  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      24.229 -29.482   1.006  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 14
+USER: ADFR SOLUTION from run 181
+USER: SCORE 6.596478 LL:  -1.396 LR:  -5.491 RR:   0.000 FEB:  -3.999
+USER: RMSD 3.606933
+USER: SEED 180
+USER: STATUS no improvement in best in 11 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.86319 0.49003 0.35655
+USER: genes 1 Rotation |==|  0.18936 0.34848 0.57829 0.85273
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.33889
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.40865
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.42605
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.71997
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.15652
+ROOT
+ATOM      1  C   GLY C   1      36.052 -30.764  -3.288  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      36.585 -30.608  -4.420  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      35.036 -31.590  -3.020  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      34.826 -32.239  -3.543  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      34.157 -31.513  -1.830  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      32.783 -31.365  -2.309  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      32.000 -31.972  -1.461  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      32.225 -32.681  -1.030  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      30.765 -31.536  -1.189  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      32.479 -31.019  -3.487  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      30.228 -31.775   0.103  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      29.330 -31.019   0.628  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      31.075 -32.460   0.631  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      36.580 -29.991  -2.138  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      35.936 -28.690  -2.369  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      36.229 -28.345  -3.136  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      35.054 -28.798  -2.410  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      36.136 -28.137  -1.701  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 15
+USER: ADFR SOLUTION from run 164
+USER: SCORE 7.133831 LL:  -2.177 LR:  -5.477 RR:   0.000 FEB:  -3.986
+USER: RMSD 5.198363
+USER: SEED 163
+USER: STATUS no improvement in best in 17 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.26735 0.39374 0.65179
+USER: genes 1 Rotation |==|  0.80963 0.79190 0.72912 0.62816
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.25327
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.82223
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.51829
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.52533
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.91866
+ROOT
+ATOM      1  C   GLY C   1      27.114 -31.919   0.919  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      27.455 -31.974   2.131  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      26.959 -32.974   0.112  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      26.856 -33.771   0.418  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      26.942 -32.927  -1.369  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      28.316 -33.129  -1.828  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      29.027 -32.123  -1.403  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      28.720 -31.324  -1.322  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      30.312 -32.251  -1.053  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      28.644 -33.939  -2.742  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      30.834 -31.394  -0.049  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      32.083 -31.369   0.256  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      29.862 -31.136   0.625  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      26.844 -30.593   0.312  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      27.325 -29.705   1.381  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      26.854 -28.950   1.375  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      27.229 -30.109   2.169  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      28.185 -29.519   1.248  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 16
+USER: ADFR SOLUTION from run 77
+USER: SCORE 6.563238 LL:  -1.380 LR:  -5.465 RR:   0.000 FEB:  -3.974
+USER: RMSD 6.337664
+USER: SEED 76
+USER: STATUS no improvement in best in 16 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.05520 0.60542 0.46095
+USER: genes 1 Rotation |==|  0.43883 0.28517 0.86270 0.76183
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.54647
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.46941
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.40759
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.30122
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.77857
+ROOT
+ATOM      1  C   GLY C   1      23.932 -29.379  -1.801  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      23.203 -29.144  -2.801  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      24.815 -30.379  -1.706  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      25.113 -30.790  -2.399  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      25.386 -30.904  -0.444  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      26.573 -31.684  -0.792  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      27.211 -31.949   0.314  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      27.236 -31.416   0.988  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      27.888 -33.089   0.494  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      27.045 -31.769  -1.962  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      27.996 -33.617   1.807  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      28.033 -34.881   2.041  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      27.604 -32.707   2.503  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      23.836 -28.485  -0.621  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      24.469 -27.269  -1.153  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      24.229 -26.568  -0.659  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      25.354 -27.360  -1.129  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      24.207 -27.142  -1.994  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 17
+USER: ADFR SOLUTION from run 101
+USER: SCORE 6.457582 LL:  -1.487 LR:  -5.425 RR:   0.000 FEB:  -3.933
+USER: RMSD 6.549072
+USER: SEED 100
+USER: STATUS no improvement in best in 16 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.77846 0.69111 0.52648
+USER: genes 1 Rotation |==|  0.89364 0.78770 0.54083 0.60299
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.31109
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.87989
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.17782
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.32526
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.81802
+ROOT
+ATOM      1  C   GLY C   1      34.781 -28.351  -0.867  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      35.819 -28.373  -0.152  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      33.893 -29.345  -0.971  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      33.843 -29.974  -0.387  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      32.904 -29.503  -2.063  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      33.292 -30.682  -2.836  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      34.585 -30.640  -3.001  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      35.029 -29.909  -3.090  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      35.337 -31.745  -3.046  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      32.481 -31.394  -3.494  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      36.679 -31.676  -2.587  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      36.976 -31.419  -1.362  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      37.306 -31.468  -3.601  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      34.486 -27.132  -1.659  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      34.323 -26.144  -0.582  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      34.217 -25.334  -0.936  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      33.607 -26.351  -0.095  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      35.045 -26.149  -0.063  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 18
+USER: ADFR SOLUTION from run 4
+USER: SCORE 6.521858 LL:  -1.535 LR:  -5.411 RR:   0.000 FEB:  -3.919
+USER: RMSD 2.103218
+USER: SEED 490742
+USER: STATUS no improvement in best in 13 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.62474 0.63140 0.40627
+USER: genes 1 Rotation |==|  0.46664 0.38486 0.65464 0.96013
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.18230
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.17196
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.47790
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.42800
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.69048
+ROOT
+ATOM      1  C   GLY C   1      32.475 -29.067  -2.580  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      32.112 -27.952  -3.040  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      31.931 -30.247  -2.894  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      31.451 -30.354  -3.601  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      32.066 -31.494  -2.105  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      31.388 -31.278  -0.827  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      30.129 -31.051  -1.080  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      29.852 -30.640  -1.782  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      29.152 -31.445  -0.256  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      31.988 -31.021   0.256  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      27.884 -31.769  -0.808  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      26.942 -32.296  -0.109  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      28.114 -31.850  -1.994  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      33.604 -29.110  -1.619  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      34.323 -27.884  -1.994  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      34.470 -27.391  -1.267  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      35.101 -28.098  -2.369  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      33.834 -27.418  -2.573  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 19
+USER: ADFR SOLUTION from run 109
+USER: SCORE 6.874633 LL:  -1.571 LR:  -5.415 RR:   0.000 FEB:  -3.923
+USER: RMSD 5.214268
+USER: SEED 108
+USER: STATUS no improvement in best in 12 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.91280 0.77274 0.48933
+USER: genes 1 Rotation |==|  0.20388 0.13843 0.67288 0.54111
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.23600
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.46787
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.44707
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.72579
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.28093
+ROOT
+ATOM      1  C   GLY C   1      36.796 -27.371  -1.396  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      37.833 -26.977  -1.994  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      36.689 -28.510  -0.704  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      37.379 -28.941  -0.425  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      35.417 -29.172  -0.331  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      35.008 -30.003  -1.463  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      34.037 -30.773  -1.059  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      33.980 -31.087  -0.260  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      33.035 -31.145  -1.864  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      35.703 -30.167  -2.507  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      31.759 -31.393  -1.294  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      30.680 -31.401  -1.994  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      31.926 -31.136  -0.123  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      35.583 -26.519  -1.434  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      35.031 -26.894  -2.744  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      35.668 -27.273  -3.237  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      34.362 -27.470  -2.631  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      34.729 -26.167  -3.158  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 20
+USER: ADFR SOLUTION from run 14
+USER: SCORE 6.671262 LL:  -1.455 LR:  -5.299 RR:   0.000 FEB:  -3.808
+USER: RMSD 5.189445
+USER: SEED 428269
+USER: STATUS no improvement in best in 14 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.91060 0.57685 0.40189
+USER: genes 1 Rotation |==|  0.18329 0.35301 0.72938 0.77472
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.17294
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.09677
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.88452
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.72774
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.75246
+ROOT
+ATOM      1  C   GLY C   1      36.763 -29.722  -2.642  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      36.935 -29.894  -3.878  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      36.348 -30.658  -1.782  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      36.389 -31.497  -1.966  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      35.777 -30.398  -0.440  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      34.546 -29.632  -0.629  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      33.985 -30.048  -1.730  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      34.428 -30.317  -2.417  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      32.657 -30.093  -1.886  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      34.284 -28.554  -0.022  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      32.104 -31.084  -2.738  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      32.630 -31.394  -3.869  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      30.952 -31.151  -2.369  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      37.047 -28.388  -2.061  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      35.792 -27.687  -2.369  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      35.641 -27.062  -1.753  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      35.854 -27.304  -3.170  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      35.119 -28.269  -2.370  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 21
+USER: ADFR SOLUTION from run 15
+USER: SCORE 6.776401 LL:  -1.758 LR:  -5.259 RR:   0.000 FEB:  -3.767
+USER: RMSD 2.920245
+USER: SEED 698328
+USER: STATUS no improvement in best in 8 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.66793 0.44835 0.39263
+USER: genes 1 Rotation |==|  0.34767 0.40260 0.77862 0.87374
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.26159
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.91111
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.45874
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.56139
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.25992
+ROOT
+ATOM      1  C   GLY C   1      33.123 -31.264  -2.774  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      32.495 -30.865  -3.791  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      33.162 -32.526  -2.336  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      32.954 -33.191  -2.841  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      33.553 -32.950  -0.971  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      32.328 -33.071  -0.183  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      31.482 -32.184  -0.628  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      31.716 -31.415  -0.934  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      30.161 -32.399  -0.646  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      32.255 -33.678   0.924  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      29.383 -31.775  -1.656  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      28.178 -32.137  -1.920  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      30.217 -31.263  -2.369  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      33.902 -30.279  -1.985  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      33.222 -29.032  -2.364  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      32.856 -29.126  -3.170  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      32.587 -28.847  -1.769  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      33.812 -28.366  -2.384  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 22
+USER: ADFR SOLUTION from run 133
+USER: SCORE 6.376624 LL:  -1.579 LR:  -5.252 RR:   0.000 FEB:  -3.761
+USER: RMSD 5.517374
+USER: SEED 132
+USER: STATUS no improvement in best in 10 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.27500 0.58408 0.64275
+USER: genes 1 Rotation |==|  0.55698 0.99463 0.49645 0.54563
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.23549
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.15552
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.49529
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.49139
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.86327
+ROOT
+ATOM      1  C   GLY C   1      27.229 -29.635   0.790  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      27.229 -28.394   1.011  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      28.259 -30.459   1.009  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      28.912 -30.244   1.527  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      28.424 -31.806   0.415  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      29.037 -31.632  -0.901  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      30.148 -30.970  -0.735  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      30.257 -30.366  -0.133  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      31.227 -31.179  -1.499  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      28.422 -31.793  -1.994  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      32.512 -30.969  -0.935  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      33.597 -31.179  -1.593  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      32.302 -31.019   0.256  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      25.997 -30.266   0.257  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      25.094 -29.106   0.223  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      24.263 -29.381   0.063  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      25.122 -28.684   1.006  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      25.350 -28.549  -0.422  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 23
+USER: ADFR SOLUTION from run 188
+USER: SCORE 6.293590 LL:  -1.480 LR:  -5.241 RR:   0.000 FEB:  -3.749
+USER: RMSD 5.038734
+USER: SEED 187
+USER: STATUS no improvement in best in 14 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.76600 0.68841 0.53183
+USER: genes 1 Rotation |==|  0.89204 0.77805 0.55944 0.62435
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.37641
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.00814
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.34716
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.34237
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.81718
+ROOT
+ATOM      1  C   GLY C   1      34.594 -28.383  -0.790  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      35.541 -28.406   0.040  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      33.704 -29.364  -0.976  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      33.575 -29.979  -0.388  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      32.846 -29.531  -2.172  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      32.883 -30.945  -2.542  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      33.606 -31.569  -1.653  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      34.283 -31.215  -1.259  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      33.350 -32.826  -1.276  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      32.564 -31.386  -3.683  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      33.681 -33.222   0.047  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      32.819 -33.739   0.848  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      34.679 -32.579   0.284  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      34.417 -27.179  -1.638  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      34.303 -26.138  -0.605  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      34.275 -25.337  -0.993  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      33.558 -26.266  -0.135  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      35.006 -26.180  -0.062  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 24
+USER: ADFR SOLUTION from run 134
+USER: SCORE 6.516366 LL:  -1.375 LR:  -5.238 RR:   0.000 FEB:  -3.746
+USER: RMSD 4.484955
+USER: SEED 133
+USER: STATUS no improvement in best in 13 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.82377 0.75607 0.53516
+USER: genes 1 Rotation |==|  0.41649 0.16676 0.52586 0.86237
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.23985
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.48497
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.24635
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.36431
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.38349
+ROOT
+ATOM      1  C   GLY C   1      35.461 -27.571  -0.743  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      35.920 -26.409  -0.908  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      35.250 -28.464  -1.716  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      35.625 -28.395  -2.487  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      34.375 -29.655  -1.614  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      33.018 -29.232  -1.959  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      32.266 -30.297  -1.984  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      32.545 -31.070  -2.234  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      30.979 -30.273  -1.619  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      32.736 -28.108  -2.465  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      30.409 -31.444  -1.055  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      30.441 -31.687   0.208  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      30.359 -32.206  -1.994  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      35.128 -28.019   0.631  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      36.353 -27.628   1.345  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      36.802 -27.032   0.860  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      36.137 -27.270   2.131  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      36.861 -28.346   1.477  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL
+MODEL 25
+USER: ADFR SOLUTION from run 161
+USER: SCORE 6.359493 LL:  -1.417 LR:  -5.157 RR:   0.000 FEB:  -3.665
+USER: RMSD 6.252142
+USER: SEED 160
+USER: STATUS no improvement in best in 15 clusters for 5 generations
+USER: GENES 7
+USER: genes 0 Translation |==|  0.11623 0.48331 0.61513
+USER: genes 1 Rotation |==|  0.46613 0.67323 0.90798 0.72890
+USER: genes 2 Torsion [C]-N--CA-[C] |==|  0.69038
+USER: genes 3 Torsion [N]-CA--C-[N] |==|  0.53832
+USER: genes 4 Torsion [N]-CA--C-[O] |==|  0.41055
+USER: genes 5 Torsion [N]-C--CA-[N] |==|  0.64764
+USER: genes 6 Torsion [C]-CA--N-[H2] |==|  0.98189
+ROOT
+ATOM      1  C   GLY C   1      24.847 -30.844   0.397  1.00 32.14 LIG 0.24  C 
+ATOM      2 O    GLY C   1      23.697 -31.253   0.709  1.00 29.76 LIG-0.27  OA
+ATOM      3  N   GLY C   2      25.990 -31.500   0.628  1.00 30.71 LIG-0.35  N 
+ATOM      4 H    GLY C   2      26.005 -32.344   0.796  1.00 30.71 LIG 0.16  HD
+ENDROOT
+BRANCH 3 5
+ATOM      5  CA  GLY C   2      27.342 -30.896   0.630  1.00 36.18 LIG 0.23  C 
+BRANCH 5 6
+ATOM      6  C   GLY C   2      28.058 -31.423  -0.531  1.00 30.91 LIG 0.23  C 
+ATOM      7  N   GLY C   3      29.322 -31.139  -0.380  1.00 33.08 LIG-0.35  N 
+ATOM      8 H    GLY C   3      29.606 -30.424   0.005  1.00 33.08 LIG 0.16  HD
+ATOM      9  CA  GLY C   3      30.295 -31.946  -0.817  1.00 24.56 LIG 0.23  C 
+ATOM     10 O    GLY C   2      27.498 -31.769  -1.611  1.00 32.47 LIG-0.27  OA
+BRANCH 9 11
+ATOM     11  C   GLY C   3      31.530 -31.966  -0.118  1.00 22.96 LIG 0.19  C 
+ATOM     12 O    GLY C   3      32.255 -33.024  -0.028  1.00 26.14 LIG-0.65  OA
+ATOM     13 OXT  GLY C   3      31.437 -31.019   0.631  1.00 22.37 LIG-0.65  OA
+ENDBRANCH 9 11
+ENDBRANCH 5 6
+ENDBRANCH 3 5
+BRANCH 1 14
+ATOM     14  CA  GLY C   1      24.978 -29.539  -0.296  1.00 40.65 LIG 0.33  C 
+BRANCH 14 15
+ATOM     15  N   GLY C   1      24.241 -28.668   0.631  1.00 31.54 LIG-0.07  N 
+ATOM     16 H1   GLY C   1      23.613 -28.222   0.184  1.00 31.54 LIG 0.27  HD
+ATOM     17 H2   GLY C   1      23.858 -29.163   1.264  1.00 31.54 LIG 0.27  HD
+ATOM     18 H3   GLY C   1      24.803 -28.090   1.007  1.00 31.54 LIG 0.27  HD
+ENDBRANCH 14 15
+ENDBRANCH 1 14
+TORSDOF 5
+ENDMDL

@@ -1,0 +1,57 @@
+USER: ADFR SOLUTION from run 0
+USER: SCORE 6.971866 LL:  -1.108 LR:  -5.918 RR:   0.000 FEB:  -3.532
+USER: RMSD 0.666545
+USER: STATUS Locally minimized using BFGS
+USER: GENES 10
+USER: genes 0 Translation |==|  0.51152 0.49518 0.60936
+USER: genes 1 Rotation |==|  0.50393 0.48930 0.47346 0.99916
+USER: genes 2 Torsion [C]-CA--N-[C] |==|  0.77222
+USER: genes 3 Torsion [N]-C--CA-[N] |==|  0.37028
+USER: genes 4 Torsion [C]-CA--N-[H3] |==|  0.22892
+USER: genes 5 Torsion [N]-CA--C-[N] |==|  0.42319
+USER: genes 6 Torsion [C]-N--CA-[C] |==|  0.34448
+USER: genes 7 Torsion [N]-CA--C-[O] |==|  0.21129
+USER: genes 8 Torsion [N]-CA--CB-[CG] |==|  0.82227
+USER: genes 9 Torsion [CA]-CB--CG-[CD2] |==|  0.30147
+ROOT
+ATOM      1  CA  HIS F   2      -1.473  30.649 -17.261  1.00 49.99 LIG 0.18  C 
+ENDROOT
+BRANCH 1 2
+ATOM      2  N   HIS F   2      -1.288  31.007 -18.667  1.00 49.83 LIG-0.35  N 
+ATOM      3  C   GLY F   1      -2.057  30.514 -19.635  1.00 49.82 LIG 0.24  C 
+ATOM      4 O    GLY F   1      -2.942  29.677 -19.438  1.00 49.53 LIG-0.27  OA
+ATOM      5 H    HIS F   2      -0.644  31.560 -18.807  1.00 49.83 LIG 0.16  HD
+BRANCH 3 6
+ATOM      6  CA  GLY F   1      -1.783  31.040 -21.034  1.00 49.90 LIG 0.33  C 
+BRANCH 6 7
+ATOM      7  N   GLY F   1      -1.705  29.962 -22.064  1.00 49.95 LIG-0.07  N 
+ATOM      8 H3   GLY F   1      -2.527  29.741 -22.325  1.00 49.95 LIG 0.27  HD
+ATOM      9 H1   GLY F   1      -1.240  30.254 -22.765  1.00 49.95 LIG 0.27  HD
+ATOM     10 H2   GLY F   1      -1.302  29.249 -21.718  1.00 49.95 LIG 0.27  HD
+ENDBRANCH 6 7
+ENDBRANCH 3 6
+ENDBRANCH 1 2
+BRANCH 1 11
+ATOM     11  C   HIS F   2      -2.588  31.479 -16.626  1.00 50.00 LIG 0.24  C 
+ATOM     12 O    HIS F   2      -2.862  32.602 -17.056  1.00 49.82 LIG-0.27  OA
+ATOM     13  N   GLY F   3      -3.231  30.909 -15.609  1.00 50.02 LIG-0.35  N 
+ATOM     14 H    GLY F   3      -3.028  30.137 -15.289  1.00 50.02 LIG 0.16  HD
+BRANCH 13 15
+ATOM     15  CA  GLY F   3      -4.352  31.558 -14.942  1.00 50.20 LIG 0.21  C 
+BRANCH 15 16
+ATOM     16  C   GLY F   3      -5.603  30.702 -14.939  1.00 50.42 LIG 0.21  C 
+ATOM     17 O    GLY F   3      -5.707  29.745 -14.171  1.00 50.69 LIG-0.29  OA
+ENDBRANCH 15 16
+ENDBRANCH 13 15
+ENDBRANCH 1 11
+BRANCH 1 18
+ATOM     18  CB  HIS F   2      -0.167  30.818 -16.482  1.00 49.99 LIG 0.10  C 
+BRANCH 18 19
+ATOM     19  CG  HIS F   2       0.928  29.902 -16.933  1.00 50.63 LIG 0.06  A 
+ATOM     20  CD2 HIS F   2       2.073  30.146 -17.616  1.00 51.31 LIG 0.14  A 
+ATOM     21 NE2  HIS F   2       2.726  28.944 -17.757  1.00 51.32 LIG-0.25  NA
+ATOM     22  CE1 HIS F   2       2.005  27.994 -17.188  1.00 50.87 LIG 0.23  A 
+ATOM     23 ND1  HIS F   2       0.916  28.546 -16.681  1.00 50.82 LIG-0.24  NA
+ENDBRANCH 18 19
+ENDBRANCH 1 18
+TORSDOF 8

@@ -1,0 +1,118 @@
+REMARK  21 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  CB_5 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    3  A    between atoms: CB_5  and  CG_6 
+REMARK    4  A    between atoms: CG_6  and  SD_7 
+REMARK    5  A    between atoms: N_9  and  CA_10 
+REMARK    6  A    between atoms: CA_10  and  CB_13 
+REMARK    7  A    between atoms: CA_10  and  C_11 
+REMARK       I    between atoms: C_11  and  N_19 
+REMARK    8  A    between atoms: CB_13  and  CG_14 
+REMARK    9  A    between atoms: CG_14  and  CD_15 
+REMARK   10  A    between atoms: N_19  and  CA_20 
+REMARK   11  A    between atoms: CA_20  and  C_21 
+REMARK   12  A    between atoms: CA_20  and  CB_23 
+REMARK       I    between atoms: C_21  and  N_29 
+REMARK   13  A    between atoms: CB_23  and  CG_24 
+REMARK   14  A    between atoms: CG_24  and  CD_25 
+REMARK   15  A    between atoms: N_29  and  CA_30 
+REMARK   16  A    between atoms: CA_30  and  CB_33 
+REMARK   17  A    between atoms: CA_30  and  C_31 
+REMARK       I    between atoms: C_31  and  N_37 
+REMARK   18  A    between atoms: N_37  and  CA_38 
+REMARK   19  A    between atoms: CA_38  and  CB_41 
+REMARK   20  A    between atoms: CA_38  and  C_39 
+REMARK   21  A    between atoms: CB_41  and  CG_42 
+ROOT
+ATOM      1  CA  GLU Q 707      -3.018  19.770  54.380  1.00 49.62     0.177 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLU Q 707      -2.655  20.511  53.160  1.00 50.42    -0.346 N 
+ATOM      3  H   GLU Q 707      -1.812  20.523  52.993  1.00 50.42     0.163 HD
+ATOM      4  C   GLU Q 706      -3.565  21.102  52.398  1.00 51.37     0.241 C 
+ATOM      5  O   GLU Q 706      -4.757  21.091  52.692  1.00 51.66    -0.271 OA
+BRANCH   4   6
+ATOM      6  CA  GLU Q 706      -3.055  21.796  51.100  1.00 52.25     0.177 C 
+BRANCH   6   7
+ATOM      7  CB  GLU Q 706      -3.883  21.309  49.897  1.00 52.83     0.045 C 
+BRANCH   7   8
+ATOM      8  CG  GLU Q 706      -5.295  21.927  49.806  1.00 56.79     0.116 C 
+BRANCH   8   9
+ATOM      9  CD  GLU Q 706      -6.420  20.902  49.507  1.00 61.53     0.172 C 
+ATOM     10  OE1 GLU Q 706      -6.302  20.132  48.517  1.00 62.14    -0.648 OA
+ATOM     11  OE2 GLU Q 706      -7.429  20.882  50.269  1.00 62.79    -0.648 OA
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+BRANCH   6  12
+ATOM     12  N   GLU Q 706      -1.618  21.550  50.852  1.00 51.83    -0.346 N 
+ATOM     13  H   GLU Q 706      -1.469  20.810  50.440  1.00 51.83     0.163 HD
+ATOM     14  C   MET Q 705      -0.631  22.379  51.221  1.00 52.04     0.257 C 
+ATOM     15  O   MET Q 705      -0.814  23.496  51.721  1.00 51.63    -0.271 OA
+BRANCH  14  16
+ATOM     16  CA  MET Q 705       0.796  21.872  51.003  1.00 52.15     0.400 C 
+ATOM     17  N   MET Q 705       0.845  20.376  50.909  1.00 52.08     0.615 N 
+BRANCH  16  18
+ATOM     18  CB  MET Q 705       1.433  22.544  49.781  1.00 52.13     0.061 C 
+BRANCH  18  19
+ATOM     19  CG  MET Q 705       2.915  22.225  49.579  1.00 53.37     0.076 C 
+BRANCH  19  20
+ATOM     20  SD  MET Q 705       4.027  23.069  50.743  1.00 56.30    -0.173 SA
+ATOM     21  CE  MET Q 705       4.154  21.876  52.070  1.00 57.25     0.089 C 
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  16  18
+ENDBRANCH  14  16
+ENDBRANCH   6  12
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  22
+ATOM     22  C   GLU Q 707      -2.729  20.616  55.628  1.00 47.30     0.241 C 
+ATOM     23  N   VAL Q 708      -3.626  20.562  56.610  1.00 45.52    -0.346 N 
+ATOM     24  H   VAL Q 708      -4.400  20.194  56.533  1.00 45.52     0.163 HD
+ATOM     25  O   GLU Q 707      -1.695  21.286  55.696  1.00 46.84    -0.271 OA
+BRANCH  23  26
+ATOM     26  CA  VAL Q 708      -3.358  21.142  57.937  1.00 44.03     0.180 C 
+BRANCH  26  27
+ATOM     27  CB  VAL Q 708      -4.645  21.293  58.763  1.00 43.64     0.009 C 
+ATOM     28  CG1 VAL Q 708      -5.563  22.321  58.107  1.00 41.62     0.012 C 
+ATOM     29  CG2 VAL Q 708      -5.355  19.949  58.893  1.00 42.17     0.012 C 
+ENDBRANCH  26  27
+BRANCH  26  30
+ATOM     30  C   VAL Q 708      -2.300  20.319  58.692  1.00 43.98     0.241 C 
+ATOM     31  O   VAL Q 708      -2.086  19.157  58.375  1.00 43.91    -0.271 OA
+ATOM     32  N   ASP Q 709      -1.616  20.943  59.649  1.00 43.53    -0.344 N 
+ATOM     33  H   ASP Q 709      -1.741  21.770  59.851  1.00 43.53     0.163 HD
+BRANCH  32  34
+ATOM     34  CA  ASP Q 709      -0.578  20.289  60.460  1.00 43.18     0.195 C 
+BRANCH  34  35
+ATOM     35  CB  ASP Q 709       0.697  21.110  60.433  1.00 43.21     0.149 C 
+BRANCH  35  36
+ATOM     36  CG  ASP Q 709       1.175  21.398  59.040  1.00 45.24     0.175 C 
+ATOM     37  OD2 ASP Q 709       1.370  22.606  58.746  1.00 45.66    -0.648 OA
+ATOM     38  OD1 ASP Q 709       1.378  20.414  58.270  1.00 45.75    -0.648 OA
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+BRANCH  34  39
+ATOM     39  C   ASP Q 709      -0.976  20.152  61.941  1.00 42.83     0.197 C 
+ATOM     40  O   ASP Q 709      -1.974  20.712  62.387  1.00 42.06    -0.646 OA
+ATOM     41  OXT ASP Q 709      -0.259  19.523  62.737  1.00 42.11    -0.646 OA
+ENDBRANCH  34  39
+ENDBRANCH  32  34
+ENDBRANCH  26  30
+ENDBRANCH  23  26
+ENDBRANCH   1  22
+BRANCH   1  42
+ATOM     42  CB  GLU Q 707      -2.219  18.457  54.463  1.00 49.18     0.045 C 
+BRANCH  42  43
+ATOM     43  CG  GLU Q 707      -2.649  17.363  53.463  1.00 51.82     0.116 C 
+BRANCH  43  44
+ATOM     44  CD  GLU Q 707      -1.724  16.127  53.500  1.00 52.55     0.172 C 
+ATOM     45  OE2 GLU Q 707      -2.067  15.097  52.877  1.00 56.45    -0.648 OA
+ATOM     46  OE1 GLU Q 707      -0.659  16.177  54.171  1.00 56.78    -0.648 OA
+ENDBRANCH  43  44
+ENDBRANCH  42  43
+ENDBRANCH   1  42
+TORSDOF 21

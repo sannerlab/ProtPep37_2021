@@ -1,0 +1,441 @@
+MODEL 1
+USER: ADFR SOLUTION from run 185
+USER: SCORE 22.426864 LL:  -4.106 LR: -19.134 RR:   0.000 FEB: -11.379
+USER: RMSD 1.087954
+USER: SEED 184
+USER: STATUS 1 or 2 clusters left
+USER: GENES 28
+USER: genes 0 Translation |==|  0.41287 0.61335 0.43719
+USER: genes 1 Rotation |==|  0.50901 0.49945 0.46150 0.99843
+USER: genes 2 Torsion [CB]-CA--N-[C] |==|  0.79714
+USER: genes 3 Torsion [N]-C--CA-[N] |==|  0.38128
+USER: genes 4 Torsion [C]-CA--CB-[CG2] |==|  0.06724
+USER: genes 5 Torsion [CA]-CB--OG1-[HG1] |==|  0.49606
+USER: genes 6 Torsion [C]-CA--N-[C] |==|  0.83023
+USER: genes 7 Torsion [N]-C--CA-[N] |==|  0.38011
+USER: genes 8 Torsion [C]-CA--N-[H1] |==|  0.25551
+USER: genes 9 Torsion [C]-CA--CB-[CG] |==|  0.12521
+USER: genes 10 Torsion [CA]-CB--CG-[CD] |==|  0.19780
+USER: genes 11 Torsion [CB]-CG--CD-[CE] |==|  0.18817
+USER: genes 12 Torsion [CG]-CD--CE-[NZ] |==|  0.37428
+USER: genes 13 Torsion [CD]-CE--NZ-[HZ3] |==|  0.11549
+USER: genes 14 Torsion [N]-CA--CB-[CG] |==|  0.79766
+USER: genes 15 Torsion [CA]-CB--CG-[CD] |==|  0.86974
+USER: genes 16 Torsion [CB]-CG--CD-[CE] |==|  0.74285
+USER: genes 17 Torsion [CG]-CD--CE-[NZ] |==|  0.60131
+USER: genes 18 Torsion [CD]-CE--NZ-[HZ1] |==|  0.70948
+USER: genes 19 Torsion [N]-CA--C-[N] |==|  0.08597
+USER: genes 20 Torsion [C]-N--CA-[C] |==|  0.81579
+USER: genes 21 Torsion [N]-CA--CB-[CG] |==|  0.47705
+USER: genes 22 Torsion [CA]-CB--CG-[CD1] |==|  0.18905
+USER: genes 23 Torsion [N]-CA--C-[N] |==|  0.96111
+USER: genes 24 Torsion [C]-N--CA-[C] |==|  0.84483
+USER: genes 25 Torsion [N]-CA--C-[O] |==|  0.98589
+USER: genes 26 Torsion [N]-CA--CB-[CG] |==|  0.69638
+USER: genes 27 Torsion [CA]-CB--CG-[CD2] |==|  0.79033
+ROOT
+ATOM      1  CA  LYS B   3       1.211   6.165  20.005  1.00 16.28 LIG 0.18  C 
+ENDROOT
+BRANCH 1 2
+ATOM      2  N   LYS B   3       2.230   5.394  19.301  1.00 16.24 LIG-0.35  N 
+ATOM      3  C   THR B   2       2.071   4.099  19.059  1.00 15.43 LIG 0.24  C 
+ATOM      4 O    THR B   2       1.076   3.471  19.421  1.00 16.46 LIG-0.27  OA
+ATOM      5 H    LYS B   3       2.922   5.847  19.066  1.00 16.24 LIG 0.16  HD
+BRANCH 3 6
+ATOM      6  CA  THR B   2       3.206   3.397  18.298  1.00 18.42 LIG 0.20  C 
+BRANCH 6 7
+ATOM      7  CB  THR B   2       2.881   3.281  16.791  1.00 34.78 LIG 0.15  C 
+ATOM      8  CG2 THR B   2       1.912   4.330  16.379  1.00 27.89 LIG 0.04  C 
+BRANCH 7 9
+ATOM      9 OG1  THR B   2       4.079   3.445  16.019  1.00 42.87 LIG-0.39  OA
+ATOM     10 HG1  THR B   2       3.901   3.361  15.203  1.00 42.87 LIG 0.21  HD
+ENDBRANCH 7 9
+ENDBRANCH 6 7
+BRANCH 6 11
+ATOM     11  N   THR B   2       3.468   2.100  18.918  1.00 21.00 LIG-0.34  N 
+ATOM     12 H    THR B   2       3.347   1.419  18.407  1.00 21.00 LIG 0.16  HD
+ATOM     13  C   LYS B   1       3.863   2.037  20.188  1.00 25.53 LIG 0.25  C 
+ATOM     14 O    LYS B   1       4.098   3.042  20.857  1.00 25.75 LIG-0.27  OA
+BRANCH 13 15
+ATOM     15  CA  LYS B   1       4.026   0.647  20.799  1.00 28.68 LIG 0.27  C 
+BRANCH 15 16
+ATOM     16  N   LYS B   1       5.251   0.572  21.592  1.00 32.90 LIG-0.07  N 
+ATOM     17 H2   LYS B   1       5.580  -0.253  21.552  1.00 32.90 LIG 0.28  HD
+ATOM     18 H1   LYS B   1       5.070   0.778  22.439  1.00 32.90 LIG 0.28  HD
+ATOM     19 H3   LYS B   1       5.849   1.146  21.268  1.00 32.90 LIG 0.28  HD
+ENDBRANCH 15 16
+BRANCH 15 20
+ATOM     20  CB  LYS B   1       2.812   0.293  21.673  1.00 29.25 LIG 0.04  C 
+BRANCH 20 21
+ATOM     21  CG  LYS B   1       1.441   0.615  21.056  1.00 22.42 LIG 0.00  C 
+BRANCH 21 22
+ATOM     22  CD  LYS B   1       1.077  -0.320  19.894  1.00 17.84 LIG 0.03  C 
+BRANCH 22 23
+ATOM     23  CE  LYS B   1       0.827  -1.763  20.340  1.00 19.17 LIG 0.23  C 
+BRANCH 23 24
+ATOM     24  NZ  LYS B   1      -0.417  -2.300  19.684  1.00 16.78 LIG-0.08  N 
+ATOM     25 HZ3  LYS B   1      -0.439  -2.042  18.832  1.00 16.78 LIG 0.27  HD
+ATOM     26 HZ2  LYS B   1      -1.135  -1.986  20.106  1.00 16.78 LIG 0.27  HD
+ATOM     27 HZ1  LYS B   1      -0.414  -3.189  19.724  1.00 16.78 LIG 0.27  HD
+ENDBRANCH 23 24
+ENDBRANCH 22 23
+ENDBRANCH 21 22
+ENDBRANCH 20 21
+ENDBRANCH 15 20
+ENDBRANCH 13 15
+ENDBRANCH 6 11
+ENDBRANCH 3 6
+ENDBRANCH 1 2
+BRANCH 1 28
+ATOM     28  CB  LYS B   3      -0.006   6.408  19.106  1.00 18.38 LIG 0.04  C 
+BRANCH 28 29
+ATOM     29  CG  LYS B   3       0.232   7.427  17.996  1.00 26.14 LIG 0.00  C 
+BRANCH 29 30
+ATOM     30  CD  LYS B   3       0.912   8.671  18.528  1.00 31.23 LIG 0.03  C 
+BRANCH 30 31
+ATOM     31  CE  LYS B   3      -0.127   9.706  18.913  1.00 22.88 LIG 0.23  C 
+BRANCH 31 32
+ATOM     32  NZ  LYS B   3       0.331  11.082  18.605  1.00 17.22 LIG-0.08  N 
+ATOM     33 HZ1  LYS B   3       0.571  11.491  19.359  1.00 17.22 LIG 0.27  HD
+ATOM     34 HZ2  LYS B   3       1.028  11.047  18.053  1.00 17.22 LIG 0.27  HD
+ATOM     35 HZ3  LYS B   3      -0.330  11.536  18.219  1.00 17.22 LIG 0.27  HD
+ENDBRANCH 31 32
+ENDBRANCH 30 31
+ENDBRANCH 29 30
+ENDBRANCH 28 29
+ENDBRANCH 1 28
+BRANCH 1 36
+ATOM     36  C   LYS B   3       0.792   5.467  21.298  1.00 15.99 LIG 0.24  C 
+ATOM     37 O    LYS B   3      -0.353   5.579  21.739  1.00 15.51 LIG-0.27  OA
+ATOM     38  N   LEU B   4       1.725   4.744  21.902  1.00 15.71 LIG-0.35  N 
+ATOM     39 H    LEU B   4       2.525   4.641  21.603  1.00 15.71 LIG 0.16  HD
+BRANCH 38 40
+ATOM     40  CA  LEU B   4       1.455   4.048  23.155  1.00 14.62 LIG 0.18  C 
+BRANCH 40 41
+ATOM     41  CB  LEU B   4       2.627   3.126  23.510  1.00 15.80 LIG 0.04  C 
+BRANCH 41 42
+ATOM     42  CG  LEU B   4       2.588   2.471  24.895  1.00 19.66 LIG-0.02  C 
+ATOM     43  CD1 LEU B   4       1.458   1.447  25.002  1.00 24.77 LIG 0.01  C 
+ATOM     44  CD2 LEU B   4       3.938   1.830  25.227  1.00 23.70 LIG 0.01  C 
+ENDBRANCH 41 42
+ENDBRANCH 40 41
+BRANCH 40 45
+ATOM     45  C   LEU B   4       1.200   5.032  24.296  1.00 16.87 LIG 0.24  C 
+ATOM     46 O    LEU B   4       0.708   4.640  25.355  1.00 17.11 LIG-0.27  OA
+ATOM     47  N   LEU B   5       1.534   6.305  24.082  1.00 16.48 LIG-0.34  N 
+ATOM     48 H    LEU B   5       1.873   6.595  23.346  1.00 16.48 LIG 0.16  HD
+BRANCH 47 49
+ATOM     49  CA  LEU B   5       1.344   7.338  25.110  1.00 15.20 LIG 0.18  C 
+BRANCH 49 50
+ATOM     50  C   LEU B   5      -0.097   7.402  25.585  1.00 16.61 LIG 0.20  C 
+ATOM     51 O    LEU B   5      -0.956   6.700  25.037  1.00 15.12 LIG-0.65  OA
+ATOM     52 OXT  LEU B   5      -0.420   8.201  26.477  1.00 16.68 LIG-0.65  OA
+ENDBRANCH 49 50
+BRANCH 49 53
+ATOM     53  CB  LEU B   5       1.707   8.722  24.564  1.00 18.07 LIG 0.04  C 
+BRANCH 53 54
+ATOM     54  CG  LEU B   5       2.978   9.394  25.086  1.00 20.47 LIG-0.02  C 
+ATOM     55  CD2 LEU B   5       2.764   9.935  26.480  1.00 26.52 LIG 0.01  C 
+ATOM     56  CD1 LEU B   5       3.377  10.515  24.140  1.00 24.90 LIG 0.01  C 
+ENDBRANCH 53 54
+ENDBRANCH 49 53
+ENDBRANCH 47 49
+ENDBRANCH 40 45
+ENDBRANCH 38 40
+ENDBRANCH 1 36
+TORSDOF 26
+ENDMDL
+MODEL 2
+USER: ADFR SOLUTION from run 29
+USER: SCORE 20.434719 LL:  -3.014 LR: -18.260 RR:   0.000 FEB: -10.504
+USER: RMSD 2.101114
+USER: SEED 28
+USER: STATUS no improvement in best in 2 clusters for 5 generations
+USER: GENES 28
+USER: genes 0 Translation |==|  0.45159 0.57788 0.44813
+USER: genes 1 Rotation |==|  0.50369 0.50030 0.39861 0.98960
+USER: genes 2 Torsion [CB]-CA--N-[C] |==|  0.77126
+USER: genes 3 Torsion [N]-C--CA-[N] |==|  0.50174
+USER: genes 4 Torsion [C]-CA--CB-[CG2] |==|  0.90600
+USER: genes 5 Torsion [CA]-CB--OG1-[HG1] |==|  0.72320
+USER: genes 6 Torsion [C]-CA--N-[C] |==|  0.80659
+USER: genes 7 Torsion [N]-C--CA-[N] |==|  0.82951
+USER: genes 8 Torsion [C]-CA--N-[H1] |==|  0.50001
+USER: genes 9 Torsion [C]-CA--CB-[CG] |==|  0.44558
+USER: genes 10 Torsion [CA]-CB--CG-[CD] |==|  0.01431
+USER: genes 11 Torsion [CB]-CG--CD-[CE] |==|  0.52358
+USER: genes 12 Torsion [CG]-CD--CE-[NZ] |==|  0.51223
+USER: genes 13 Torsion [CD]-CE--NZ-[HZ3] |==|  0.14618
+USER: genes 14 Torsion [N]-CA--CB-[CG] |==|  0.88260
+USER: genes 15 Torsion [CA]-CB--CG-[CD] |==|  0.70860
+USER: genes 16 Torsion [CB]-CG--CD-[CE] |==|  0.82618
+USER: genes 17 Torsion [CG]-CD--CE-[NZ] |==|  0.54673
+USER: genes 18 Torsion [CD]-CE--NZ-[HZ1] |==|  0.67896
+USER: genes 19 Torsion [N]-CA--C-[N] |==|  0.14626
+USER: genes 20 Torsion [C]-N--CA-[C] |==|  0.81270
+USER: genes 21 Torsion [N]-CA--CB-[CG] |==|  0.52030
+USER: genes 22 Torsion [CA]-CB--CG-[CD1] |==|  0.16069
+USER: genes 23 Torsion [N]-CA--C-[N] |==|  0.93061
+USER: genes 24 Torsion [C]-N--CA-[C] |==|  0.87339
+USER: genes 25 Torsion [N]-CA--C-[O] |==|  0.94105
+USER: genes 26 Torsion [N]-CA--CB-[CG] |==|  0.09184
+USER: genes 27 Torsion [CA]-CB--CG-[CD2] |==|  0.11765
+ROOT
+ATOM      1  CA  LYS B   3       1.821   5.394  20.219  1.00 16.28 LIG 0.18  C 
+ENDROOT
+BRANCH 1 2
+ATOM      2  N   LYS B   3       2.605   4.378  19.524  1.00 16.24 LIG-0.35  N 
+ATOM      3  C   THR B   2       2.204   3.114  19.469  1.00 15.43 LIG 0.24  C 
+ATOM      4 O    THR B   2       1.168   2.720  20.006  1.00 16.46 LIG-0.27  OA
+ATOM      5 H    LYS B   3       3.330   4.670  19.165  1.00 16.24 LIG 0.16  HD
+BRANCH 3 6
+ATOM      6  CA  THR B   2       3.106   2.139  18.698  1.00 18.42 LIG 0.20  C 
+BRANCH 6 7
+ATOM      7  CB  THR B   2       3.370   2.640  17.259  1.00 34.78 LIG 0.15  C 
+ATOM      8  CG2 THR B   2       2.184   3.360  16.726  1.00 27.89 LIG 0.04  C 
+BRANCH 7 9
+ATOM      9 OG1  THR B   2       4.486   3.542  17.254  1.00 42.87 LIG-0.39  OA
+ATOM     10 HG1  THR B   2       4.207   4.334  17.242  1.00 42.87 LIG 0.21  HD
+ENDBRANCH 7 9
+ENDBRANCH 6 7
+BRANCH 6 11
+ATOM     11  N   THR B   2       2.507   0.807  18.727  1.00 21.00 LIG-0.34  N 
+ATOM     12 H    THR B   2       2.200   0.527  17.975  1.00 21.00 LIG 0.16  HD
+ATOM     13  C   LYS B   1       2.465   0.121  19.867  1.00 25.53 LIG 0.25  C 
+ATOM     14 O    LYS B   1       2.987   0.530  20.903  1.00 25.75 LIG-0.27  OA
+BRANCH 13 15
+ATOM     15  CA  LYS B   1       1.741  -1.223  19.847  1.00 28.68 LIG 0.27  C 
+BRANCH 15 16
+ATOM     16  N   LYS B   1       0.333  -1.046  19.498  1.00 32.90 LIG-0.07  N 
+ATOM     17 H2   LYS B   1      -0.058  -0.518  20.098  1.00 32.90 LIG 0.28  HD
+ATOM     18 H1   LYS B   1      -0.073  -1.838  19.491  1.00 32.90 LIG 0.28  HD
+ATOM     19 H3   LYS B   1       0.272  -0.674  18.691  1.00 32.90 LIG 0.28  HD
+ENDBRANCH 15 16
+BRANCH 15 20
+ATOM     20  CB  LYS B   1       2.411  -2.186  18.853  1.00 29.25 LIG 0.04  C 
+BRANCH 20 21
+ATOM     21  CG  LYS B   1       2.098  -3.675  19.068  1.00 22.42 LIG 0.00  C 
+BRANCH 21 22
+ATOM     22  CD  LYS B   1       1.060  -3.912  20.175  1.00 17.84 LIG 0.03  C 
+BRANCH 22 23
+ATOM     23  CE  LYS B   1       0.894  -5.389  20.538  1.00 19.17 LIG 0.23  C 
+BRANCH 23 24
+ATOM     24  NZ  LYS B   1      -0.211  -5.554  21.547  1.00 16.78 LIG-0.08  N 
+ATOM     25 HZ3  LYS B   1      -0.949  -5.155  21.248  1.00 16.78 LIG 0.27  HD
+ATOM     26 HZ2  LYS B   1       0.034  -5.184  22.318  1.00 16.78 LIG 0.27  HD
+ATOM     27 HZ1  LYS B   1      -0.373  -6.421  21.671  1.00 16.78 LIG 0.27  HD
+ENDBRANCH 23 24
+ENDBRANCH 22 23
+ENDBRANCH 21 22
+ENDBRANCH 20 21
+ENDBRANCH 15 20
+ENDBRANCH 13 15
+ENDBRANCH 6 11
+ENDBRANCH 3 6
+ENDBRANCH 1 2
+BRANCH 1 28
+ATOM     28  CB  LYS B   3       0.693   5.918  19.323  1.00 18.38 LIG 0.04  C 
+BRANCH 28 29
+ATOM     29  CG  LYS B   3       1.110   6.162  17.875  1.00 26.14 LIG 0.00  C 
+BRANCH 29 30
+ATOM     30  CD  LYS B   3       1.267   7.640  17.590  1.00 31.23 LIG 0.03  C 
+BRANCH 30 31
+ATOM     31  CE  LYS B   3      -0.060   8.349  17.773  1.00 22.88 LIG 0.23  C 
+BRANCH 31 32
+ATOM     32  NZ  LYS B   3      -0.059   9.686  17.132  1.00 17.22 LIG-0.08  N 
+ATOM     33 HZ1  LYS B   3      -0.147  10.315  17.756  1.00 17.22 LIG 0.27  HD
+ATOM     34 HZ2  LYS B   3       0.708   9.807  16.697  1.00 17.22 LIG 0.27  HD
+ATOM     35 HZ3  LYS B   3      -0.737   9.741  16.558  1.00 17.22 LIG 0.27  HD
+ENDBRANCH 31 32
+ENDBRANCH 30 31
+ENDBRANCH 29 30
+ENDBRANCH 28 29
+ENDBRANCH 1 28
+BRANCH 1 36
+ATOM     36  C   LYS B   3       1.256   4.848  21.529  1.00 15.99 LIG 0.24  C 
+ATOM     37 O    LYS B   3       0.053   4.927  21.785  1.00 15.51 LIG-0.27  OA
+ATOM     38  N   LEU B   4       2.128   4.289  22.356  1.00 15.71 LIG-0.35  N 
+ATOM     39 H    LEU B   4       2.969   4.210  22.189  1.00 15.71 LIG 0.16  HD
+BRANCH 38 40
+ATOM     40  CA  LEU B   4       1.716   3.752  23.648  1.00 14.62 LIG 0.18  C 
+BRANCH 40 41
+ATOM     41  CB  LEU B   4       2.865   2.960  24.281  1.00 15.80 LIG 0.04  C 
+BRANCH 41 42
+ATOM     42  CG  LEU B   4       2.538   2.185  25.562  1.00 19.66 LIG-0.02  C 
+ATOM     43  CD1 LEU B   4       1.403   1.185  25.341  1.00 24.77 LIG 0.01  C 
+ATOM     44  CD2 LEU B   4       3.787   1.482  26.102  1.00 23.70 LIG 0.01  C 
+ENDBRANCH 41 42
+ENDBRANCH 40 41
+BRANCH 40 45
+ATOM     45  C   LEU B   4       1.262   4.862  24.595  1.00 16.87 LIG 0.24  C 
+ATOM     46 O    LEU B   4       0.477   4.614  25.510  1.00 17.11 LIG-0.27  OA
+ATOM     47  N   LEU B   5       1.755   6.082  24.376  1.00 16.48 LIG-0.34  N 
+ATOM     48 H    LEU B   5       2.299   6.272  23.738  1.00 16.48 LIG 0.16  HD
+BRANCH 47 49
+ATOM     49  CA  LEU B   5       1.398   7.224  25.228  1.00 15.20 LIG 0.18  C 
+BRANCH 49 50
+ATOM     50  C   LEU B   5      -0.096   7.283  25.496  1.00 16.61 LIG 0.20  C 
+ATOM     51 O    LEU B   5      -0.880   6.704  24.733  1.00 15.12 LIG-0.65  OA
+ATOM     52 OXT  LEU B   5      -0.530   7.959  26.441  1.00 16.68 LIG-0.65  OA
+ENDBRANCH 49 50
+BRANCH 49 53
+ATOM     53  CB  LEU B   5       1.794   8.545  24.562  1.00 18.07 LIG 0.04  C 
+BRANCH 53 54
+ATOM     54  CG  LEU B   5       1.726   8.633  23.036  1.00 20.47 LIG-0.02  C 
+ATOM     55  CD2 LEU B   5       0.470   7.975  22.517  1.00 26.52 LIG 0.01  C 
+ATOM     56  CD1 LEU B   5       2.957   7.968  22.440  1.00 24.90 LIG 0.01  C 
+ENDBRANCH 53 54
+ENDBRANCH 49 53
+ENDBRANCH 47 49
+ENDBRANCH 40 45
+ENDBRANCH 38 40
+ENDBRANCH 1 36
+TORSDOF 26
+ENDMDL
+MODEL 3
+USER: ADFR SOLUTION from run 49
+USER: SCORE 19.623868 LL:  -3.140 LR: -17.344 RR:   0.000 FEB:  -9.588
+USER: RMSD 4.389709
+USER: SEED 48
+USER: STATUS no improvement in best in 2 clusters for 5 generations
+USER: GENES 28
+USER: genes 0 Translation |==|  0.44805 0.59218 0.43776
+USER: genes 1 Rotation |==|  0.51938 0.51590 0.40547 0.99034
+USER: genes 2 Torsion [CB]-CA--N-[C] |==|  0.78247
+USER: genes 3 Torsion [N]-C--CA-[N] |==|  0.89547
+USER: genes 4 Torsion [C]-CA--CB-[CG2] |==|  0.99422
+USER: genes 5 Torsion [CA]-CB--OG1-[HG1] |==|  0.49950
+USER: genes 6 Torsion [C]-CA--N-[C] |==|  0.65556
+USER: genes 7 Torsion [N]-C--CA-[N] |==|  0.40610
+USER: genes 8 Torsion [C]-CA--N-[H1] |==|  0.57846
+USER: genes 9 Torsion [C]-CA--CB-[CG] |==|  0.19943
+USER: genes 10 Torsion [CA]-CB--CG-[CD] |==|  0.28399
+USER: genes 11 Torsion [CB]-CG--CD-[CE] |==|  0.19706
+USER: genes 12 Torsion [CG]-CD--CE-[NZ] |==|  0.47545
+USER: genes 13 Torsion [CD]-CE--NZ-[HZ3] |==|  0.20126
+USER: genes 14 Torsion [N]-CA--CB-[CG] |==|  0.76960
+USER: genes 15 Torsion [CA]-CB--CG-[CD] |==|  0.76453
+USER: genes 16 Torsion [CB]-CG--CD-[CE] |==|  0.65837
+USER: genes 17 Torsion [CG]-CD--CE-[NZ] |==|  0.57872
+USER: genes 18 Torsion [CD]-CE--NZ-[HZ1] |==|  0.58944
+USER: genes 19 Torsion [N]-CA--C-[N] |==|  0.14943
+USER: genes 20 Torsion [C]-N--CA-[C] |==|  0.81068
+USER: genes 21 Torsion [N]-CA--CB-[CG] |==|  0.54374
+USER: genes 22 Torsion [CA]-CB--CG-[CD1] |==|  0.08203
+USER: genes 23 Torsion [N]-CA--C-[N] |==|  0.94631
+USER: genes 24 Torsion [C]-N--CA-[C] |==|  0.85467
+USER: genes 25 Torsion [N]-CA--C-[O] |==|  0.92998
+USER: genes 26 Torsion [N]-CA--CB-[CG] |==|  0.71410
+USER: genes 27 Torsion [CA]-CB--CG-[CD2] |==|  0.81471
+ROOT
+ATOM      1  CA  LYS B   3       1.765   5.705  20.016  1.00 16.28 LIG 0.18  C 
+ENDROOT
+BRANCH 1 2
+ATOM      2  N   LYS B   3       2.540   4.766  19.212  1.00 16.24 LIG-0.35  N 
+ATOM      3  C   THR B   2       2.128   3.520  19.016  1.00 15.43 LIG 0.24  C 
+ATOM      4 O    THR B   2       1.090   3.077  19.508  1.00 16.46 LIG-0.27  OA
+ATOM      5 H    LYS B   3       3.267   5.090  18.887  1.00 16.24 LIG 0.16  HD
+BRANCH 3 6
+ATOM      6  CA  THR B   2       3.022   2.630  18.140  1.00 18.42 LIG 0.20  C 
+BRANCH 6 7
+ATOM      7  CB  THR B   2       4.118   1.936  18.982  1.00 34.78 LIG 0.15  C 
+ATOM      8  CG2 THR B   2       4.037   2.361  20.404  1.00 27.89 LIG 0.04  C 
+BRANCH 7 9
+ATOM      9 OG1  THR B   2       3.949   0.512  18.925  1.00 42.87 LIG-0.39  OA
+ATOM     10 HG1  THR B   2       4.547   0.140  19.382  1.00 42.87 LIG 0.21  HD
+ENDBRANCH 7 9
+ENDBRANCH 6 7
+BRANCH 6 11
+ATOM     11  N   THR B   2       3.574   3.430  17.050  1.00 21.00 LIG-0.34  N 
+ATOM     12 H    THR B   2       4.010   4.130  17.294  1.00 21.00 LIG 0.16  HD
+ATOM     13  C   LYS B   1       3.385   3.056  15.786  1.00 25.53 LIG 0.25  C 
+ATOM     14 O    LYS B   1       2.821   2.005  15.487  1.00 25.75 LIG-0.27  OA
+BRANCH 13 15
+ATOM     15  CA  LYS B   1       3.907   3.989  14.696  1.00 28.68 LIG 0.27  C 
+BRANCH 15 16
+ATOM     16  N   LYS B   1       4.369   3.225  13.540  1.00 32.90 LIG-0.07  N 
+ATOM     17 H2   LYS B   1       4.692   2.442  13.812  1.00 32.90 LIG 0.28  HD
+ATOM     18 H1   LYS B   1       5.009   3.680  13.120  1.00 32.90 LIG 0.28  HD
+ATOM     19 H3   LYS B   1       3.688   3.088  12.983  1.00 32.90 LIG 0.28  HD
+ENDBRANCH 15 16
+BRANCH 15 20
+ATOM     20  CB  LYS B   1       2.817   4.985  14.267  1.00 29.25 LIG 0.04  C 
+BRANCH 20 21
+ATOM     21  CG  LYS B   1       2.489   6.082  15.292  1.00 22.42 LIG 0.00  C 
+BRANCH 21 22
+ATOM     22  CD  LYS B   1       3.122   7.435  14.941  1.00 17.84 LIG 0.03  C 
+BRANCH 22 23
+ATOM     23  CE  LYS B   1       2.472   8.107  13.729  1.00 19.17 LIG 0.23  C 
+BRANCH 23 24
+ATOM     24  NZ  LYS B   1       2.991   9.512  13.575  1.00 16.78 LIG-0.08  N 
+ATOM     25 HZ3  LYS B   1       3.832   9.488  13.281  1.00 16.78 LIG 0.27  HD
+ATOM     26 HZ2  LYS B   1       2.964   9.926  14.362  1.00 16.78 LIG 0.27  HD
+ATOM     27 HZ1  LYS B   1       2.486   9.953  12.989  1.00 16.78 LIG 0.27  HD
+ENDBRANCH 23 24
+ENDBRANCH 22 23
+ENDBRANCH 21 22
+ENDBRANCH 20 21
+ENDBRANCH 15 20
+ENDBRANCH 13 15
+ENDBRANCH 6 11
+ENDBRANCH 3 6
+ENDBRANCH 1 2
+BRANCH 1 28
+ATOM     28  CB  LYS B   3       0.581   6.259  19.217  1.00 18.38 LIG 0.04  C 
+BRANCH 28 29
+ATOM     29  CG  LYS B   3       0.939   7.430  18.306  1.00 26.14 LIG 0.00  C 
+BRANCH 29 30
+ATOM     30  CD  LYS B   3       0.906   8.743  19.058  1.00 31.23 LIG 0.03  C 
+BRANCH 30 31
+ATOM     31  CE  LYS B   3      -0.057   9.702  18.387  1.00 22.88 LIG 0.23  C 
+BRANCH 31 32
+ATOM     32  NZ  LYS B   3       0.335  11.116  18.608  1.00 17.22 LIG-0.08  N 
+ATOM     33 HZ1  LYS B   3      -0.395  11.625  18.644  1.00 17.22 LIG 0.27  HD
+ATOM     34 HZ2  LYS B   3       0.780  11.183  19.376  1.00 17.22 LIG 0.27  HD
+ATOM     35 HZ3  LYS B   3       0.854  11.388  17.939  1.00 17.22 LIG 0.27  HD
+ENDBRANCH 31 32
+ENDBRANCH 30 31
+ENDBRANCH 29 30
+ENDBRANCH 28 29
+ENDBRANCH 1 28
+BRANCH 1 36
+ATOM     36  C   LYS B   3       1.279   5.048  21.307  1.00 15.99 LIG 0.24  C 
+ATOM     37 O    LYS B   3       0.086   5.054  21.615  1.00 15.51 LIG-0.27  OA
+ATOM     38  N   LEU B   4       2.209   4.476  22.061  1.00 15.71 LIG-0.35  N 
+ATOM     39 H    LEU B   4       3.044   4.448  21.856  1.00 15.71 LIG 0.16  HD
+BRANCH 38 40
+ATOM     40  CA  LEU B   4       1.875   3.837  23.327  1.00 14.62 LIG 0.18  C 
+BRANCH 40 41
+ATOM     41  CB  LEU B   4       3.077   3.043  23.851  1.00 15.80 LIG 0.04  C 
+BRANCH 41 42
+ATOM     42  CG  LEU B   4       2.794   2.021  24.957  1.00 19.66 LIG-0.02  C 
+ATOM     43  CD1 LEU B   4       1.377   1.456  24.852  1.00 24.77 LIG 0.01  C 
+ATOM     44  CD2 LEU B   4       3.832   0.896  24.933  1.00 23.70 LIG 0.01  C 
+ENDBRANCH 41 42
+ENDBRANCH 40 41
+BRANCH 40 45
+ATOM     45  C   LEU B   4       1.430   4.861  24.370  1.00 16.87 LIG 0.24  C 
+ATOM     46 O    LEU B   4       0.784   4.503  25.355  1.00 17.11 LIG-0.27  OA
+ATOM     47  N   LEU B   5       1.776   6.131  24.155  1.00 16.48 LIG-0.34  N 
+ATOM     48 H    LEU B   5       2.222   6.397  23.469  1.00 16.48 LIG 0.16  HD
+BRANCH 47 49
+ATOM     49  CA  LEU B   5       1.413   7.201  25.094  1.00 15.20 LIG 0.18  C 
+BRANCH 49 50
+ATOM     50  C   LEU B   5      -0.074   7.200  25.402  1.00 16.61 LIG 0.20  C 
+ATOM     51 O    LEU B   5      -0.870   6.720  24.585  1.00 15.12 LIG-0.65  OA
+ATOM     52 OXT  LEU B   5      -0.492   7.733  26.442  1.00 16.68 LIG-0.65  OA
+ENDBRANCH 49 50
+BRANCH 49 53
+ATOM     53  CB  LEU B   5       1.757   8.575  24.513  1.00 18.07 LIG 0.04  C 
+BRANCH 53 54
+ATOM     54  CG  LEU B   5       3.010   9.285  25.031  1.00 20.47 LIG-0.02  C 
+ATOM     55  CD2 LEU B   5       2.844   9.673  26.481  1.00 26.52 LIG 0.01  C 
+ATOM     56  CD1 LEU B   5       3.275  10.517  24.181  1.00 24.90 LIG 0.01  C 
+ENDBRANCH 53 54
+ENDBRANCH 49 53
+ENDBRANCH 47 49
+ENDBRANCH 40 45
+ENDBRANCH 38 40
+ENDBRANCH 1 36
+TORSDOF 26
+ENDMDL

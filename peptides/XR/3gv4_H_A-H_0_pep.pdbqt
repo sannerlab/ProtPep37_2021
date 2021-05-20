@@ -1,0 +1,85 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK    2  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    3  A    between atoms: CB_5  and  CG_6 
+REMARK    4  A    between atoms: N_9  and  CA_10 
+REMARK    5  A    between atoms: CA_10  and  CB_13 
+REMARK    6  A    between atoms: CA_10  and  C_11 
+REMARK       I    between atoms: C_11  and  N_26 
+REMARK    7  A    between atoms: CB_13  and  CG_14 
+REMARK    8  A    between atoms: CG_14  and  CD_15 
+REMARK    9  A    between atoms: CD_15  and  NE_16 
+REMARK       I    between atoms: NE_16  and  CZ_17 
+REMARK       I    between atoms: CZ_17  and  NH1_18 
+REMARK   10  A    between atoms: N_26  and  CA_27 
+REMARK   11  A    between atoms: CA_27  and  C_28 
+REMARK       I    between atoms: C_28  and  N_31 
+REMARK   12  A    between atoms: N_31  and  CA_32 
+REMARK   13  A    between atoms: CA_32  and  C_33 
+ROOT
+ATOM      1  CA  ARG H  74      -7.580   5.270   0.757  1.00 20.60     0.176 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG H  74      -7.987   6.744   0.914  1.00 19.81     0.036 C 
+BRANCH   2   3
+ATOM      3  CG  ARG H  74      -7.481   7.443   2.203  1.00 18.47     0.023 C 
+BRANCH   3   4
+ATOM      4  CD  ARG H  74      -8.116   6.850   3.454  1.00 18.94     0.138 C 
+BRANCH   4   5
+ATOM      5  NE  ARG H  74      -9.474   7.355   3.680  1.00 19.12    -0.227 N 
+ATOM      6  HE  ARG H  74      -9.828   7.844   3.068  1.00 19.12     0.177 HD
+ATOM      7  CZ  ARG H  74     -10.194   7.105   4.772  1.00 19.95     0.665 C 
+ATOM      8  NH1 ARG H  74      -9.705   6.324   5.732  1.00 19.07    -0.235 N 
+ATOM      9  NH2 ARG H  74     -11.415   7.628   4.895  1.00 20.02    -0.235 N 
+ATOM     10 HH12 ARG H  74     -10.172   6.164   6.436  1.00 19.07     0.174 HD
+ATOM     11 HH11 ARG H  74      -8.922   5.979   5.648  1.00 19.07     0.174 HD
+ATOM     12 HH21 ARG H  74     -11.735   8.125   4.270  1.00 20.02     0.174 HD
+ATOM     13 HH22 ARG H  74     -11.882   7.468   5.599  1.00 20.02     0.174 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  14
+ATOM     14  C   ARG H  74      -8.070   4.728  -0.590  1.00 20.00     0.240 C 
+ATOM     15  N   GLY H  75      -9.116   3.910  -0.591  1.00 19.10    -0.351 N 
+ATOM     16  H   GLY H  75      -9.536   3.656   0.115  1.00 19.10     0.163 HD
+ATOM     17  O   ARG H  74      -7.481   5.025  -1.620  1.00 20.55    -0.271 OA
+BRANCH  15  18
+ATOM     18  CA  GLY H  75      -9.641   3.366  -1.854  1.00 17.93     0.225 C 
+BRANCH  18  19
+ATOM     19  C   GLY H  75     -10.537   4.354  -2.588  1.00 17.33     0.235 C 
+ATOM     20  N   GLY H  76     -10.863   4.039  -3.842  1.00 16.80    -0.350 N 
+ATOM     21  H   GLY H  76     -10.563   3.353  -4.265  1.00 16.80     0.163 HD
+ATOM     22  O   GLY H  75     -10.926   5.395  -2.036  1.00 16.80    -0.272 OA
+BRANCH  20  23
+ATOM     23  CA  GLY H  76     -11.782   4.871  -4.598  1.00 16.50     0.235 C 
+BRANCH  23  24
+ATOM     24  C   GLY H  76     -11.171   6.114  -5.216  1.00 16.76     0.191 C 
+ATOM     25  O   GLY H  76     -11.909   7.005  -5.625  1.00 16.89    -0.647 OA
+ATOM     26  OXT GLY H  76      -9.944   6.239  -5.312  1.00 15.95    -0.647 OA
+ENDBRANCH  23  24
+ENDBRANCH  20  23
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH   1  14
+BRANCH   1  27
+ATOM     27  N   ARG H  74      -6.118   5.124   0.777  1.00 22.12    -0.346 N 
+ATOM     28  H   ARG H  74      -5.682   5.862   0.712  1.00 22.12     0.163 HD
+ATOM     29  C   LEU H  73      -5.550   3.925   0.889  1.00 24.75     0.257 C 
+ATOM     30  O   LEU H  73      -6.163   2.958   1.339  1.00 25.51    -0.271 OA
+BRANCH  29  31
+ATOM     31  CA  LEU H  73      -4.078   3.778   0.445  1.00 25.64     0.400 C 
+ATOM     32  N   LEU H  73      -3.376   5.047   0.094  1.00 27.50     0.615 N 
+BRANCH  31  33
+ATOM     33  CB  LEU H  73      -3.258   2.969   1.466  1.00 26.32     0.055 C 
+BRANCH  33  34
+ATOM     34  CG  LEU H  73      -3.098   3.283   2.958  1.00 25.96    -0.020 C 
+ATOM     35  CD2 LEU H  73      -2.549   2.031   3.631  1.00 27.32     0.009 C 
+ATOM     36  CD1 LEU H  73      -4.391   3.667   3.594  1.00 27.59     0.009 C 
+ENDBRANCH  33  34
+ENDBRANCH  31  33
+ENDBRANCH  29  31
+ENDBRANCH   1  27
+TORSDOF 13

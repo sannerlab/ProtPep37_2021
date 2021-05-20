@@ -1,0 +1,81 @@
+REMARK  13 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK    2  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_8 
+REMARK    3  A    between atoms: N_8  and  CA_9 
+REMARK    4  A    between atoms: CA_9  and  CB_12 
+REMARK    5  A    between atoms: CA_9  and  C_10 
+REMARK       I    between atoms: C_10  and  N_17 
+REMARK    6  A    between atoms: CB_12  and  OG1_13 
+REMARK    7  A    between atoms: N_17  and  CA_18 
+REMARK    8  A    between atoms: CA_18  and  C_19 
+REMARK    9  A    between atoms: CA_18  and  CB_21 
+REMARK       I    between atoms: C_19  and  N_26 
+REMARK   10  A    between atoms: CB_21  and  CG_22 
+REMARK   11  A    between atoms: N_26  and  CA_27 
+REMARK   12  A    between atoms: CA_27  and  CB_30 
+REMARK   13  A    between atoms: CA_27  and  C_28 
+ROOT
+ATOM      1  C   THR B 103     -25.976   8.669  -1.689  1.00  4.93     0.243 C 
+ATOM      2  O   THR B 103     -24.773   8.456  -1.534  1.00  4.94    -0.271 OA
+ATOM      3  N   LEU B 104     -26.850   8.622  -0.691  1.00  4.18    -0.346 N 
+ATOM      4  H   LEU B 104     -27.691   8.781  -0.776  1.00  4.18     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  LEU B 104     -26.430   8.287   0.660  1.00  5.70     0.177 C 
+BRANCH   5   6
+ATOM      6  C   LEU B 104     -26.340   6.784   0.819  1.00  6.53     0.241 C 
+ATOM      7  O   LEU B 104     -27.272   6.058   0.467  1.00  8.21    -0.271 OA
+ATOM      8  N   VAL B 105     -25.222   6.319   1.357  1.00  6.80    -0.344 N 
+ATOM      9  H   VAL B 105     -24.551   6.812   1.573  1.00  6.80     0.163 HD
+BRANCH   8  10
+ATOM     10  CA  VAL B 105     -25.039   4.900   1.631  1.00  6.91     0.189 C 
+BRANCH  10  11
+ATOM     11  CB  VAL B 105     -24.036   4.250   0.661  1.00  6.78     0.010 C 
+ATOM     12  CG1 VAL B 105     -24.489   4.426  -0.779  1.00  6.96     0.012 C 
+ATOM     13  CG2 VAL B 105     -22.647   4.853   0.852  1.00  7.27     0.012 C 
+ENDBRANCH  10  11
+BRANCH  10  14
+ATOM     14  C   VAL B 105     -24.547   4.710   3.061  1.00  6.40     0.197 C 
+ATOM     15  OXT VAL B 105     -24.531   3.583   3.567  1.00  6.01    -0.646 OA
+ATOM     16  O   VAL B 105     -24.149   5.681   3.729  1.00  5.94    -0.646 OA
+ENDBRANCH  10  14
+ENDBRANCH   8  10
+ENDBRANCH   5   6
+BRANCH   5  17
+ATOM     17  CB  LEU B 104     -27.412   8.850   1.692  1.00  7.33     0.038 C 
+BRANCH  17  18
+ATOM     18  CG  LEU B 104     -27.143   8.513   3.164  1.00 10.28    -0.020 C 
+ATOM     19  CD2 LEU B 104     -28.259   9.067   4.051  1.00 13.23     0.009 C 
+ATOM     20  CD1 LEU B 104     -25.776   9.018   3.630  1.00 11.40     0.009 C 
+ENDBRANCH  17  18
+ENDBRANCH   5  17
+ENDBRANCH   3   5
+BRANCH   1  21
+ATOM     21  CA  THR B 103     -26.523   9.029  -3.059  1.00  5.29     0.205 C 
+BRANCH  21  22
+ATOM     22  CB  THR B 103     -26.217   7.879  -4.033  1.00  5.94     0.146 C 
+ATOM     23  CG2 THR B 103     -26.814   6.561  -3.527  1.00  6.62     0.042 C 
+BRANCH  22  24
+ATOM     24  OG1 THR B 103     -26.747   8.194  -5.327  1.00  6.95    -0.393 OA
+ATOM     25  HG1 THR B 103     -26.270   8.783  -5.690  1.00  6.95     0.210 HD
+ENDBRANCH  22  24
+ENDBRANCH  21  22
+BRANCH  21  26
+ATOM     26  N   THR B 103     -25.896  10.267  -3.510  1.00  6.31    -0.343 N 
+ATOM     27  C   VAL B 102     -26.597  11.370  -3.743  1.00  9.59     0.258 C 
+ATOM     28  O   VAL B 102     -27.815  11.421  -3.608  1.00 11.78    -0.271 OA
+ATOM     29  H   THR B 103     -25.043  10.214  -3.609  1.00  6.31     0.163 HD
+BRANCH  27  30
+ATOM     30  CA  VAL B 102     -25.807  12.593  -4.210  1.00 12.05     0.403 C 
+ATOM     31  N   VAL B 102     -26.664  13.520  -4.943  1.00 12.38     0.615 N 
+BRANCH  30  32
+ATOM     32  CB  VAL B 102     -25.142  13.284  -3.000  1.00 15.16     0.026 C 
+ATOM     33  CG1 VAL B 102     -24.337  14.485  -3.459  1.00 16.31     0.012 C 
+ATOM     34  CG2 VAL B 102     -26.190  13.718  -1.994  1.00 16.97     0.012 C 
+ENDBRANCH  30  32
+ENDBRANCH  27  30
+ENDBRANCH  21  26
+ENDBRANCH   1  21
+TORSDOF 13

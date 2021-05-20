@@ -1,0 +1,64 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2 
+REMARK    2  A    between atoms: CA_2  and  C_3 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    3  A    between atoms: N_9  and  CA_10 
+REMARK    4  A    between atoms: CA_10  and  C_11 
+REMARK       I    between atoms: C_11  and  N_15 
+REMARK    5  A    between atoms: N_15  and  CA_16 
+REMARK    6  A    between atoms: CA_16  and  C_17 
+REMARK       I    between atoms: C_17  and  N_21 
+REMARK    7  A    between atoms: N_21  and  CA_22 
+REMARK    8  A    between atoms: CA_22  and  CB_25 
+REMARK    9  A    between atoms: CA_22  and  C_23 
+ROOT
+ATOM      1  C   ALA C   2      -8.091  17.015  32.571  1.00 14.06     0.240 C 
+ATOM      2  O   ALA C   2      -8.245  15.890  32.107  1.00 12.98    -0.271 OA
+ATOM      3  N   ALA C   3      -7.594  18.022  31.865  1.00 13.94    -0.346 N 
+ATOM      4  H   ALA C   3      -7.480  18.815  32.177  1.00 13.94     0.163 HD
+ENDROOT
+BRANCH   3   5
+ATOM      5  CA  ALA C   3      -7.192  17.859  30.469  1.00 13.65     0.172 C 
+ATOM      6  CB  ALA C   3      -7.279  19.189  29.732  1.00 15.05     0.042 C 
+BRANCH   5   7
+ATOM      7  C   ALA C   3      -5.786  17.260  30.334  1.00 12.34     0.240 C 
+ATOM      8  N   VAL C   4      -5.491  16.719  29.153  1.00 12.14    -0.344 N 
+ATOM      9  H   VAL C   4      -6.064  16.586  28.526  1.00 12.14     0.163 HD
+ATOM     10  O   ALA C   3      -4.983  17.286  31.272  1.00 12.93    -0.271 OA
+BRANCH   8  11
+ATOM     11  CA  VAL C   4      -4.133  16.303  28.834  1.00 11.36     0.189 C 
+BRANCH  11  12
+ATOM     12  CB  VAL C   4      -4.033  15.710  27.422  1.00 10.99     0.010 C 
+ATOM     13  CG2 VAL C   4      -4.991  14.549  27.275  1.00 10.63     0.012 C 
+ATOM     14  CG1 VAL C   4      -2.602  15.270  27.115  1.00  9.95     0.012 C 
+ENDBRANCH  11  12
+BRANCH  11  15
+ATOM     15  C   VAL C   4      -3.228  17.527  28.948  1.00 12.38     0.197 C 
+ATOM     16  O   VAL C   4      -2.097  17.381  29.437  1.00 12.95    -0.646 OA
+ATOM     17  OXT VAL C   4      -3.609  18.641  28.542  1.00 15.04    -0.646 OA
+ENDBRANCH  11  15
+ENDBRANCH   8  11
+ENDBRANCH   5   7
+ENDBRANCH   3   5
+BRANCH   1  18
+ATOM     18  CA  ALA C   2      -8.449  17.293  34.035  1.00 15.83     0.172 C 
+ATOM     19  CB  ALA C   2      -9.645  16.459  34.491  1.00 17.22     0.042 C 
+BRANCH  18  20
+ATOM     20  N   ALA C   2      -8.684  18.711  34.308  1.00 18.67    -0.346 N 
+ATOM     21  H   ALA C   2      -9.278  19.076  33.804  1.00 18.67     0.163 HD
+ATOM     22  C   ALA C   1      -8.018  19.360  35.265  1.00 21.34     0.248 C 
+ATOM     23  O   ALA C   1      -7.178  18.810  35.992  1.00 22.28    -0.271 OA
+BRANCH  22  24
+ATOM     24  CA  ALA C   1      -8.366  20.845  35.454  1.00 22.82     0.270 C 
+ATOM     25  CB  ALA C   1      -9.528  21.006  36.444  1.00 23.12     0.050 C 
+BRANCH  24  26
+ATOM     26  N   ALA C   1      -8.691  21.527  34.169  1.00 23.94    -0.067 N 
+ATOM     27  H1  ALA C   1      -8.828  22.393  34.319  1.00 23.94     0.275 HD
+ATOM     28  H3  ALA C   1      -9.426  21.167  33.819  1.00 23.94     0.275 HD
+ATOM     29  H2  ALA C   1      -8.013  21.429  33.601  1.00 23.94     0.275 HD
+ENDBRANCH  24  26
+ENDBRANCH  22  24
+ENDBRANCH  18  20
+ENDBRANCH   1  18
+TORSDOF 9

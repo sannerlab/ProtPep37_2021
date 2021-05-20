@@ -1,0 +1,92 @@
+REMARK  14 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C_1  and  N_4 
+REMARK    1  A    between atoms: N_4  and  CA_5 
+REMARK    2  A    between atoms: CA_5  and  CB_8 
+REMARK    3  A    between atoms: CA_5  and  C_6 
+REMARK       I    between atoms: C_6  and  N_16 
+REMARK    4  A    between atoms: CB_8  and  CG_9 
+REMARK    5  A    between atoms: N_16  and  CA_17 
+REMARK    6  A    between atoms: CA_17  and  C_18 
+REMARK    7  A    between atoms: CA_17  and  CB_20 
+REMARK       I    between atoms: C_18  and  N_27 
+REMARK    8  A    between atoms: CB_20  and  CG_21 
+REMARK    9  A    between atoms: N_27  and  CA_28 
+REMARK   10  A    between atoms: CA_28  and  C_29 
+REMARK   11  A    between atoms: CA_28  and  CB_31 
+REMARK       I    between atoms: C_29  and  N_36 
+REMARK   12  A    between atoms: CB_31  and  OG1_32 
+REMARK   13  A    between atoms: N_36  and  CA_37 
+REMARK   14  A    between atoms: CA_37  and  C_38 
+ROOT
+ATOM      1  CA  HIS E   2      16.009  -9.908   2.537  1.00 15.97     0.182 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   HIS E   2      14.654 -10.591   2.479  1.00 15.29     0.241 C 
+ATOM      3  N   THR E   3      14.656 -11.864   2.093  1.00 22.30    -0.344 N 
+ATOM      4  H   THR E   3      15.366 -12.293   1.867  1.00 22.30     0.163 HD
+ATOM      5  O   HIS E   2      13.630  -9.987   2.790  1.00 12.62    -0.271 OA
+BRANCH   3   6
+ATOM      6  CA  THR E   3      13.433 -12.652   2.020  1.00 13.35     0.205 C 
+BRANCH   6   7
+ATOM      7  C   THR E   3      12.741 -12.724   3.371  1.00 17.92     0.243 C 
+ATOM      8  N   GLY E   4      11.420 -12.551   3.371  1.00 20.63    -0.350 N 
+ATOM      9  H   GLY E   4      10.973 -12.303   2.679  1.00 20.63     0.163 HD
+ATOM     10  O   THR E   3      13.396 -12.878   4.400  1.00 20.63    -0.271 OA
+BRANCH   8  11
+ATOM     11  CA  GLY E   4      10.606 -12.769   4.555  1.00 21.12     0.229 C 
+BRANCH  11  12
+ATOM     12  C   GLY E   4      10.854 -11.873   5.755  1.00 30.37     0.279 C 
+ATOM     13  O   GLY E   4       9.985 -11.736   6.612  1.00 22.56    -0.268 OA
+HETATM   14  N   NH2 E   5      12.040 -11.273   5.829  1.00 46.70    -0.106 N 
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   6   7
+BRANCH   6  15
+ATOM     15  CB  THR E   3      13.736 -14.077   1.523  1.00 21.65     0.146 C 
+ATOM     16  CG2 THR E   3      12.472 -14.885   1.393  1.00 26.78     0.042 C 
+BRANCH  15  17
+ATOM     17  OG1 THR E   3      14.377 -14.001   0.245  1.00 29.20    -0.393 OA
+ATOM     18  HG1 THR E   3      14.025 -13.388  -0.209  1.00 29.20     0.210 HD
+ENDBRANCH  15  17
+ENDBRANCH   6  15
+ENDBRANCH   3   6
+ENDBRANCH   1   2
+BRANCH   1  19
+ATOM     19  CB  HIS E   2      16.553  -9.984   3.961  1.00 16.39     0.095 C 
+BRANCH  19  20
+ATOM     20  CG  HIS E   2      17.989  -9.576   4.082  1.00 27.51     0.056 A 
+ATOM     21  CD2 HIS E   2      19.127 -10.199   3.695  1.00 25.75     0.145 A 
+ATOM     22  NE2 HIS E   2      20.175  -9.382   4.046  1.00 29.28    -0.252 NA
+ATOM     23  CE1 HIS E   2      19.698  -8.297   4.628  1.00 28.87     0.232 A 
+ATOM     24  ND1 HIS E   2      18.380  -8.387   4.660  1.00 29.28    -0.245 NA
+ENDBRANCH  19  20
+ENDBRANCH   1  19
+BRANCH   1  25
+ATOM     25  N   HIS E   2      15.932  -8.516   2.092  1.00 15.79    -0.346 N 
+ATOM     26  H   HIS E   2      15.316  -8.055   2.476  1.00 15.79     0.163 HD
+ATOM     27  C   PHE E   1      16.755  -8.028   1.171  1.00 15.11     0.241 C 
+ATOM     28  O   PHE E   1      17.622  -8.701   0.625  1.00 17.78    -0.271 OA
+BRANCH  27  29
+ATOM     29  CA  PHE E   1      16.568  -6.559   0.806  1.00 10.43     0.180 C 
+BRANCH  29  30
+ATOM     30  N   PHE E   1      17.849  -5.925   0.543  1.00 15.82    -0.348 N 
+ATOM     31  H   PHE E   1      18.060  -5.913  -0.291  1.00 15.82     0.163 HD
+HETATM   32  C   ACE E   0      18.629  -5.409   1.494  1.00 20.55     0.214 C 
+HETATM   33  O   ACE E   0      19.700  -4.861   1.212  1.00 32.51    -0.274 OA
+HETATM   34  CH3 ACE E   0      18.130  -5.487   2.908  1.00 11.71     0.117 C 
+ENDBRANCH  29  30
+BRANCH  29  35
+ATOM     35  CB  PHE E   1      15.645  -6.437  -0.407  1.00  9.28     0.073 C 
+BRANCH  35  36
+ATOM     36  CG  PHE E   1      15.146  -5.042  -0.658  1.00 12.52    -0.056 A 
+ATOM     37  CD1 PHE E   1      15.909  -4.142  -1.387  1.00 10.90     0.007 A 
+ATOM     38  CE1 PHE E   1      15.455  -2.864  -1.636  1.00 11.94     0.001 A 
+ATOM     39  CZ  PHE E   1      14.226  -2.467  -1.146  1.00  8.92     0.000 A 
+ATOM     40  CE2 PHE E   1      13.449  -3.368  -0.417  1.00  8.81     0.001 A 
+ATOM     41  CD2 PHE E   1      13.909  -4.637  -0.179  1.00 12.38     0.007 A 
+ENDBRANCH  35  36
+ENDBRANCH  29  35
+ENDBRANCH  27  29
+ENDBRANCH   1  25
+TORSDOF 14

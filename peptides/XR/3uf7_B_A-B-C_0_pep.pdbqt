@@ -1,0 +1,81 @@
+REMARK  12 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA_2  and  C_3 
+REMARK    2  A    between atoms: CA_2  and  CB_5 
+REMARK       I    between atoms: C_3  and  N_9 
+REMARK    3  A    between atoms: CB_5  and  CG_6 
+REMARK    4  A    between atoms: N_9  and  CA_10 
+REMARK    5  A    between atoms: CA_10  and  CB_13 
+REMARK    6  A    between atoms: CA_10  and  C_11 
+REMARK       I    between atoms: C_11  and  N_18 
+REMARK    7  A    between atoms: CB_13  and  CG1_14 
+REMARK    8  A    between atoms: CA_19  and  C_20 
+REMARK       I    between atoms: C_20  and  N_25 
+REMARK    9  A    between atoms: N_25  and  CA_26 
+REMARK   10  A    between atoms: CA_26  and  CB_29 
+REMARK   11  A    between atoms: CA_26  and  C_27 
+REMARK   12  A    between atoms: CB_29  and  CG_30 
+ROOT
+ATOM      1  C   ILE B 176      -0.326 -30.698  14.693  1.00 22.90     0.243 C 
+ATOM      2  O   ILE B 176       0.766 -30.577  15.277  1.00 27.22    -0.271 OA
+ATOM      3  N   PRO B 177      -1.439 -31.083  15.338  1.00 22.83    -0.337 N 
+ATOM      4  CA  PRO B 177      -1.479 -31.273  16.799  1.00 24.67     0.179 C 
+ATOM      5  CB  PRO B 177      -2.964 -31.092  17.128  1.00 26.20     0.037 C 
+ATOM      6  CG  PRO B 177      -3.636 -31.660  15.914  1.00 24.14     0.022 C 
+ATOM      7  CD  PRO B 177      -2.786 -31.226  14.741  1.00 21.80     0.127 C 
+ENDROOT
+BRANCH   4   8
+ATOM      8  C   PRO B 177      -0.997 -32.652  17.256  1.00 25.32     0.241 C 
+ATOM      9  O   PRO B 177      -1.513 -33.188  18.238  1.00 32.00    -0.271 OA
+ATOM     10  N   PHE B 178      -0.007 -33.206  16.572  1.00 24.88    -0.344 N 
+ATOM     11  H   PHE B 178       0.333 -32.856  15.864  1.00 24.88     0.163 HD
+BRANCH  10  12
+ATOM     12  CA  PHE B 178       0.607 -34.475  16.958  1.00 25.09     0.189 C 
+BRANCH  12  13
+ATOM     13  CB  PHE B 178      -0.284 -35.689  16.608  1.00 24.80     0.074 C 
+BRANCH  13  14
+ATOM     14  CG  PHE B 178      -0.803 -35.689  15.180  1.00 21.99    -0.056 A 
+ATOM     15  CD2 PHE B 178      -0.031 -36.161  14.102  1.00 23.17     0.007 A 
+ATOM     16  CE2 PHE B 178      -0.537 -36.150  12.788  1.00 21.52     0.001 A 
+ATOM     17  CZ  PHE B 178      -1.810 -35.692  12.577  1.00 22.39     0.000 A 
+ATOM     18  CE1 PHE B 178      -2.600 -35.244  13.619  1.00 21.58     0.001 A 
+ATOM     19  CD1 PHE B 178      -2.102 -35.259  14.919  1.00 21.72     0.007 A 
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  20
+ATOM     20  C   PHE B 178       1.993 -34.570  16.343  1.00 24.87     0.197 C 
+ATOM     21  OXT PHE B 178       2.337 -33.712  15.523  1.00 27.82    -0.646 OA
+ATOM     22  O   PHE B 178       2.756 -35.496  16.617  1.00 30.25    -0.646 OA
+ENDBRANCH  12  20
+ENDBRANCH  10  12
+ENDBRANCH   4   8
+BRANCH   1  23
+ATOM     23  CA  ILE B 176      -0.422 -30.401  13.198  1.00 23.71     0.180 C 
+BRANCH  23  24
+ATOM     24  N   ILE B 176      -0.122 -28.988  13.014  1.00 24.90    -0.345 N 
+ATOM     25  C   ASP B 175      -1.057 -28.135  12.600  1.00 27.89     0.258 C 
+ATOM     26  O   ASP B 175      -2.213 -28.485  12.364  1.00 29.58    -0.271 OA
+ATOM     27  H   ILE B 176       0.690 -28.767  13.193  1.00 24.90     0.163 HD
+BRANCH  25  28
+ATOM     28  CA  ASP B 175      -0.636 -26.672  12.409  1.00 34.92     0.409 C 
+ATOM     29  N   ASP B 175       0.844 -26.463  12.486  1.00 43.46     0.615 N 
+BRANCH  28  30
+ATOM     30  CB  ASP B 175      -1.173 -26.132  11.071  1.00 38.90     0.164 C 
+BRANCH  30  31
+ATOM     31  CG  ASP B 175      -1.093 -24.602  10.965  1.00 38.28     0.175 C 
+ATOM     32  OD2 ASP B 175      -0.837 -24.093   9.840  1.00 42.70    -0.648 OA
+ATOM     33  OD1 ASP B 175      -1.309 -23.906  11.990  1.00 44.78    -0.648 OA
+ENDBRANCH  30  31
+ENDBRANCH  28  30
+ENDBRANCH  25  28
+ENDBRANCH  23  24
+BRANCH  23  34
+ATOM     34  CB  ILE B 176       0.514 -31.314  12.391  1.00 23.83     0.013 C 
+ATOM     35  CG2 ILE B 176       0.096 -32.757  12.566  1.00 26.43     0.012 C 
+BRANCH  34  36
+ATOM     36  CG1 ILE B 176       0.484 -30.905  10.909  1.00 26.50     0.002 C 
+ATOM     37  CD1 ILE B 176       1.317 -31.785  10.011  1.00 30.68     0.005 C 
+ENDBRANCH  34  36
+ENDBRANCH  23  34
+ENDBRANCH   1  23
+TORSDOF 12
